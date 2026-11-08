@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Configure
-        run: cmake -S . -B build -G "Visual Studio 17 2022" -A x64 -DRAYGUN_BUILD_TOOLS=OFF
+        run: cmake -S . -B build -A x64 -DRAYGUN_BUILD_TOOLS=OFF
       - name: Build VST3 + Standalone (Release, static CRT)
         run: cmake --build build --config Release --target RAYGUN_VST3 RAYGUN_Standalone -j 4
       - name: Package install folder
