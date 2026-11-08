@@ -48,7 +48,7 @@ float getParameter(VEffect* e, int32_t i) { auto* p = W(e)->param(i); return p ?
 
 intptr_t dispatch(VEffect* e, int32_t op, int32_t idx, intptr_t val, void* ptr, float opt) {
     auto* w = W(e);
-    { static std::atomic<int> n { 0 }; if (op != EditIdle && op != GetParamName && op != GetParamDisplay && op != GetParamLabel && op != CanBeAutomated && n++ < 300) rg::dbg("opcode " + juce::String(op) + " idx=" + juce::String(idx) + " val=" + juce::String((juce::int64) val) + " ptr=" + juce::String((int) (ptr != nullptr))); }
+    { static std::atomic<int> n { 0 }; if (op != EditIdle && op != GetParamName && op != GetParamDisplay && op != GetParamLabel && op != CanBeAutomated && op != GetProgram && op != 66 && n++ < 600) rg::dbg("opcode " + juce::String(op) + " idx=" + juce::String(idx) + " val=" + juce::String((juce::int64) val) + " ptr=" + juce::String((int) (ptr != nullptr))); }
     switch (op) {
     case Open: return 0;
     case Close: {
