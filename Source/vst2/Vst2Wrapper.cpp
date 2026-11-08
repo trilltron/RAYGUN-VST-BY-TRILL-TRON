@@ -9,6 +9,7 @@
 #include "Vst2Abi.h"
 #include "../DebugLog.h"
 #include <cstring>
+#include <atomic>
 
 using namespace vst2;
 
@@ -35,7 +36,7 @@ void copyStr(void* dst, const char* s, size_t maxLen) { if (!dst) return; std::s
 Wrapper* W(VEffect* e) { return (Wrapper*) e->object; }
 
 void processReplacing(VEffect* e, float**, float** out, int32_t n) {
-    auto* w = W(e); float* ch[2] = { out[0], out[1] };
+    auto* w = W(e); { static std::atomic<bool> first { true }; if (first.exchange(false)) rg::dbg("first processReplacing n=" + juce::String(n)); } float* ch[2] = { out[0], out[1] };
     if (w->host) if (auto* ti = (VTimeInfo*) w->host(e, MGetTime, 0, kTempoValid, nullptr, 0)) if (ti->flags & kTempoValid) w->hp.bpm = ti->tempo;
     juce::AudioBuffer<float> buf(ch, 2, n); juce::MidiBuffer m; m.swapWith(w->midi);
     w->proc->processBlock(buf, m);
@@ -47,6 +48,7 @@ float getParameter(VEffect* e, int32_t i) { auto* p = W(e)->param(i); return p ?
 
 intptr_t dispatch(VEffect* e, int32_t op, int32_t idx, intptr_t val, void* ptr, float opt) {
     auto* w = W(e);
+    { static std::atomic<int> n { 0 }; if (op != EditIdle && op != GetParamName && op != GetParamDisplay && op != GetParamLabel && op != CanBeAutomated && n++ < 300) rg::dbg("opcode " + juce::String(op) + " idx=" + juce::String(idx) + " val=" + juce::String((juce::int64) val) + " ptr=" + juce::String((int) (ptr != nullptr))); }
     switch (op) {
     case Open: return 0;
     case Close: {
@@ -65,6 +67,7 @@ intptr_t dispatch(VEffect* e, int32_t op, int32_t idx, intptr_t val, void* ptr, 
         else w->proc->releaseResources();
         return 0;
     case EditGetRect: {
+        rg::dbg("EditGetRect called");
         int pct = juce::jlimit(75, 200, w->proc->uiScalePercent); w->rect = { 0, 0, (int16_t) (600 * pct / 100), (int16_t) (1000 * pct / 100) };
         if (ptr) *(VRect**) ptr = &w->rect; return 1; }
     case EditOpen: {
