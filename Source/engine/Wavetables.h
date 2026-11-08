@@ -1,6 +1,9 @@
 // RAYGUN wavetable bank: 1024-sample frames, 32 frames/table, band-limited mip levels.
 #pragma once
 #include "../ParamTable.h"
+#ifndef M_PI
+#define M_PI 3.14159265358979323846
+#endif
 #include <vector>
 #include <complex>
 #include <cmath>
