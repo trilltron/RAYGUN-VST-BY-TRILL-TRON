@@ -1,5 +1,7 @@
 name: build
 on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: write
 jobs:
   engine-tests:
     runs-on: ubuntu-latest
@@ -22,8 +24,18 @@ jobs:
         shell: bash
         run: |
           tools/package_install.sh build/RAYGUN_artefacts/Release/VST3/RAYGUN.vst3 build/RAYGUN_artefacts/Release/Standalone/RAYGUN.exe install/RAYGUN_Install_Windows
+      - name: Zip install folder
+        shell: pwsh
+        run: Compress-Archive -Path install/RAYGUN_Install_Windows -DestinationPath RAYGUN_Install_Windows.zip -Force
       - uses: actions/upload-artifact@v4
         with: { name: RAYGUN_Install_Windows, path: install/RAYGUN_Install_Windows }
+      - name: Publish GitHub Release (Windows install zip)
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        shell: bash
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          gh release view windows-latest >/dev/null 2>&1 || gh release create windows-latest --title "RAYGUN for Windows (latest build)" --notes "Unzip, right-click Install_RAYGUN.bat > Run as administrator. See README_FL_STUDIO.txt. Built from commit ${GITHUB_SHA::7}."
+          gh release upload windows-latest RAYGUN_Install_Windows.zip --clobber
   macos:
     runs-on: macos-latest
     steps:
