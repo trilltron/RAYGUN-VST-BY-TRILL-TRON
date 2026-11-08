@@ -272,7 +272,8 @@ void RaygunEditor::stepPreset(int dir) {
     Array<int> order; for (int i = 0; i < all.size(); ++i) order.add(i);
     std::sort(order.begin(), order.end(), [&](int a, int b) { return all.getReference(a).name.compareIgnoreCase(all.getReference(b).name) < 0; });
     int cur = -1; for (int i = 0; i < order.size(); ++i) if (all.getReference(order[i]).name == proc.presetName[proc.editLayer]) cur = i;
-    int nx = (cur + dir + order.size()) % order.size(); if (cur < 0) nx = 0;
+    // From "Init" / an unsaved sound (not in the list): Next -> first preset, Previous -> last preset.
+    int nx = cur < 0 ? (dir > 0 ? 0 : order.size() - 1) : (cur + dir + order.size()) % order.size();
     proc.loadPreset(all.getReference(order[nx]), proc.editLayer); setEditLayer(proc.editLayer);
 }
 
