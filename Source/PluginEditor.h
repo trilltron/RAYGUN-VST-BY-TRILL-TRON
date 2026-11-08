@@ -25,6 +25,12 @@ public:
     void resized() override;
     bool keyPressed(const juce::KeyPress&) override { return false; }   // never consume the host's keyboard
     void selectTab(int i);
+    // Some hosts (e.g. FL Studio) show a black window with JUCE 8's Direct2D renderer: always use the software renderer.
+    void forceSoftwareRenderer() {
+        if (auto* peer = getPeer()) { auto engines = peer->getAvailableRenderingEngines();
+            for (int i = 0; i < engines.size(); ++i) if (engines[i].containsIgnoreCase("software") && peer->getCurrentRenderingEngine() != i) peer->setCurrentRenderingEngine(i); } }
+    void parentHierarchyChanged() override { forceSoftwareRenderer(); }
+    void visibilityChanged() override { forceSoftwareRenderer(); }
     void showBrowser() { browser->show(); }
 private:
     struct Content : juce::Component { RaygunEditor& ed; explicit Content(RaygunEditor& e) : ed(e) {} void paint(juce::Graphics& g) override; };

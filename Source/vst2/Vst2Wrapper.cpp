@@ -69,7 +69,9 @@ intptr_t dispatch(VEffect* e, int32_t op, int32_t idx, intptr_t val, void* ptr, 
     case EditOpen: {
         if (!w->editor) w->editor.reset(w->proc->createEditor());
         w->editor->addComponentListener(w); w->lastW = w->editor->getWidth(); w->lastH = w->editor->getHeight();
-        w->editor->setTopLeftPosition(0, 0); w->editor->addToDesktop(0, ptr); w->editor->setVisible(true); return 1; }
+        w->editor->setTopLeftPosition(0, 0); w->editor->addToDesktop(0, ptr); w->editor->setVisible(true);
+        if (auto* re = dynamic_cast<RaygunEditor*>(w->editor.get())) re->forceSoftwareRenderer();
+        w->editor->repaint(); return 1; }
     case EditClose: if (w->editor) { w->editor->removeComponentListener(w); w->editor->removeFromDesktop(); w->editor.reset(); } return 0;
     case EditIdle: return 0;
     case Identify: return ('N' << 24) | ('v' << 16) | ('E' << 8) | 'f';
