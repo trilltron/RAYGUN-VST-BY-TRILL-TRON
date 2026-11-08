@@ -1,0 +1,49 @@
+{
+ "format": 1,
+ "name": "Hollow Sub Bass",
+ "author": "Trill Tron",
+ "type": "Bass",
+ "character": "PULP-TUBE",
+ "tags": [
+  "Airy",
+  "Mono",
+  "Glide"
+ ],
+ "style": [
+  "Airy"
+ ],
+ "genre": [
+  "Drill"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "PULP-TUBE Bass - Airy.",
+ "a": {
+  "o1_table": 10,
+  "o1_pos": 0.6832,
+  "o2_lvl": 0.133,
+  "o2_table": 9,
+  "o2_oct": -1,
+  "o2_pos": 0.4972,
+  "sub_lvl": 0.426,
+  "voice": 2,
+  "glide": 0.0522,
+  "f_cut": 553.601,
+  "f_res": 0.2032,
+  "f_env": 0.2217,
+  "f_key": 0.5,
+  "e_dec": 0.307,
+  "e_sus": 0.0814,
+  "a_atk": 0.002,
+  "a_dec": 0.4,
+  "a_sus": 0.9322,
+  "a_rel": 0.1581,
+  "oct": -1,
+  "f_drive": 0.3954,
+  "charge": 0.2095,
+  "chorus": 0.25,
+  "verb_mix": 0.3,
+  "noise_lvl": 0.04,
+  "vol": 4.7
+ }
+}

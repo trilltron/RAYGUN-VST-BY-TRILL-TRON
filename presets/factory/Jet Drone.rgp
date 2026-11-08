@@ -1,0 +1,52 @@
+{
+ "format": 1,
+ "name": "Jet Drone",
+ "author": "Trill Tron",
+ "type": "FX",
+ "character": "XENO",
+ "tags": [
+  "Clean",
+  "Soft"
+ ],
+ "style": [
+  "Clean",
+  "Soft"
+ ],
+ "genre": [
+  "Synthwave",
+  "Hyperpop"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "XENO FX - Clean, Soft.",
+ "a": {
+  "o1_table": 13,
+  "o1_pos": 0.7961,
+  "o2_lvl": 0.2786,
+  "o2_table": 8,
+  "o2_pos": 0.4439,
+  "o2_fine": 20.1347,
+  "o1_warp": 0.3718,
+  "o1_warpmode": 3,
+  "f_type": 3,
+  "f_cut": 1044.5637,
+  "a_atk": 0.1332,
+  "delay_mix": 0.3284,
+  "delay_fb": 0.5,
+  "verb_mix": 0.2268,
+  "verb_size": 0.8,
+  "maxv": 6,
+  "uni_n": 3,
+  "a_dec": 1.2467,
+  "a_sus": 0.4337,
+  "a_rel": 1.25,
+  "noise_lvl": 0.856,
+  "o1_lvl": 0.3,
+  "l1_rate": 0.7003,
+  "m1_src": 1,
+  "m1_dst": 6,
+  "m1_amt": 0.5,
+  "l2_rate": 1.7528,
+  "vol": 12
+ }
+}

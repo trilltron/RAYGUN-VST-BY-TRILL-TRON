@@ -1,0 +1,47 @@
+{
+ "format": 1,
+ "name": "Astro Mallet",
+ "author": "Trill Tron",
+ "type": "Pluck",
+ "character": "XENO",
+ "tags": [
+  "Soft",
+  "Warm",
+  "Distorted"
+ ],
+ "style": [
+  "Soft",
+  "Warm",
+  "Distorted"
+ ],
+ "genre": [
+  "Hyperpop"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "XENO Pluck - Soft, Warm, Distorted.",
+ "a": {
+  "o1_table": 13,
+  "o1_pos": 0.6728,
+  "o2_lvl": 0.0352,
+  "o2_table": 1,
+  "o2_fine": 8.1899,
+  "f_cut": 1036.8197,
+  "f_env": 0.7651,
+  "f_key": 0.5,
+  "e_atk": 0.001,
+  "e_dec": 0.1516,
+  "a_atk": 0.03,
+  "a_dec": 0.4149,
+  "a_sus": 0,
+  "a_rel": 0.14,
+  "delay_mix": 0.1369,
+  "verb_mix": 0.129,
+  "o1_warp": 0.2619,
+  "o1_warpmode": 1,
+  "l2_rate": 2.7922,
+  "f_drive": 0.4,
+  "charge": 0.6816,
+  "vol": 5.09
+ }
+}

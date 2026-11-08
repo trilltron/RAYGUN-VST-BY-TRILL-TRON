@@ -1,0 +1,49 @@
+{
+ "format": 1,
+ "name": "Rusty Marimba Pluck",
+ "author": "Trill Tron",
+ "type": "Pluck",
+ "character": "BLASTER-8",
+ "tags": [
+  "Vintage",
+  "Glitchy"
+ ],
+ "style": [
+  "Vintage",
+  "Glitchy"
+ ],
+ "genre": [
+  "Drill",
+  "Lo-Fi"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Pluck - Vintage, Glitchy.",
+ "a": {
+  "o1_table": 13,
+  "o1_pos": 0.5824,
+  "o2_lvl": 0.4565,
+  "o2_table": 1,
+  "o2_fine": 7.6856,
+  "f_cut": 1990.2928,
+  "f_res": 0.141,
+  "f_env": 0.6201,
+  "f_key": 0.5,
+  "e_atk": 0.001,
+  "e_dec": 0.2652,
+  "a_atk": 0.001,
+  "a_dec": 0.4177,
+  "a_sus": 0,
+  "a_rel": 0.2818,
+  "delay_mix": 0.25,
+  "delay_fb": 0.55,
+  "verb_mix": 0.1364,
+  "uni_n": 2,
+  "chorus": 0.4965,
+  "f_drive": 0.2,
+  "delay_time": 0.125,
+  "o1_warp": 0.4,
+  "o1_warpmode": 4,
+  "vol": 9.36
+ }
+}

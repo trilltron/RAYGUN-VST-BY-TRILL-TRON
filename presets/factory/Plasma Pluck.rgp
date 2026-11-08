@@ -1,0 +1,46 @@
+{
+ "format": 1,
+ "name": "Plasma Pluck",
+ "author": "Trill Tron",
+ "type": "Pluck",
+ "character": "CHROME-FM",
+ "tags": [
+  "Glitchy"
+ ],
+ "style": [
+  "Glitchy"
+ ],
+ "genre": [
+  "Hyperpop"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM Pluck - Glitchy.",
+ "a": {
+  "o1_pos": 0.6265,
+  "o2_lvl": 0.3796,
+  "o2_table": 4,
+  "o2_fine": 11.8142,
+  "f_cut": 503.2891,
+  "f_res": 0.1066,
+  "f_env": 0.608,
+  "f_key": 0.5,
+  "e_atk": 0.001,
+  "e_dec": 0.166,
+  "a_atk": 0.001,
+  "a_dec": 0.4443,
+  "a_sus": 0,
+  "a_rel": 0.1706,
+  "delay_mix": 0.25,
+  "delay_fb": 0.55,
+  "verb_mix": 0.174,
+  "uni_n": 3,
+  "fm": 0.4474,
+  "o2_oct": 1,
+  "o2_pos": 0.4528,
+  "delay_time": 0.1875,
+  "o1_warp": 0.4,
+  "o1_warpmode": 4,
+  "vol": 12
+ }
+}

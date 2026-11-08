@@ -1,0 +1,48 @@
+{
+ "format": 1,
+ "name": "Blaster Pick",
+ "author": "Trill Tron",
+ "type": "Pluck",
+ "character": "CHROME-FM",
+ "tags": [
+  "Soft",
+  "Airy",
+  "Distorted"
+ ],
+ "style": [
+  "Soft",
+  "Airy",
+  "Distorted"
+ ],
+ "genre": [
+  "Phonk",
+  "Trap"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM Pluck - Soft, Airy, Distorted.",
+ "a": {
+  "o1_pos": 0.2199,
+  "o2_lvl": 0.4904,
+  "o2_table": 4,
+  "o2_fine": 11.6506,
+  "f_cut": 1808.6906,
+  "f_env": 0.7281,
+  "f_key": 0.5,
+  "e_atk": 0.001,
+  "e_dec": 0.2022,
+  "a_atk": 0.03,
+  "a_dec": 0.2916,
+  "a_sus": 0,
+  "a_rel": 0.1486,
+  "delay_mix": 0.2805,
+  "verb_mix": 0.3,
+  "fm": 0.2499,
+  "o2_oct": 1,
+  "o2_pos": 0.2465,
+  "noise_lvl": 0.04,
+  "charge": 0.5161,
+  "f_drive": 0.4,
+  "vol": 3.36
+ }
+}

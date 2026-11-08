@@ -1,0 +1,57 @@
+{
+ "format": 1,
+ "name": "Plasma Screamer",
+ "author": "Trill Tron",
+ "type": "Lead",
+ "character": "BLASTER-8",
+ "tags": [
+  "Dark",
+  "Airy",
+  "Glide"
+ ],
+ "style": [
+  "Dark",
+  "Airy"
+ ],
+ "genre": [
+  "Drill"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Lead - Dark, Airy.",
+ "a": {
+  "o1_table": 9,
+  "o1_pos": 0.8727,
+  "o2_lvl": 0.579,
+  "o2_table": 0,
+  "o2_fine": 7.9688,
+  "o2_pos": 0.8492,
+  "uni_n": 5,
+  "uni_det": 0.3178,
+  "glide": 0.0871,
+  "f_cut": 2035.3848,
+  "f_res": 0.3475,
+  "f_env": 0.3986,
+  "f_key": 0.6,
+  "e_dec": 0.2878,
+  "e_sus": 0.5427,
+  "a_atk": 0.004,
+  "a_sus": 0.8052,
+  "a_rel": 0.177,
+  "delay_mix": 0.1951,
+  "delay_fb": 0.4,
+  "verb_mix": 0.3,
+  "l1_rate": 6.3837,
+  "m1_src": 1,
+  "m1_dst": 5,
+  "m2_src": 5,
+  "m2_dst": 5,
+  "m2_amt": 0.012,
+  "m3_src": 5,
+  "m3_dst": 6,
+  "m3_amt": 0.25,
+  "chorus": 0.3327,
+  "noise_lvl": 0.04,
+  "vol": 2.67
+ }
+}

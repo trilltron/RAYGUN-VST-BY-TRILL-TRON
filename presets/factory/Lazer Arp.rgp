@@ -1,0 +1,59 @@
+{
+ "format": 1,
+ "name": "Lazer Arp",
+ "author": "Trill Tron",
+ "type": "Arp",
+ "character": "XENO",
+ "tags": [
+  "Bright",
+  "Evolving",
+  "Dark",
+  "Synced"
+ ],
+ "style": [
+  "Bright",
+  "Evolving",
+  "Dark"
+ ],
+ "genre": [
+  "Synthwave",
+  "Trap"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "XENO Arp - Bright, Evolving, Dark.",
+ "a": {
+  "o1_table": 8,
+  "o1_pos": 0.363,
+  "o2_lvl": 0.0423,
+  "o2_table": 1,
+  "o2_fine": 9.5163,
+  "f_cut": 2230.307,
+  "f_res": 0.1317,
+  "f_env": 0.4454,
+  "f_key": 0.5,
+  "e_dec": 0.1994,
+  "a_atk": 0.001,
+  "a_dec": 0.2087,
+  "a_sus": 0,
+  "a_rel": 0.2123,
+  "arp_on": 1,
+  "arp_rate": 1,
+  "arp_mode": 3,
+  "arp_gate": 0.654,
+  "delay_mix": 0.3259,
+  "delay_fb": 0.4,
+  "verb_mix": 0.2715,
+  "o1_warp": 0.3172,
+  "o1_warpmode": 2,
+  "l2_rate": 2.9599,
+  "l1_rate": 0.1046,
+  "m6_src": 1,
+  "m6_dst": 1,
+  "m6_amt": 0.2242,
+  "m7_src": 2,
+  "m7_dst": 2,
+  "m7_amt": 0.3937,
+  "vol": 12
+ }
+}

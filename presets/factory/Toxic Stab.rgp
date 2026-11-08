@@ -1,0 +1,44 @@
+{
+ "format": 1,
+ "name": "Toxic Stab",
+ "author": "Trill Tron",
+ "type": "Pluck",
+ "character": "BLASTER-8",
+ "tags": [
+  "Distorted"
+ ],
+ "style": [
+  "Distorted"
+ ],
+ "genre": [
+  "R&B",
+  "Lo-Fi"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Pluck - Distorted.",
+ "a": {
+  "o1_table": 13,
+  "o1_pos": 0.8815,
+  "o2_lvl": 0.0316,
+  "o2_table": 1,
+  "o2_fine": 6.5063,
+  "f_cut": 576.5068,
+  "f_res": 0.1864,
+  "f_env": 0.5605,
+  "f_key": 0.5,
+  "e_atk": 0.001,
+  "e_dec": 0.2553,
+  "a_atk": 0.001,
+  "a_dec": 0.3803,
+  "a_sus": 0,
+  "a_rel": 0.2375,
+  "delay_mix": 0.2538,
+  "verb_mix": 0.1785,
+  "uni_n": 2,
+  "chorus": 0.4969,
+  "charge": 0.6461,
+  "f_drive": 0.4,
+  "vol": 4.44
+ }
+}

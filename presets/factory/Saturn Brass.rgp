@@ -1,0 +1,53 @@
+{
+ "format": 1,
+ "name": "Saturn Brass",
+ "author": "Trill Tron",
+ "type": "Brass",
+ "character": "PULP-TUBE",
+ "tags": [
+  "Vintage",
+  "Bright"
+ ],
+ "style": [
+  "Vintage",
+  "Bright"
+ ],
+ "genre": [
+  "Lo-Fi",
+  "Hyperpop"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "PULP-TUBE Brass - Vintage, Bright.",
+ "a": {
+  "o1_table": 6,
+  "o1_pos": 0.4836,
+  "o2_lvl": 0.6549,
+  "o2_table": 2,
+  "o2_fine": 5.3311,
+  "o2_pos": 0.4497,
+  "uni_n": 2,
+  "uni_det": 0.2426,
+  "f_cut": 918.0329,
+  "f_res": 0.1474,
+  "f_env": 0.7164,
+  "e_atk": 0.0977,
+  "e_dec": 0.2458,
+  "e_sus": 0.3502,
+  "a_atk": 0.0297,
+  "a_sus": 0.926,
+  "a_rel": 0.1945,
+  "chorus": 0.3,
+  "verb_mix": 0.1923,
+  "maxv": 10,
+  "m1_src": 4,
+  "m1_dst": 6,
+  "m1_amt": 0.3,
+  "m2_src": 5,
+  "m2_dst": 1,
+  "m2_amt": 0.3,
+  "f_drive": 0.2821,
+  "charge": 0.2293,
+  "vol": 1.37
+ }
+}

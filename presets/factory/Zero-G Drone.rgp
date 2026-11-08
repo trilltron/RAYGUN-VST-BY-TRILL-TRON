@@ -1,0 +1,51 @@
+{
+ "format": 1,
+ "name": "Zero-G Drone",
+ "author": "Trill Tron",
+ "type": "FX",
+ "character": "XENO",
+ "tags": [
+  "Airy",
+  "Bright"
+ ],
+ "style": [
+  "Airy",
+  "Bright"
+ ],
+ "genre": [
+  "Drill"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "XENO FX - Airy, Bright.",
+ "a": {
+  "o1_table": 13,
+  "o1_pos": 1,
+  "o2_lvl": 0.2999,
+  "o2_table": 4,
+  "o2_pos": 0.6278,
+  "o2_fine": 0.7208,
+  "o1_warp": 0.4003,
+  "o1_warpmode": 4,
+  "f_cut": 2303.9033,
+  "f_res": 0.3926,
+  "a_atk": 0.002,
+  "delay_mix": 0.2354,
+  "delay_fb": 0.5,
+  "verb_mix": 0.4649,
+  "verb_size": 0.8,
+  "maxv": 6,
+  "a_dec": 2.6179,
+  "a_sus": 0,
+  "a_rel": 1.0,
+  "e_dec": 0.1753,
+  "noise_lvl": 0.2571,
+  "charge": 0.5566,
+  "o1_oct": -1,
+  "m1_src": 3,
+  "m1_dst": 5,
+  "m1_amt": 0.322,
+  "l2_rate": 2.0986,
+  "vol": 0.0
+ }
+}

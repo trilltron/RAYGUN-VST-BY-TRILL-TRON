@@ -1,0 +1,52 @@
+{
+ "format": 1,
+ "name": "Dark Choir Vox",
+ "author": "Trill Tron",
+ "type": "Vox",
+ "character": "NEON-ROM",
+ "tags": [
+  "Dark",
+  "Stem DNA"
+ ],
+ "style": [
+  "Dark"
+ ],
+ "genre": [
+  "Cinematic"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "Dark formant choir.",
+ "a": {
+  "o1_table": 5,
+  "o1_pos": 0.6039,
+  "o2_lvl": 0.3353,
+  "o2_table": 12,
+  "o2_pos": 0.2326,
+  "o2_fine": -0.151,
+  "uni_n": 4,
+  "uni_det": 0.1823,
+  "f_cut": 5247.6713,
+  "f_key": 0.4,
+  "a_atk": 0.3966,
+  "a_dec": 0.6,
+  "a_sus": 0.7441,
+  "a_rel": 0.512,
+  "l1_rate": 0.3193,
+  "l2_rate": 5.2635,
+  "chorus": 0.4588,
+  "verb_mix": 0.3294,
+  "verb_size": 0.7,
+  "maxv": 10,
+  "m1_src": 1,
+  "m1_dst": 1,
+  "m1_amt": 0.2931,
+  "m2_src": 5,
+  "m2_dst": 1,
+  "m2_amt": 0.5,
+  "m3_src": 2,
+  "m3_dst": 5,
+  "m3_amt": 0.01,
+  "vol": 4.38
+ }
+}

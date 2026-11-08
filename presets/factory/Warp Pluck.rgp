@@ -1,0 +1,45 @@
+{
+ "format": 1,
+ "name": "Warp Pluck",
+ "author": "Trill Tron",
+ "type": "Pluck",
+ "character": "NEON-ROM",
+ "tags": [
+  "Distorted"
+ ],
+ "style": [
+  "Distorted"
+ ],
+ "genre": [
+  "Hyperpop",
+  "R&B"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "NEON-ROM Pluck - Distorted.",
+ "a": {
+  "o1_table": 10,
+  "o1_pos": 0.7729,
+  "o2_lvl": 0.2332,
+  "o2_table": 1,
+  "o2_fine": 7.8451,
+  "f_cut": 2462.6124,
+  "f_res": 0.3365,
+  "f_env": 0.4535,
+  "f_key": 0.5,
+  "e_atk": 0.001,
+  "e_dec": 0.2598,
+  "a_atk": 0.001,
+  "a_dec": 0.4216,
+  "a_sus": 0,
+  "a_rel": 0.1787,
+  "delay_mix": 0.1318,
+  "verb_mix": 0.0781,
+  "uni_n": 3,
+  "o1_warp": 0.2752,
+  "o1_warpmode": 4,
+  "charge": 0.3962,
+  "f_drive": 0.4,
+  "vol": 4.29
+ }
+}

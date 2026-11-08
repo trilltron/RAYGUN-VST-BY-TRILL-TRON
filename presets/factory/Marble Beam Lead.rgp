@@ -1,0 +1,60 @@
+{
+ "format": 1,
+ "name": "Marble Beam Lead",
+ "author": "Trill Tron",
+ "type": "Lead",
+ "character": "BLASTER-8",
+ "tags": [
+  "Dark",
+  "Distorted",
+  "Bright"
+ ],
+ "style": [
+  "Dark",
+  "Distorted",
+  "Bright"
+ ],
+ "genre": [
+  "Synthwave",
+  "Lo-Fi"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Lead - Dark, Distorted, Bright.",
+ "a": {
+  "o1_table": 4,
+  "o1_pos": 0.9789,
+  "o2_lvl": 0.291,
+  "o2_table": 0,
+  "o2_fine": 16.3677,
+  "o2_pos": 0.6978,
+  "uni_n": 3,
+  "uni_det": 0.3217,
+  "glide": 0.0072,
+  "f_cut": 1443.0139,
+  "f_res": 0.3208,
+  "f_env": 0.2028,
+  "f_key": 0.6,
+  "e_dec": 0.2091,
+  "e_sus": 0.5965,
+  "a_atk": 0.004,
+  "a_sus": 0.8518,
+  "a_rel": 0.311,
+  "delay_mix": 0.2944,
+  "delay_fb": 0.4,
+  "verb_mix": 0.2406,
+  "l1_rate": 4.5551,
+  "m1_src": 1,
+  "m1_dst": 5,
+  "m2_src": 5,
+  "m2_dst": 5,
+  "m2_amt": 0.012,
+  "m3_src": 5,
+  "m3_dst": 6,
+  "m3_amt": 0.25,
+  "chorus": 0.3947,
+  "charge": 0.6148,
+  "f_drive": 0.4,
+  "vol": -2.3
+ }
+}

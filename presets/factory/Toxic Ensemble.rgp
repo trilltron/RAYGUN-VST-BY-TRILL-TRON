@@ -1,0 +1,57 @@
+{
+ "format": 1,
+ "name": "Toxic Ensemble",
+ "author": "Trill Tron",
+ "type": "Strings",
+ "character": "NEON-ROM",
+ "tags": [
+  "Vintage",
+  "Warm"
+ ],
+ "style": [
+  "Vintage",
+  "Warm"
+ ],
+ "genre": [
+  "Lo-Fi"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "NEON-ROM Strings - Vintage, Warm.",
+ "a": {
+  "o1_table": 7,
+  "o1_pos": 0.4212,
+  "o2_lvl": 0.7062,
+  "o2_table": 0,
+  "o2_pos": 0.7259,
+  "o2_fine": -2.8982,
+  "uni_n": 6,
+  "uni_det": 0.2308,
+  "uni_wid": 0.8533,
+  "f_cut": 1224.4887,
+  "f_res": 0.08,
+  "f_env": 0.0982,
+  "f_key": 0.5,
+  "a_atk": 0.2546,
+  "a_dec": 1.0,
+  "a_sus": 0.8757,
+  "a_rel": 1.2672,
+  "chorus": 0.367,
+  "verb_mix": 0.1944,
+  "verb_size": 0.7,
+  "l1_rate": 4.9232,
+  "maxv": 12,
+  "m1_src": 2,
+  "m1_dst": 1,
+  "m1_amt": 0.1336,
+  "m2_src": 5,
+  "m2_dst": 6,
+  "m2_amt": 0.3,
+  "o1_warp": 0.2598,
+  "o1_warpmode": 3,
+  "charge": 0.1326,
+  "delay_mix": 0.1661,
+  "f_drive": 0.2,
+  "vol": 3.81
+ }
+}

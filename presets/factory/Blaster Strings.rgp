@@ -1,0 +1,53 @@
+{
+ "format": 1,
+ "name": "Blaster Strings",
+ "author": "Trill Tron",
+ "type": "Strings",
+ "character": "BLASTER-8",
+ "tags": [
+  "Wide",
+  "Vintage",
+  "Stem DNA"
+ ],
+ "style": [
+  "Wide",
+  "Vintage"
+ ],
+ "genre": [
+  "Cinematic"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "Wide vintage string wash.",
+ "a": {
+  "o1_table": 7,
+  "o1_pos": 0.4541,
+  "o2_lvl": 0.6402,
+  "o2_table": 7,
+  "o2_pos": 0.2863,
+  "o2_fine": -6.3719,
+  "uni_n": 5,
+  "uni_det": 0.3464,
+  "uni_wid": 0.9291,
+  "f_cut": 4203.0113,
+  "f_res": 0.08,
+  "f_env": 0.1448,
+  "f_key": 0.5,
+  "a_atk": 0.3841,
+  "a_dec": 1.0,
+  "a_sus": 0.8102,
+  "a_rel": 1.2275,
+  "chorus": 0.5415,
+  "verb_mix": 0.2912,
+  "verb_size": 0.7,
+  "l1_rate": 4.8775,
+  "maxv": 12,
+  "m1_src": 2,
+  "m1_dst": 1,
+  "m1_amt": 0.1276,
+  "m2_src": 5,
+  "m2_dst": 6,
+  "m2_amt": 0.3,
+  "vol": 3.38
+ }
+}

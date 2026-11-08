@@ -1,0 +1,58 @@
+{
+ "format": 1,
+ "name": "Mars Solo",
+ "author": "Trill Tron",
+ "type": "Lead",
+ "character": "MONO-VOLT",
+ "tags": [
+  "Dark",
+  "Bright",
+  "Soft",
+  "Mono"
+ ],
+ "style": [
+  "Dark",
+  "Bright",
+  "Soft"
+ ],
+ "genre": [
+  "Trap"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "MONO-VOLT Lead - Dark, Bright, Soft.",
+ "a": {
+  "o1_table": 8,
+  "o1_pos": 0.9156,
+  "o2_lvl": 0.4723,
+  "o2_table": 1,
+  "o2_fine": 16.1915,
+  "o2_pos": 0.3955,
+  "uni_n": 3,
+  "uni_det": 0.1364,
+  "voice": 1,
+  "glide": 0.0146,
+  "f_cut": 4557.5954,
+  "f_env": 0.2603,
+  "f_key": 0.6,
+  "e_dec": 0.5234,
+  "e_sus": 0.2368,
+  "a_atk": 0.03,
+  "a_sus": 0.8475,
+  "a_rel": 0.334,
+  "delay_mix": 0.2735,
+  "delay_fb": 0.4,
+  "verb_mix": 0.1015,
+  "l1_rate": 5.5457,
+  "m1_src": 1,
+  "m1_dst": 5,
+  "m2_src": 5,
+  "m2_dst": 5,
+  "m2_amt": 0.012,
+  "m3_src": 5,
+  "m3_dst": 6,
+  "m3_amt": 0.25,
+  "sub_lvl": 0.25,
+  "vol": 2.67
+ }
+}

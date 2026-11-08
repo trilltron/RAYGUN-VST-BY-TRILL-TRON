@@ -1,0 +1,45 @@
+{
+ "format": 1,
+ "name": "Ghost Pick",
+ "author": "Trill Tron",
+ "type": "Pluck",
+ "character": "BLASTER-8",
+ "tags": [
+  "Dark",
+  "Airy"
+ ],
+ "style": [
+  "Dark",
+  "Airy"
+ ],
+ "genre": [
+  "Drill",
+  "Cinematic"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Pluck - Dark, Airy.",
+ "a": {
+  "o1_table": 3,
+  "o1_pos": 0.4518,
+  "o2_lvl": 0.3682,
+  "o2_table": 1,
+  "o2_fine": 8.0845,
+  "f_cut": 741.448,
+  "f_res": 0.1936,
+  "f_env": 0.6547,
+  "f_key": 0.5,
+  "e_atk": 0.001,
+  "e_dec": 0.2991,
+  "a_atk": 0.001,
+  "a_dec": 0.4784,
+  "a_sus": 0,
+  "a_rel": 0.1485,
+  "delay_mix": 0.0563,
+  "verb_mix": 0.3,
+  "uni_n": 3,
+  "chorus": 0.3917,
+  "noise_lvl": 0.04,
+  "vol": 9.22
+ }
+}

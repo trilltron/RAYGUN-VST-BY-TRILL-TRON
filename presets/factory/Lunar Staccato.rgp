@@ -1,0 +1,51 @@
+{
+ "format": 1,
+ "name": "Lunar Staccato",
+ "author": "Trill Tron",
+ "type": "Strings",
+ "character": "BLASTER-8",
+ "tags": [
+  "Soft"
+ ],
+ "style": [
+  "Soft"
+ ],
+ "genre": [
+  "Drill",
+  "Trap"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Strings - Soft.",
+ "a": {
+  "o1_table": 7,
+  "o1_pos": 0.4532,
+  "o2_lvl": 0.7495,
+  "o2_table": 7,
+  "o2_pos": 0.828,
+  "o2_fine": 6.6203,
+  "uni_n": 6,
+  "uni_det": 0.332,
+  "uni_wid": 0.7762,
+  "f_cut": 3331.0463,
+  "f_res": 0.08,
+  "f_env": 0.0828,
+  "f_key": 0.5,
+  "a_atk": 1.0045,
+  "a_dec": 1.0,
+  "a_sus": 0.9097,
+  "a_rel": 0.7747,
+  "chorus": 0.4946,
+  "verb_mix": 0.2418,
+  "verb_size": 0.7,
+  "l1_rate": 5.3081,
+  "maxv": 12,
+  "m1_src": 2,
+  "m1_dst": 1,
+  "m1_amt": 0.0711,
+  "m2_src": 5,
+  "m2_dst": 6,
+  "m2_amt": 0.3,
+  "vol": 0.58
+ }
+}

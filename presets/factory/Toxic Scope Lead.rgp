@@ -1,0 +1,56 @@
+{
+ "format": 1,
+ "name": "Toxic Scope Lead",
+ "author": "Trill Tron",
+ "type": "Lead",
+ "character": "BLASTER-8",
+ "tags": [
+  "Soft",
+  "Mono",
+  "Glide"
+ ],
+ "style": [
+  "Soft"
+ ],
+ "genre": [
+  "Cinematic",
+  "Phonk"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Lead - Soft.",
+ "a": {
+  "o1_table": 8,
+  "o1_pos": 0.4775,
+  "o2_lvl": 0.4028,
+  "o2_table": 1,
+  "o2_fine": 5.4923,
+  "o2_pos": 0.3031,
+  "uni_n": 2,
+  "uni_det": 0.2003,
+  "voice": 1,
+  "glide": 0.0843,
+  "f_cut": 4258.9132,
+  "f_env": 0.2409,
+  "f_key": 0.6,
+  "e_dec": 0.4078,
+  "e_sus": 0.4383,
+  "a_atk": 0.03,
+  "a_sus": 0.8507,
+  "a_rel": 0.1578,
+  "delay_mix": 0.1808,
+  "delay_fb": 0.4,
+  "verb_mix": 0.202,
+  "l1_rate": 6.326,
+  "m1_src": 1,
+  "m1_dst": 5,
+  "m2_src": 5,
+  "m2_dst": 5,
+  "m2_amt": 0.012,
+  "m3_src": 5,
+  "m3_dst": 6,
+  "m3_amt": 0.25,
+  "chorus": 0.4309,
+  "vol": 4.67
+ }
+}

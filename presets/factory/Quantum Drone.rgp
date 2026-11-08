@@ -1,0 +1,57 @@
+{
+ "format": 1,
+ "name": "Quantum Drone",
+ "author": "Trill Tron",
+ "type": "FX",
+ "character": "XENO",
+ "tags": [
+  "Airy",
+  "Warm",
+  "Clean"
+ ],
+ "style": [
+  "Airy",
+  "Warm",
+  "Clean"
+ ],
+ "genre": [
+  "R&B"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "XENO FX - Airy, Warm, Clean.",
+ "a": {
+  "o1_table": 13,
+  "o1_pos": 0.2553,
+  "o2_lvl": 0.3056,
+  "o2_table": 8,
+  "o2_pos": 0.4914,
+  "o2_fine": -29.5364,
+  "o1_warp": 0.6326,
+  "o1_warpmode": 4,
+  "f_cut": 5016.6414,
+  "f_res": 0.5878,
+  "a_atk": 2.2425,
+  "delay_mix": 0.2455,
+  "delay_fb": 0.5,
+  "verb_mix": 0.3,
+  "verb_size": 0.8,
+  "maxv": 6,
+  "a_dec": 1,
+  "a_sus": 1,
+  "a_rel": 0.6,
+  "e_atk": 3.1508,
+  "e_dec": 1,
+  "e_sus": 1,
+  "noise_lvl": 0.253,
+  "m1_src": 3,
+  "m1_dst": 5,
+  "m1_amt": 0.5207,
+  "m2_src": 3,
+  "m2_dst": 6,
+  "m2_amt": 0.8288,
+  "l2_rate": 1.6601,
+  "f_drive": 0.15,
+  "vol": 1.21
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "format": 1,
+ "name": "Marble Ping",
+ "author": "Trill Tron",
+ "type": "Bell",
+ "character": "NEON-ROM",
+ "tags": [
+  "Wide",
+  "Dark",
+  "Clean"
+ ],
+ "style": [
+  "Wide",
+  "Dark",
+  "Clean"
+ ],
+ "genre": [
+  "Trap",
+  "Drill"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "NEON-ROM Bell - Wide, Dark, Clean.",
+ "a": {
+  "o1_table": 3,
+  "o1_pos": 0.2003,
+  "o2_table": 4,
+  "o2_lvl": 0.4737,
+  "o2_oct": 1,
+  "o2_pos": 0.5782,
+  "fm": 0.6274,
+  "f_cut": 4618.1778,
+  "f_res": 0.05,
+  "f_key": 0.8,
+  "a_atk": 0.001,
+  "a_dec": 1.9075,
+  "a_sus": 0,
+  "a_rel": 1.0349,
+  "e_dec": 0.3279,
+  "chorus": 0.4,
+  "delay_mix": 0.162,
+  "delay_fb": 0.4,
+  "verb_mix": 0.4205,
+  "verb_size": 0.7,
+  "maxv": 10,
+  "m1_src": 3,
+  "m1_dst": 13,
+  "m1_amt": 0.3507,
+  "m2_src": 4,
+  "m2_dst": 13,
+  "m2_amt": 0.2,
+  "o1_warp": 0.1748,
+  "o1_warpmode": 4,
+  "charge": 0.1497,
+  "uni_n": 3,
+  "uni_wid": 1,
+  "vol": 2.89
+ }
+}

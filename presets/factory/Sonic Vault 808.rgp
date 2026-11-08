@@ -1,0 +1,45 @@
+{
+ "format": 1,
+ "name": "Sonic Vault 808",
+ "author": "Trill Tron",
+ "type": "808",
+ "character": "BLASTER-8",
+ "tags": [
+  "Warm",
+  "Mono"
+ ],
+ "style": [
+  "Warm"
+ ],
+ "genre": [
+  "Synthwave",
+  "R&B"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 808 - Warm.",
+ "a": {
+  "o1_table": 11,
+  "o1_pos": 0.063,
+  "o1_oct": -1,
+  "sub_lvl": 0.5923,
+  "voice": 1,
+  "f_cut": 728.8022,
+  "f_res": 0.1919,
+  "f_key": 0.4,
+  "a_atk": 0.001,
+  "a_dec": 1.8004,
+  "a_sus": 0,
+  "a_rel": 0.499,
+  "e_dec": 0.0704,
+  "charge": 0.2904,
+  "oct": -1,
+  "f_drive": 0.15,
+  "m1_src": 3,
+  "m1_dst": 5,
+  "m1_amt": 0.1229,
+  "chorus": 0.3601,
+  "o2_fine": 8.2102,
+  "vol": 7.25
+ }
+}

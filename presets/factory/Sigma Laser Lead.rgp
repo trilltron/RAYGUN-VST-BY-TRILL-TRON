@@ -1,0 +1,58 @@
+{
+ "format": 1,
+ "name": "Sigma Laser Lead",
+ "author": "Trill Tron",
+ "type": "Lead",
+ "character": "XENO",
+ "tags": [
+  "Soft",
+  "Mono",
+  "Glide"
+ ],
+ "style": [
+  "Soft"
+ ],
+ "genre": [
+  "Synthwave",
+  "Hyperpop"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "XENO Lead - Soft.",
+ "a": {
+  "o1_table": 16,
+  "o1_pos": 0.7605,
+  "o2_lvl": 0.2119,
+  "o2_table": 0,
+  "o2_fine": 16.4155,
+  "o2_pos": 0.8961,
+  "uni_n": 5,
+  "uni_det": 0.2484,
+  "voice": 1,
+  "glide": 0.0426,
+  "f_cut": 3684.4606,
+  "f_env": 0.1876,
+  "f_key": 0.6,
+  "e_dec": 0.4308,
+  "e_sus": 0.2272,
+  "a_atk": 0.03,
+  "a_sus": 0.8625,
+  "a_rel": 0.337,
+  "delay_mix": 0.2514,
+  "delay_fb": 0.4,
+  "verb_mix": 0.1075,
+  "l1_rate": 5.3918,
+  "m1_src": 1,
+  "m1_dst": 5,
+  "m2_src": 5,
+  "m2_dst": 5,
+  "m2_amt": 0.012,
+  "m3_src": 5,
+  "m3_dst": 6,
+  "m3_amt": 0.25,
+  "o1_warp": 0.3055,
+  "o1_warpmode": 4,
+  "l2_rate": 1.6193,
+  "vol": 4.66
+ }
+}

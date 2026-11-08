@@ -1,0 +1,58 @@
+{
+ "format": 1,
+ "name": "Saturn Oooh",
+ "author": "Trill Tron",
+ "type": "Vox",
+ "character": "NEON-ROM",
+ "tags": [
+  "Clean",
+  "Soft"
+ ],
+ "style": [
+  "Clean",
+  "Soft"
+ ],
+ "genre": [
+  "Drill",
+  "Phonk"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "NEON-ROM Vox - Clean, Soft.",
+ "a": {
+  "o1_table": 5,
+  "o1_pos": 0.5217,
+  "o2_lvl": 0.4695,
+  "o2_table": 5,
+  "o2_pos": 0.4434,
+  "o2_fine": -0.8487,
+  "uni_n": 4,
+  "uni_det": 0.2094,
+  "f_cut": 1886.5204,
+  "f_key": 0.4,
+  "a_atk": 0.1611,
+  "a_dec": 0.6,
+  "a_sus": 0.7042,
+  "a_rel": 0.6349,
+  "l1_rate": 0.3725,
+  "l2_rate": 5.5796,
+  "chorus": 0.2689,
+  "verb_mix": 0.3212,
+  "verb_size": 0.7,
+  "maxv": 10,
+  "m1_src": 1,
+  "m1_dst": 1,
+  "m1_amt": 0.3352,
+  "m2_src": 5,
+  "m2_dst": 1,
+  "m2_amt": 0.5,
+  "m3_src": 2,
+  "m3_dst": 5,
+  "m3_amt": 0.01,
+  "o1_warp": 0.2257,
+  "o1_warpmode": 4,
+  "charge": 0.1778,
+  "delay_mix": 0.098,
+  "vol": 1.38
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "format": 1,
+ "name": "Chrome Ripple",
+ "author": "Trill Tron",
+ "type": "Arp",
+ "character": "BLASTER-8",
+ "tags": [
+  "Clean",
+  "Synced"
+ ],
+ "style": [
+  "Clean"
+ ],
+ "genre": [
+  "R&B"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Arp - Clean.",
+ "a": {
+  "o1_table": 1,
+  "o1_pos": 0.2105,
+  "o2_lvl": 0.1823,
+  "o2_table": 1,
+  "o2_fine": 10.1082,
+  "f_cut": 2293.8277,
+  "f_res": 0.1799,
+  "f_env": 0.4696,
+  "f_key": 0.5,
+  "e_dec": 0.1269,
+  "a_atk": 0.001,
+  "a_dec": 0.1508,
+  "a_sus": 0,
+  "a_rel": 0.1737,
+  "arp_on": 1,
+  "arp_mode": 1,
+  "arp_gate": 0.6363,
+  "delay_mix": 0.1657,
+  "delay_fb": 0.4,
+  "verb_mix": 0.2033,
+  "uni_n": 2,
+  "chorus": 0.3756,
+  "vol": 4.3
+ }
+}

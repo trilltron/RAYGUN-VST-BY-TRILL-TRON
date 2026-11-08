@@ -1,0 +1,49 @@
+{
+ "format": 1,
+ "name": "Neon Glass Keys 2",
+ "author": "Trill Tron",
+ "type": "Keys",
+ "character": "NEON-ROM",
+ "tags": [
+  "Clean"
+ ],
+ "style": [
+  "Clean"
+ ],
+ "genre": [
+  "R&B"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "NEON-ROM Keys - Clean.",
+ "a": {
+  "f_cut": 6931.8287,
+  "f_res": 0.08,
+  "f_key": 0.5,
+  "a_atk": 0.003,
+  "a_dec": 1.8037,
+  "a_sus": 0.2118,
+  "a_rel": 0.2857,
+  "e_dec": 0.269,
+  "f_env": 0.1927,
+  "chorus": 0.317,
+  "verb_mix": 0.1071,
+  "maxv": 10,
+  "o1_table": 3,
+  "o1_pos": 0.1123,
+  "o2_table": 0,
+  "o2_lvl": 0.4557,
+  "sub_lvl": 0.2,
+  "m1_src": 4,
+  "m1_dst": 6,
+  "m1_amt": 0.1829,
+  "m2_src": 4,
+  "m2_dst": 1,
+  "m2_amt": 0.1757,
+  "o1_warp": 0.2623,
+  "o1_warpmode": 4,
+  "charge": 0.1129,
+  "delay_mix": 0.1587,
+  "vol": 0.0
+ }
+}

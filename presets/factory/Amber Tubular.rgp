@@ -1,0 +1,60 @@
+{
+ "format": 1,
+ "name": "Amber Tubular",
+ "author": "Trill Tron",
+ "type": "Bell",
+ "character": "XENO",
+ "tags": [
+  "Wide",
+  "Warm",
+  "Clean"
+ ],
+ "style": [
+  "Wide",
+  "Warm",
+  "Clean"
+ ],
+ "genre": [
+  "Hyperpop",
+  "Phonk"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "XENO Bell - Wide, Warm, Clean.",
+ "a": {
+  "o1_table": 12,
+  "o1_pos": 0.3135,
+  "o2_table": 4,
+  "o2_lvl": 0.3673,
+  "o2_oct": 2,
+  "o2_pos": 0.6568,
+  "fm": 0.4461,
+  "f_cut": 7519.2993,
+  "f_res": 0.05,
+  "f_key": 0.8,
+  "a_atk": 0.001,
+  "a_dec": 3.4843,
+  "a_sus": 0,
+  "a_rel": 0.9045,
+  "e_dec": 0.5397,
+  "chorus": 0.4,
+  "delay_mix": 0.1907,
+  "delay_fb": 0.4,
+  "verb_mix": 0.235,
+  "verb_size": 0.7,
+  "maxv": 10,
+  "m1_src": 3,
+  "m1_dst": 13,
+  "m1_amt": 0.2534,
+  "m2_src": 4,
+  "m2_dst": 13,
+  "m2_amt": 0.2,
+  "o1_warp": 0.1835,
+  "o1_warpmode": 2,
+  "l2_rate": 1.5003,
+  "uni_n": 3,
+  "uni_wid": 1,
+  "f_drive": 0.15,
+  "vol": 4.4
+ }
+}

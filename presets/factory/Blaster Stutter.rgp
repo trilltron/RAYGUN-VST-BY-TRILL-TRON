@@ -1,0 +1,47 @@
+{
+ "format": 1,
+ "name": "Blaster Stutter",
+ "author": "Trill Tron",
+ "type": "Arp",
+ "character": "CHROME-FM",
+ "tags": [
+  "Bright",
+  "Clean",
+  "Synced"
+ ],
+ "style": [
+  "Bright",
+  "Clean"
+ ],
+ "genre": [
+  "Phonk"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM Arp - Bright, Clean.",
+ "a": {
+  "o1_table": 8,
+  "o1_pos": 0.9439,
+  "o2_lvl": 0.3176,
+  "o2_fine": 7.034,
+  "f_cut": 1988.655,
+  "f_res": 0.3147,
+  "f_env": 0.5614,
+  "f_key": 0.5,
+  "e_dec": 0.1818,
+  "a_atk": 0.001,
+  "a_dec": 0.1935,
+  "a_sus": 0,
+  "a_rel": 0.2545,
+  "arp_on": 1,
+  "arp_rate": 1,
+  "arp_oct": 2,
+  "arp_gate": 0.6488,
+  "delay_mix": 0.1537,
+  "delay_fb": 0.4,
+  "verb_mix": 0.1328,
+  "fm": 0.4491,
+  "o2_pos": 0.3853,
+  "vol": 10.6
+ }
+}

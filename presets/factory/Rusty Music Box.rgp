@@ -1,0 +1,54 @@
+{
+ "format": 1,
+ "name": "Rusty Music Box",
+ "author": "Trill Tron",
+ "type": "Bell",
+ "character": "CHROME-FM",
+ "tags": [
+  "Airy",
+  "Vintage",
+  "Bright"
+ ],
+ "style": [
+  "Airy",
+  "Vintage",
+  "Bright"
+ ],
+ "genre": [
+  "Lo-Fi",
+  "Phonk"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM Bell - Airy, Vintage, Bright.",
+ "a": {
+  "o1_table": 4,
+  "o1_pos": 0.817,
+  "o2_lvl": 0.4012,
+  "o2_pos": 0.236,
+  "fm": 0.2525,
+  "f_cut": 16957.653,
+  "f_res": 0.05,
+  "f_key": 0.8,
+  "a_atk": 0.001,
+  "a_dec": 2.1575,
+  "a_sus": 0,
+  "a_rel": 1.1095,
+  "e_dec": 0.7637,
+  "chorus": 0.3,
+  "delay_mix": 0.1636,
+  "delay_fb": 0.4,
+  "verb_mix": 0.3,
+  "verb_size": 0.7,
+  "maxv": 10,
+  "m1_src": 3,
+  "m1_dst": 13,
+  "m1_amt": 0.1661,
+  "m2_src": 4,
+  "m2_dst": 13,
+  "m2_amt": 0.2,
+  "noise_lvl": 0.04,
+  "f_drive": 0.2,
+  "vol": 5.69
+ }
+}

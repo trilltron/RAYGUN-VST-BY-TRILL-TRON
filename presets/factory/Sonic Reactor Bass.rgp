@@ -1,0 +1,54 @@
+{
+ "format": 1,
+ "name": "Sonic Reactor Bass",
+ "author": "Trill Tron",
+ "type": "Bass",
+ "character": "XENO",
+ "tags": [
+  "Airy",
+  "Bright",
+  "Mono",
+  "Glide"
+ ],
+ "style": [
+  "Airy",
+  "Bright"
+ ],
+ "genre": [
+  "Phonk",
+  "Drill"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "XENO Bass - Airy, Bright.",
+ "a": {
+  "o1_table": 12,
+  "o1_pos": 0.9856,
+  "o2_lvl": 0.4064,
+  "o2_table": 11,
+  "o2_oct": -1,
+  "o2_pos": 0.0582,
+  "sub_lvl": 0.4196,
+  "voice": 1,
+  "glide": 0.0221,
+  "f_cut": 724.3176,
+  "f_res": 0.1712,
+  "f_env": 0.388,
+  "f_key": 0.5,
+  "e_dec": 0.2246,
+  "e_sus": 0.0957,
+  "a_atk": 0.002,
+  "a_dec": 0.4,
+  "a_sus": 0.7713,
+  "a_rel": 0.0954,
+  "oct": -1,
+  "f_drive": 0.1086,
+  "charge": 0.2049,
+  "o1_warp": 0.3976,
+  "o1_warpmode": 4,
+  "l2_rate": 0.9311,
+  "verb_mix": 0.3,
+  "noise_lvl": 0.04,
+  "vol": 3.97
+ }
+}

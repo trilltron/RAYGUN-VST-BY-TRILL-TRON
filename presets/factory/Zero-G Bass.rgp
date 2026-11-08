@@ -1,0 +1,52 @@
+{
+ "format": 1,
+ "name": "Zero-G Bass",
+ "author": "Trill Tron",
+ "type": "Bass",
+ "character": "PULP-TUBE",
+ "tags": [
+  "Distorted",
+  "Warm",
+  "Dark",
+  "Mono",
+  "Glide"
+ ],
+ "style": [
+  "Distorted",
+  "Warm",
+  "Dark"
+ ],
+ "genre": [
+  "Synthwave"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "PULP-TUBE Bass - Distorted, Warm, Dark.",
+ "a": {
+  "o1_table": 1,
+  "o1_pos": 0.57,
+  "o2_lvl": 0.324,
+  "o2_table": 2,
+  "o2_oct": -1,
+  "o2_pos": 0.3839,
+  "sub_lvl": 0.3321,
+  "voice": 1,
+  "glide": 0.0701,
+  "f_cut": 339.338,
+  "f_res": 0.3371,
+  "f_env": 0.2786,
+  "f_key": 0.5,
+  "e_dec": 0.3435,
+  "e_sus": 0.1534,
+  "a_atk": 0.002,
+  "a_dec": 0.4,
+  "a_sus": 0.7913,
+  "a_rel": 0.1484,
+  "oct": -1,
+  "f_drive": 0.4,
+  "charge": 0.6205,
+  "chorus": 0.25,
+  "verb_mix": 0.05,
+  "vol": 1.0
+ }
+}

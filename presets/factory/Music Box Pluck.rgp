@@ -1,0 +1,42 @@
+{
+ "format": 1,
+ "name": "Music Box Pluck",
+ "author": "Trill Tron",
+ "type": "Pluck",
+ "character": "CHROME-FM",
+ "tags": [
+  "Soft",
+  "Lo-Fi",
+  "Stem DNA"
+ ],
+ "style": [
+  "Soft"
+ ],
+ "genre": [
+  "Lo-Fi"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "Soft music-box pluck.",
+ "a": {
+  "o1_table": 3,
+  "o1_pos": 0.8873,
+  "o2_lvl": 0.0226,
+  "o2_table": 1,
+  "o2_fine": 12.9518,
+  "f_cut": 6000,
+  "f_res": 0.2243,
+  "f_env": 0.6098,
+  "f_key": 0.5,
+  "e_atk": 0.001,
+  "e_dec": 0.1393,
+  "a_atk": 0.001,
+  "a_dec": 0.8,
+  "a_sus": 0,
+  "a_rel": 0.166,
+  "delay_mix": 0.0546,
+  "verb_mix": 0.1266,
+  "uni_n": 3,
+  "vol": 9.38
+ }
+}

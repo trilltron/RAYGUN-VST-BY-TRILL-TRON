@@ -1,0 +1,4 @@
+build/
+install/RAYGUN_Install_Windows*
+reference/
+*.o

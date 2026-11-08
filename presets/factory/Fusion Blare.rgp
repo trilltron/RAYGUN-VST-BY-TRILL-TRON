@@ -1,0 +1,53 @@
+{
+ "format": 1,
+ "name": "Fusion Blare",
+ "author": "Trill Tron",
+ "type": "Brass",
+ "character": "BLASTER-8",
+ "tags": [
+  "Distorted",
+  "Airy"
+ ],
+ "style": [
+  "Distorted",
+  "Airy"
+ ],
+ "genre": [
+  "Lo-Fi"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Brass - Distorted, Airy.",
+ "a": {
+  "o1_table": 6,
+  "o1_pos": 0.3369,
+  "o2_lvl": 0.5059,
+  "o2_table": 6,
+  "o2_fine": 6.9153,
+  "o2_pos": 0.7774,
+  "uni_n": 2,
+  "uni_det": 0.2331,
+  "f_cut": 1200.9836,
+  "f_res": 0.1582,
+  "f_env": 0.7751,
+  "e_atk": 0.0806,
+  "e_dec": 0.3805,
+  "e_sus": 0.5572,
+  "a_atk": 0.0526,
+  "a_sus": 0.8938,
+  "a_rel": 0.1857,
+  "chorus": 0.4653,
+  "verb_mix": 0.3,
+  "maxv": 10,
+  "m1_src": 4,
+  "m1_dst": 6,
+  "m1_amt": 0.3,
+  "m2_src": 5,
+  "m2_dst": 1,
+  "m2_amt": 0.3,
+  "charge": 0.4515,
+  "f_drive": 0.4,
+  "noise_lvl": 0.04,
+  "vol": -1.83
+ }
+}

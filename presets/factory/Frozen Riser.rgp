@@ -1,0 +1,54 @@
+{
+ "format": 1,
+ "name": "Frozen Riser",
+ "author": "Trill Tron",
+ "type": "FX",
+ "character": "XENO",
+ "tags": [
+  "Warm",
+  "Airy",
+  "Clean"
+ ],
+ "style": [
+  "Warm",
+  "Airy",
+  "Clean"
+ ],
+ "genre": [
+  "Drill"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "XENO FX - Warm, Airy, Clean.",
+ "a": {
+  "o1_table": 14,
+  "o1_pos": 0.4112,
+  "o2_lvl": 0.3855,
+  "o2_table": 4,
+  "o2_pos": 0.6495,
+  "o2_fine": 20.2533,
+  "o1_warp": 0.4069,
+  "o1_warpmode": 1,
+  "f_cut": 1214.2585,
+  "f_res": 0.4735,
+  "a_atk": 0.002,
+  "delay_mix": 0.3362,
+  "delay_fb": 0.5,
+  "verb_mix": 0.3473,
+  "verb_size": 0.8,
+  "maxv": 6,
+  "a_dec": 3.4945,
+  "a_sus": 0,
+  "a_rel": 1.0,
+  "e_dec": 0.1236,
+  "noise_lvl": 0.1649,
+  "charge": 0.4082,
+  "o1_oct": -1,
+  "m1_src": 3,
+  "m1_dst": 5,
+  "m1_amt": 0.2308,
+  "l2_rate": 2.7693,
+  "f_drive": 0.15,
+  "vol": 0.64
+ }
+}

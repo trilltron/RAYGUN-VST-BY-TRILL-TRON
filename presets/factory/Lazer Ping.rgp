@@ -1,0 +1,53 @@
+{
+ "format": 1,
+ "name": "Lazer Ping",
+ "author": "Trill Tron",
+ "type": "Bell",
+ "character": "CHROME-FM",
+ "tags": [
+  "Warm",
+  "Vintage",
+  "Punchy"
+ ],
+ "style": [
+  "Warm",
+  "Vintage",
+  "Punchy"
+ ],
+ "genre": [
+  "Cinematic"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM Bell - Warm, Vintage, Punchy.",
+ "a": {
+  "o1_table": 10,
+  "o1_pos": 0.2624,
+  "o2_lvl": 0.2621,
+  "o2_pos": 0.4967,
+  "fm": 0.5145,
+  "f_cut": 5841.7051,
+  "f_res": 0.05,
+  "f_key": 0.8,
+  "a_atk": 0.001,
+  "a_dec": 2.7208,
+  "a_sus": 0,
+  "a_rel": 1.7255,
+  "e_dec": 0.2,
+  "chorus": 0.3,
+  "delay_mix": 0.2154,
+  "delay_fb": 0.4,
+  "verb_mix": 0.3449,
+  "verb_size": 0.7,
+  "maxv": 10,
+  "m1_src": 3,
+  "m1_dst": 13,
+  "m1_amt": 0.1642,
+  "m2_src": 4,
+  "m2_dst": 13,
+  "m2_amt": 0.2,
+  "f_drive": 0.2,
+  "f_env": 0.35,
+  "vol": 6.63
+ }
+}

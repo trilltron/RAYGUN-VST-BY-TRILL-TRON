@@ -1,0 +1,60 @@
+{
+ "format": 1,
+ "name": "Rocket Lead",
+ "author": "Trill Tron",
+ "type": "Lead",
+ "character": "BLASTER-8",
+ "tags": [
+  "Soft",
+  "Distorted",
+  "Glitchy"
+ ],
+ "style": [
+  "Soft",
+  "Distorted",
+  "Glitchy"
+ ],
+ "genre": [
+  "Phonk"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Lead - Soft, Distorted, Glitchy.",
+ "a": {
+  "o1_pos": 0.4242,
+  "o2_lvl": 0.5122,
+  "o2_table": 1,
+  "o2_fine": 11.3768,
+  "o2_pos": 0.3684,
+  "uni_n": 3,
+  "uni_det": 0.3511,
+  "glide": 0.0168,
+  "f_cut": 2952.879,
+  "f_env": 0.2727,
+  "f_key": 0.6,
+  "e_dec": 0.3324,
+  "e_sus": 0.5379,
+  "a_atk": 0.03,
+  "a_sus": 0.9957,
+  "a_rel": 0.2053,
+  "delay_mix": 0.25,
+  "delay_fb": 0.55,
+  "verb_mix": 0.231,
+  "l1_rate": 5.9073,
+  "m1_src": 1,
+  "m1_dst": 5,
+  "m2_src": 5,
+  "m2_dst": 5,
+  "m2_amt": 0.012,
+  "m3_src": 5,
+  "m3_dst": 6,
+  "m3_amt": 0.25,
+  "chorus": 0.4276,
+  "charge": 0.4036,
+  "f_drive": 0.4,
+  "delay_time": 0.1875,
+  "o1_warp": 0.4,
+  "o1_warpmode": 4,
+  "vol": -4.09
+ }
+}

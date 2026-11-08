@@ -1,0 +1,62 @@
+{
+ "format": 1,
+ "name": "Static Legato Strings",
+ "author": "Trill Tron",
+ "type": "Strings",
+ "character": "FIVE-STAR",
+ "tags": [
+  "Distorted",
+  "Evolving",
+  "Dark"
+ ],
+ "style": [
+  "Distorted",
+  "Evolving",
+  "Dark"
+ ],
+ "genre": [
+  "Trap"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "FIVE-STAR Strings - Distorted, Evolving, Dark.",
+ "a": {
+  "o1_table": 7,
+  "o1_pos": 0.5262,
+  "o2_lvl": 0.6592,
+  "o2_table": 7,
+  "o2_pos": 0.621,
+  "o2_fine": -1.0152,
+  "uni_n": 5,
+  "uni_det": 0.34,
+  "uni_wid": 0.85,
+  "f_cut": 1439.6849,
+  "f_res": 0.08,
+  "f_env": 0.134,
+  "f_key": 0.5,
+  "a_atk": 0.3428,
+  "a_dec": 1.0,
+  "a_sus": 0.812,
+  "a_rel": 1.1208,
+  "chorus": 0.5523,
+  "verb_mix": 0.2392,
+  "verb_size": 0.7,
+  "l1_rate": 0.2355,
+  "maxv": 12,
+  "m1_src": 2,
+  "m1_dst": 1,
+  "m1_amt": 0.0536,
+  "m2_src": 5,
+  "m2_dst": 6,
+  "m2_amt": 0.3,
+  "charge": 0.5343,
+  "f_drive": 0.4,
+  "m6_src": 1,
+  "m6_dst": 1,
+  "m6_amt": 0.2727,
+  "m7_src": 2,
+  "m7_dst": 2,
+  "m7_amt": 0.2692,
+  "vol": 0.63
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "format": 1,
+ "name": "Zero-G Rubber Bass",
+ "author": "Trill Tron",
+ "type": "Bass",
+ "character": "MONO-VOLT",
+ "tags": [
+  "Bright",
+  "Mono",
+  "Glide"
+ ],
+ "style": [
+  "Bright"
+ ],
+ "genre": [
+  "Synthwave",
+  "Trap"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "MONO-VOLT Bass - Bright.",
+ "a": {
+  "o1_table": 10,
+  "o1_pos": 0.6805,
+  "o2_lvl": 0.1217,
+  "o2_table": 11,
+  "o2_oct": -1,
+  "o2_pos": 0.1264,
+  "sub_lvl": 0.3437,
+  "voice": 1,
+  "glide": 0.0389,
+  "f_cut": 752.1314,
+  "f_res": 0.428,
+  "f_env": 0.393,
+  "f_key": 0.5,
+  "e_dec": 0.338,
+  "e_sus": 0.0755,
+  "a_atk": 0.002,
+  "a_dec": 0.4,
+  "a_sus": 0.9082,
+  "a_rel": 0.1449,
+  "oct": -1,
+  "f_drive": 0.0422,
+  "charge": 0.2504,
+  "vol": 1.49
+ }
+}

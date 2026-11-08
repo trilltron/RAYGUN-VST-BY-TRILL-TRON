@@ -1,0 +1,43 @@
+{
+ "format": 1,
+ "name": "Warp Spark Pluck",
+ "author": "Trill Tron",
+ "type": "Pluck",
+ "character": "CHROME-FM",
+ "tags": [
+  "Warm",
+  "Soft"
+ ],
+ "style": [
+  "Warm",
+  "Soft"
+ ],
+ "genre": [
+  "Cinematic",
+  "Phonk"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM Pluck - Warm, Soft.",
+ "a": {
+  "o1_pos": 0.621,
+  "o2_lvl": 0.393,
+  "o2_fine": 9.9261,
+  "f_cut": 642.7764,
+  "f_env": 0.4832,
+  "f_key": 0.5,
+  "e_atk": 0.001,
+  "e_dec": 0.1316,
+  "a_atk": 0.03,
+  "a_dec": 0.1417,
+  "a_sus": 0,
+  "a_rel": 0.1302,
+  "delay_mix": 0.1318,
+  "verb_mix": 0.1658,
+  "fm": 0.425,
+  "o2_oct": 1,
+  "o2_pos": 0.1628,
+  "f_drive": 0.15,
+  "vol": 12
+ }
+}

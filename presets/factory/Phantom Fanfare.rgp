@@ -1,0 +1,61 @@
+{
+ "format": 1,
+ "name": "Phantom Fanfare",
+ "author": "Trill Tron",
+ "type": "Brass",
+ "character": "PULP-TUBE",
+ "tags": [
+  "Vintage",
+  "Warm",
+  "Evolving"
+ ],
+ "style": [
+  "Vintage",
+  "Warm",
+  "Evolving"
+ ],
+ "genre": [
+  "Drill"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "PULP-TUBE Brass - Vintage, Warm, Evolving.",
+ "a": {
+  "o1_table": 6,
+  "o1_pos": 0.2367,
+  "o2_lvl": 0.7602,
+  "o2_table": 2,
+  "o2_fine": 7.0513,
+  "o2_pos": 0.7254,
+  "uni_n": 3,
+  "uni_det": 0.1103,
+  "f_cut": 332.6507,
+  "f_res": 0.1164,
+  "f_env": 0.6231,
+  "e_atk": 0.0452,
+  "e_dec": 0.2706,
+  "e_sus": 0.4497,
+  "a_atk": 0.0353,
+  "a_sus": 0.8227,
+  "a_rel": 0.2448,
+  "chorus": 0.3,
+  "verb_mix": 0.1368,
+  "maxv": 10,
+  "m1_src": 4,
+  "m1_dst": 6,
+  "m1_amt": 0.3,
+  "m2_src": 5,
+  "m2_dst": 1,
+  "m2_amt": 0.3,
+  "f_drive": 0.2629,
+  "charge": 0.2277,
+  "l1_rate": 0.3879,
+  "m6_src": 1,
+  "m6_dst": 1,
+  "m6_amt": 0.258,
+  "m7_src": 2,
+  "m7_dst": 2,
+  "m7_amt": 0.3787,
+  "vol": 4.2
+ }
+}

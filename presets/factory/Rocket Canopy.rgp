@@ -1,0 +1,60 @@
+{
+ "format": 1,
+ "name": "Rocket Canopy",
+ "author": "Trill Tron",
+ "type": "Pad",
+ "character": "BLASTER-8",
+ "tags": [
+  "Distorted"
+ ],
+ "style": [
+  "Distorted"
+ ],
+ "genre": [
+  "Hyperpop",
+  "Trap"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Pad - Distorted.",
+ "a": {
+  "o1_table": 2,
+  "o1_pos": 0.7983,
+  "o2_lvl": 0.4057,
+  "o2_table": 13,
+  "o2_pos": 0.104,
+  "o2_fine": -1.4716,
+  "uni_n": 6,
+  "uni_det": 0.2064,
+  "uni_wid": 0.844,
+  "f_cut": 1309.5832,
+  "f_res": 0.2371,
+  "f_env": 0.1121,
+  "f_key": 0.4,
+  "a_atk": 1.2552,
+  "a_dec": 1.0,
+  "a_sus": 0.9176,
+  "a_rel": 2.082,
+  "e_atk": 1.3796,
+  "e_dec": 2.8482,
+  "e_sus": 0.5428,
+  "l1_rate": 0.3018,
+  "l2_rate": 0.1612,
+  "chorus": 0.3962,
+  "verb_mix": 0.3822,
+  "verb_size": 0.8176,
+  "maxv": 12,
+  "m1_src": 1,
+  "m1_dst": 1,
+  "m1_amt": 0.1375,
+  "m2_src": 2,
+  "m2_dst": 2,
+  "m2_amt": 0.1342,
+  "m3_src": 5,
+  "m3_dst": 6,
+  "m3_amt": 0.3,
+  "charge": 0.4372,
+  "f_drive": 0.4,
+  "vol": -0.41
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "format": 1,
+ "name": "Neon Ion FX",
+ "author": "Trill Tron",
+ "type": "FX",
+ "character": "CHROME-FM",
+ "tags": [
+  "Vintage",
+  "Warm",
+  "Glitchy"
+ ],
+ "style": [
+  "Vintage",
+  "Warm",
+  "Glitchy"
+ ],
+ "genre": [
+  "Drill",
+  "Trap"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM FX - Vintage, Warm, Glitchy.",
+ "a": {
+  "o1_table": 14,
+  "o1_pos": 0.3679,
+  "o2_lvl": 0.4107,
+  "o2_pos": 0.3927,
+  "o2_fine": 13.3252,
+  "o1_warp": 0.4,
+  "o1_warpmode": 4,
+  "f_cut": 752.3918,
+  "f_res": 0.3294,
+  "a_atk": 0.002,
+  "delay_mix": 0.25,
+  "delay_fb": 0.55,
+  "verb_mix": 0.2143,
+  "verb_size": 0.8,
+  "maxv": 6,
+  "a_dec": 2.2576,
+  "a_sus": 0,
+  "a_rel": 1.0,
+  "e_dec": 0.2145,
+  "noise_lvl": 0.2998,
+  "charge": 0.5369,
+  "o1_oct": -1,
+  "m1_src": 3,
+  "m1_dst": 5,
+  "m1_amt": 0.2271,
+  "fm": 0.2608,
+  "chorus": 0.3,
+  "f_drive": 0.2,
+  "delay_time": 0.125,
+  "vol": 0.85
+ }
+}

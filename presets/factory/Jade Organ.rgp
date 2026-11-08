@@ -1,0 +1,53 @@
+{
+ "format": 1,
+ "name": "Jade Organ",
+ "author": "Trill Tron",
+ "type": "Keys",
+ "character": "NEON-ROM",
+ "tags": [
+  "Soft",
+  "Warm"
+ ],
+ "style": [
+  "Soft",
+  "Warm"
+ ],
+ "genre": [
+  "Phonk",
+  "Cinematic"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "NEON-ROM Keys - Soft, Warm.",
+ "a": {
+  "f_cut": 2831.7304,
+  "f_res": 0.08,
+  "f_key": 0.5,
+  "a_atk": 0.03,
+  "a_dec": 1.4843,
+  "a_sus": 0.1,
+  "a_rel": 0.4591,
+  "e_dec": 0.396,
+  "f_env": 0.1581,
+  "chorus": 0.3127,
+  "verb_mix": 0.1343,
+  "maxv": 10,
+  "o1_pos": 0.05,
+  "o2_table": 4,
+  "o2_oct": 1,
+  "o2_pos": 0.1726,
+  "fm": 0.3907,
+  "m1_src": 4,
+  "m1_dst": 6,
+  "m1_amt": 0.2268,
+  "m2_src": 4,
+  "m2_dst": 1,
+  "m2_amt": 0.1322,
+  "o1_warp": 0.452,
+  "o1_warpmode": 1,
+  "charge": 0.0742,
+  "delay_mix": 0.1123,
+  "f_drive": 0.15,
+  "vol": 5.17
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "format": 1,
+ "name": "Vapor Alarm",
+ "author": "Trill Tron",
+ "type": "FX",
+ "character": "NEON-ROM",
+ "tags": [
+  "Airy",
+  "Dark",
+  "Glitchy"
+ ],
+ "style": [
+  "Airy",
+  "Dark",
+  "Glitchy"
+ ],
+ "genre": [
+  "Trap",
+  "Lo-Fi"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "NEON-ROM FX - Airy, Dark, Glitchy.",
+ "a": {
+  "o1_table": 16,
+  "o1_pos": 0.6986,
+  "o2_lvl": 0.2527,
+  "o2_table": 8,
+  "o2_pos": 0.8875,
+  "o2_fine": -0.1334,
+  "o1_warp": 0.4,
+  "o1_warpmode": 2,
+  "f_type": 3,
+  "f_cut": 1862.8948,
+  "f_res": 0.4,
+  "a_atk": 0.1599,
+  "delay_mix": 0.25,
+  "delay_fb": 0.55,
+  "verb_mix": 0.35,
+  "verb_size": 0.8,
+  "maxv": 6,
+  "uni_n": 3,
+  "a_dec": 1.3514,
+  "a_sus": 0.3493,
+  "a_rel": 1.9631,
+  "noise_lvl": 0.8999,
+  "o1_lvl": 0.3,
+  "l1_rate": 0.5273,
+  "m1_src": 1,
+  "m1_dst": 6,
+  "m1_amt": 0.5,
+  "charge": 0.23,
+  "delay_time": 0.25,
+  "vol": 8.94
+ }
+}

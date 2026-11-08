@@ -1,0 +1,62 @@
+{
+ "format": 1,
+ "name": "Saturn Screamer",
+ "author": "Trill Tron",
+ "type": "Lead",
+ "character": "MONO-VOLT",
+ "tags": [
+  "Airy",
+  "Clean",
+  "Warm",
+  "Mono",
+  "Glide"
+ ],
+ "style": [
+  "Airy",
+  "Clean",
+  "Warm"
+ ],
+ "genre": [
+  "Synthwave"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "MONO-VOLT Lead - Airy, Clean, Warm.",
+ "a": {
+  "o1_table": 9,
+  "o1_pos": 0.6177,
+  "o2_lvl": 0.4691,
+  "o2_table": 0,
+  "o2_fine": 16.592,
+  "o2_pos": 0.629,
+  "uni_n": 2,
+  "uni_det": 0.3843,
+  "voice": 1,
+  "glide": 0.0978,
+  "f_cut": 4239.3105,
+  "f_res": 0.3901,
+  "f_env": 0.182,
+  "f_key": 0.6,
+  "e_dec": 0.5364,
+  "e_sus": 0.2381,
+  "a_atk": 0.004,
+  "a_sus": 0.9327,
+  "a_rel": 0.1565,
+  "delay_mix": 0.1826,
+  "delay_fb": 0.4,
+  "verb_mix": 0.3,
+  "l1_rate": 5.1909,
+  "m1_src": 1,
+  "m1_dst": 5,
+  "m2_src": 5,
+  "m2_dst": 5,
+  "m2_amt": 0.012,
+  "m3_src": 5,
+  "m3_dst": 6,
+  "m3_amt": 0.25,
+  "sub_lvl": 0.25,
+  "noise_lvl": 0.04,
+  "f_drive": 0.15,
+  "vol": 2.21
+ }
+}

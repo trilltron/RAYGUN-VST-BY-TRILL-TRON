@@ -1,0 +1,49 @@
+{
+ "format": 1,
+ "name": "Marble Ripple",
+ "author": "Trill Tron",
+ "type": "Arp",
+ "character": "BLASTER-8",
+ "tags": [
+  "Soft",
+  "Vintage",
+  "Synced"
+ ],
+ "style": [
+  "Soft",
+  "Vintage"
+ ],
+ "genre": [
+  "Phonk",
+  "Trap"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Arp - Soft, Vintage.",
+ "a": {
+  "o1_table": 8,
+  "o1_pos": 0.4421,
+  "o2_lvl": 0.1423,
+  "o2_table": 1,
+  "o2_fine": 8.5391,
+  "f_cut": 1855.3153,
+  "f_env": 0.3578,
+  "f_key": 0.5,
+  "e_dec": 0.1241,
+  "a_atk": 0.03,
+  "a_dec": 0.3919,
+  "a_sus": 0,
+  "a_rel": 0.2618,
+  "arp_on": 1,
+  "arp_mode": 3,
+  "arp_oct": 3,
+  "arp_gate": 0.7501,
+  "delay_mix": 0.2976,
+  "delay_fb": 0.4,
+  "verb_mix": 0.1524,
+  "uni_n": 2,
+  "chorus": 0.4871,
+  "f_drive": 0.2,
+  "vol": 8.64
+ }
+}

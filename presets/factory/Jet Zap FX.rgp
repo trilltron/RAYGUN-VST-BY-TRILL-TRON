@@ -1,0 +1,52 @@
+{
+ "format": 1,
+ "name": "Jet Zap FX",
+ "author": "Trill Tron",
+ "type": "FX",
+ "character": "NEON-ROM",
+ "tags": [
+  "Airy"
+ ],
+ "style": [
+  "Airy"
+ ],
+ "genre": [
+  "Cinematic",
+  "Synthwave"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "NEON-ROM FX - Airy.",
+ "a": {
+  "o1_table": 8,
+  "o1_pos": 0.6578,
+  "o2_lvl": 0.5328,
+  "o2_table": 8,
+  "o2_pos": 0.9164,
+  "o2_fine": 27.7543,
+  "o1_warp": 0.4561,
+  "o1_warpmode": 1,
+  "f_type": 2,
+  "f_cut": 4014.4852,
+  "f_res": 0.278,
+  "a_atk": 0.002,
+  "delay_mix": 0.1771,
+  "delay_fb": 0.5,
+  "verb_mix": 0.4078,
+  "verb_size": 0.8,
+  "maxv": 6,
+  "uni_n": 3,
+  "a_dec": 0.2073,
+  "a_sus": 0,
+  "e_dec": 0.0913,
+  "m1_src": 3,
+  "m1_dst": 5,
+  "m1_amt": -0.86,
+  "m2_src": 3,
+  "m2_dst": 6,
+  "m2_amt": 0.4138,
+  "charge": 0.249,
+  "noise_lvl": 0.04,
+  "vol": 12
+ }
+}

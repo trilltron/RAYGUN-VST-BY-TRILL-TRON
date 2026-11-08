@@ -1,0 +1,60 @@
+{
+ "format": 1,
+ "name": "Zero-G Pad",
+ "author": "Trill Tron",
+ "type": "Pad",
+ "character": "BLASTER-8",
+ "tags": [
+  "Distorted"
+ ],
+ "style": [
+  "Distorted"
+ ],
+ "genre": [
+  "Lo-Fi",
+  "Trap"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Pad - Distorted.",
+ "a": {
+  "o1_table": 1,
+  "o1_pos": 0.2959,
+  "o2_lvl": 0.5764,
+  "o2_table": 7,
+  "o2_pos": 0.1811,
+  "o2_fine": 2.5762,
+  "uni_n": 5,
+  "uni_det": 0.4661,
+  "uni_wid": 0.7537,
+  "f_cut": 2769.7112,
+  "f_res": 0.0918,
+  "f_env": 0.2219,
+  "f_key": 0.4,
+  "a_atk": 0.8166,
+  "a_dec": 1.0,
+  "a_sus": 0.7627,
+  "a_rel": 1.4579,
+  "e_atk": 0.6661,
+  "e_dec": 1.8057,
+  "e_sus": 0.3611,
+  "l1_rate": 0.5571,
+  "l2_rate": 0.1164,
+  "chorus": 0.3516,
+  "verb_mix": 0.4293,
+  "verb_size": 0.7735,
+  "maxv": 12,
+  "m1_src": 1,
+  "m1_dst": 1,
+  "m1_amt": 0.2163,
+  "m2_src": 2,
+  "m2_dst": 2,
+  "m2_amt": 0.2836,
+  "m3_src": 5,
+  "m3_dst": 6,
+  "m3_amt": 0.3,
+  "charge": 0.5061,
+  "f_drive": 0.4,
+  "vol": -3.11
+ }
+}

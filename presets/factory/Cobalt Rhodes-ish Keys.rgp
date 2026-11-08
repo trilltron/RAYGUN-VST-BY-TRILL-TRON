@@ -1,0 +1,48 @@
+{
+ "format": 1,
+ "name": "Cobalt Rhodes-ish Keys",
+ "author": "Trill Tron",
+ "type": "Keys",
+ "character": "CHROME-FM",
+ "tags": [
+  "Clean",
+  "Punchy",
+  "Warm"
+ ],
+ "style": [
+  "Clean",
+  "Punchy",
+  "Warm"
+ ],
+ "genre": [
+  "Cinematic"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM Keys - Clean, Punchy, Warm.",
+ "a": {
+  "f_cut": 2214.1156,
+  "f_res": 0.08,
+  "f_key": 0.5,
+  "a_atk": 0.001,
+  "a_dec": 1.3658,
+  "a_sus": 0.1,
+  "a_rel": 0.4232,
+  "e_dec": 0.2,
+  "f_env": 0.35,
+  "chorus": 0.1916,
+  "verb_mix": 0.1417,
+  "maxv": 10,
+  "o1_pos": 0.05,
+  "o2_pos": 0.1706,
+  "fm": 0.4099,
+  "m1_src": 4,
+  "m1_dst": 6,
+  "m1_amt": 0.3274,
+  "m2_src": 4,
+  "m2_dst": 1,
+  "m2_amt": 0.1976,
+  "f_drive": 0.15,
+  "vol": 5.89
+ }
+}

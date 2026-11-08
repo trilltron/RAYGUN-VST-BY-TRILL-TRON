@@ -1,0 +1,56 @@
+{
+ "format": 1,
+ "name": "Phantom Tremolo Strings",
+ "author": "Trill Tron",
+ "type": "Strings",
+ "character": "BLASTER-8",
+ "tags": [
+  "Evolving"
+ ],
+ "style": [
+  "Evolving"
+ ],
+ "genre": [
+  "Cinematic"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Strings - Evolving.",
+ "a": {
+  "o1_table": 7,
+  "o1_pos": 0.7698,
+  "o2_lvl": 0.747,
+  "o2_table": 0,
+  "o2_pos": 0.3627,
+  "o2_fine": -7.381,
+  "uni_n": 4,
+  "uni_det": 0.4397,
+  "uni_wid": 0.9614,
+  "f_cut": 4394.6299,
+  "f_res": 0.08,
+  "f_env": 0.0006,
+  "f_key": 0.5,
+  "a_atk": 0.584,
+  "a_dec": 1.0,
+  "a_sus": 0.9142,
+  "a_rel": 1.5848,
+  "chorus": 0.4368,
+  "verb_mix": 0.247,
+  "verb_size": 0.7,
+  "l1_rate": 0.2019,
+  "maxv": 12,
+  "m1_src": 2,
+  "m1_dst": 1,
+  "m1_amt": 0.1595,
+  "m2_src": 5,
+  "m2_dst": 6,
+  "m2_amt": 0.3,
+  "m6_src": 1,
+  "m6_dst": 1,
+  "m6_amt": 0.4858,
+  "m7_src": 2,
+  "m7_dst": 2,
+  "m7_amt": 0.3344,
+  "vol": -1.32
+ }
+}

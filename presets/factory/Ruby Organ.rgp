@@ -1,0 +1,55 @@
+{
+ "format": 1,
+ "name": "Ruby Organ",
+ "author": "Trill Tron",
+ "type": "Keys",
+ "character": "CHROME-FM",
+ "tags": [
+  "Soft",
+  "Clean",
+  "Wide"
+ ],
+ "style": [
+  "Soft",
+  "Clean",
+  "Wide"
+ ],
+ "genre": [
+  "Cinematic",
+  "Hyperpop"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM Keys - Soft, Clean, Wide.",
+ "a": {
+  "f_cut": 3567.6875,
+  "f_res": 0.08,
+  "f_key": 0.5,
+  "a_atk": 0.03,
+  "a_dec": 1.0135,
+  "a_sus": 0.2781,
+  "a_rel": 0.7113,
+  "e_dec": 0.1228,
+  "f_env": 0.1648,
+  "chorus": 0.4,
+  "verb_mix": 0.156,
+  "maxv": 10,
+  "uni_n": 3,
+  "o1_table": 3,
+  "o1_pos": 0.5178,
+  "o2_table": 4,
+  "o2_pos": 0.3044,
+  "o2_lvl": 0.3527,
+  "sub_lvl": 0.2,
+  "m1_src": 4,
+  "m1_dst": 6,
+  "m1_amt": 0.3887,
+  "m2_src": 4,
+  "m2_dst": 1,
+  "m2_amt": 0.1071,
+  "fm": 0.386,
+  "o2_oct": 1,
+  "uni_wid": 1,
+  "vol": 4.45
+ }
+}

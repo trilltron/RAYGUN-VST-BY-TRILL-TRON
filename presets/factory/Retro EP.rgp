@@ -1,0 +1,55 @@
+{
+ "format": 1,
+ "name": "Retro EP",
+ "author": "Trill Tron",
+ "type": "Keys",
+ "character": "NEON-ROM",
+ "tags": [
+  "Wide",
+  "Clean"
+ ],
+ "style": [
+  "Wide",
+  "Clean"
+ ],
+ "genre": [
+  "Trap",
+  "Synthwave"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "NEON-ROM Keys - Wide, Clean.",
+ "a": {
+  "f_cut": 8473.6832,
+  "f_res": 0.08,
+  "f_key": 0.5,
+  "a_atk": 0.003,
+  "a_dec": 0.1,
+  "a_sus": 0.8964,
+  "a_rel": 0.12,
+  "e_dec": 0.1407,
+  "f_env": 0.2206,
+  "chorus": 0.4,
+  "verb_mix": 0.2113,
+  "maxv": 10,
+  "uni_n": 3,
+  "o1_table": 2,
+  "o1_pos": 0.1943,
+  "o2_table": 9,
+  "o2_lvl": 0.4093,
+  "o2_oct": 1,
+  "f_drive": 0.2,
+  "m1_src": 4,
+  "m1_dst": 6,
+  "m1_amt": 0.2717,
+  "m2_src": 4,
+  "m2_dst": 1,
+  "m2_amt": 0.1268,
+  "o1_warp": 0.4426,
+  "o1_warpmode": 3,
+  "charge": 0.0907,
+  "delay_mix": 0.1384,
+  "uni_wid": 1,
+  "vol": 2.15
+ }
+}

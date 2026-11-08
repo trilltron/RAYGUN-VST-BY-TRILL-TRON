@@ -1,0 +1,61 @@
+{
+ "format": 1,
+ "name": "Quantum Wash",
+ "author": "Trill Tron",
+ "type": "Pad",
+ "character": "FIVE-STAR",
+ "tags": [
+  "Clean",
+  "Warm"
+ ],
+ "style": [
+  "Clean",
+  "Warm"
+ ],
+ "genre": [
+  "Hyperpop",
+  "Lo-Fi"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "FIVE-STAR Pad - Clean, Warm.",
+ "a": {
+  "o1_table": 12,
+  "o1_pos": 0.413,
+  "o2_lvl": 0.7844,
+  "o2_table": 1,
+  "o2_pos": 0.6776,
+  "o2_fine": -2.1713,
+  "uni_n": 4,
+  "uni_det": 0.3,
+  "uni_wid": 0.85,
+  "f_cut": 2279.2844,
+  "f_res": 0.1293,
+  "f_env": 0.0704,
+  "f_key": 0.4,
+  "a_atk": 1.1594,
+  "a_dec": 1.0,
+  "a_sus": 0.9667,
+  "a_rel": 2.1513,
+  "e_atk": 1.1446,
+  "e_dec": 2.7084,
+  "e_sus": 0.5271,
+  "l1_rate": 0.5042,
+  "l2_rate": 0.124,
+  "chorus": 0.4182,
+  "verb_mix": 0.3755,
+  "verb_size": 0.5569,
+  "maxv": 12,
+  "m1_src": 1,
+  "m1_dst": 1,
+  "m1_amt": 0.2261,
+  "m2_src": 2,
+  "m2_dst": 2,
+  "m2_amt": 0.2858,
+  "m3_src": 5,
+  "m3_dst": 6,
+  "m3_amt": 0.3,
+  "f_drive": 0.15,
+  "vol": 2.57
+ }
+}

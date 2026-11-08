@@ -1,0 +1,50 @@
+{
+ "format": 1,
+ "name": "Delta Thump 808",
+ "author": "Trill Tron",
+ "type": "808",
+ "character": "BLASTER-8",
+ "tags": [
+  "Warm",
+  "Dark",
+  "Vintage",
+  "Mono"
+ ],
+ "style": [
+  "Warm",
+  "Dark",
+  "Vintage"
+ ],
+ "genre": [
+  "Cinematic",
+  "Lo-Fi"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 808 - Warm, Dark, Vintage.",
+ "a": {
+  "o1_table": 11,
+  "o1_pos": 0.0889,
+  "o1_oct": -1,
+  "sub_lvl": 0.7178,
+  "voice": 1,
+  "f_cut": 521.4661,
+  "f_res": 0.0723,
+  "f_key": 0.4,
+  "a_atk": 0.001,
+  "a_dec": 1.8998,
+  "a_sus": 0,
+  "a_rel": 0.2421,
+  "e_dec": 0.0571,
+  "charge": 0.197,
+  "oct": -1,
+  "f_drive": 0.2488,
+  "m1_src": 3,
+  "m1_dst": 5,
+  "m1_amt": 0.0935,
+  "chorus": 0.4976,
+  "o2_fine": 0.5376,
+  "verb_mix": 0.05,
+  "vol": 8.51
+ }
+}

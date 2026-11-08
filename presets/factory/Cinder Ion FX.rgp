@@ -1,0 +1,52 @@
+{
+ "format": 1,
+ "name": "Cinder Ion FX",
+ "author": "Trill Tron",
+ "type": "FX",
+ "character": "CHROME-FM",
+ "tags": [
+  "Soft",
+  "Airy",
+  "Clean"
+ ],
+ "style": [
+  "Soft",
+  "Airy",
+  "Clean"
+ ],
+ "genre": [
+  "Cinematic"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM FX - Soft, Airy, Clean.",
+ "a": {
+  "o1_table": 10,
+  "o1_pos": 0.6877,
+  "o2_lvl": 0.4076,
+  "o2_pos": 0.272,
+  "o2_fine": -12.0423,
+  "o1_warp": 0.8312,
+  "o1_warpmode": 3,
+  "f_type": 3,
+  "f_cut": 2660.7084,
+  "a_atk": 0.4783,
+  "delay_mix": 0.307,
+  "delay_fb": 0.5,
+  "verb_mix": 0.3582,
+  "verb_size": 0.8,
+  "maxv": 6,
+  "uni_n": 3,
+  "a_dec": 1.8049,
+  "a_sus": 0.6861,
+  "a_rel": 1.6774,
+  "noise_lvl": 0.5083,
+  "o1_lvl": 0.3,
+  "l1_rate": 0.7392,
+  "m1_src": 1,
+  "m1_dst": 6,
+  "m1_amt": 0.5,
+  "fm": 0.1603,
+  "vol": 12
+ }
+}

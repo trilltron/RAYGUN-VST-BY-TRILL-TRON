@@ -1,0 +1,61 @@
+{
+ "format": 1,
+ "name": "Static Bed",
+ "author": "Trill Tron",
+ "type": "Pad",
+ "character": "PULP-TUBE",
+ "tags": [
+  "Warm",
+  "Bright"
+ ],
+ "style": [
+  "Warm",
+  "Bright"
+ ],
+ "genre": [
+  "Trap"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "PULP-TUBE Pad - Warm, Bright.",
+ "a": {
+  "o1_table": 12,
+  "o1_pos": 0.4552,
+  "o2_lvl": 0.7963,
+  "o2_table": 9,
+  "o2_pos": 0.2548,
+  "o2_fine": 0.3663,
+  "uni_n": 5,
+  "uni_det": 0.3907,
+  "uni_wid": 0.8835,
+  "f_cut": 1078.8834,
+  "f_res": 0.1644,
+  "f_env": 0.1379,
+  "f_key": 0.4,
+  "a_atk": 1.1202,
+  "a_dec": 1.0,
+  "a_sus": 0.7381,
+  "a_rel": 3.0399,
+  "e_atk": 0.8906,
+  "e_dec": 1.6535,
+  "e_sus": 0.6331,
+  "l1_rate": 0.4887,
+  "l2_rate": 0.273,
+  "chorus": 0.4216,
+  "verb_mix": 0.4299,
+  "verb_size": 0.6214,
+  "maxv": 12,
+  "m1_src": 1,
+  "m1_dst": 1,
+  "m1_amt": 0.3249,
+  "m2_src": 2,
+  "m2_dst": 2,
+  "m2_amt": 0.1312,
+  "m3_src": 5,
+  "m3_dst": 6,
+  "m3_amt": 0.3,
+  "f_drive": 0.3676,
+  "charge": 0.1369,
+  "vol": 1.85
+ }
+}

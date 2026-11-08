@@ -1,0 +1,51 @@
+{
+ "format": 1,
+ "name": "Ion Pluck",
+ "author": "Trill Tron",
+ "type": "Pluck",
+ "character": "CHROME-FM",
+ "tags": [
+  "Bright",
+  "Glitchy",
+  "Clean"
+ ],
+ "style": [
+  "Bright",
+  "Glitchy",
+  "Clean"
+ ],
+ "genre": [
+  "Trap"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM Pluck - Bright, Glitchy, Clean.",
+ "a": {
+  "o1_table": 8,
+  "o1_pos": 0.7416,
+  "o2_lvl": 0.2968,
+  "o2_table": 4,
+  "o2_fine": 5.5053,
+  "f_cut": 3010.0617,
+  "f_res": 0.1791,
+  "f_env": 0.5159,
+  "f_key": 0.5,
+  "e_atk": 0.001,
+  "e_dec": 0.2175,
+  "a_atk": 0.001,
+  "a_dec": 0.3477,
+  "a_sus": 0,
+  "a_rel": 0.1539,
+  "delay_mix": 0.25,
+  "delay_fb": 0.55,
+  "verb_mix": 0.1236,
+  "uni_n": 2,
+  "fm": 0.2284,
+  "o2_oct": 1,
+  "o2_pos": 0.3374,
+  "delay_time": 0.125,
+  "o1_warp": 0.4,
+  "o1_warpmode": 4,
+  "vol": 9.46
+ }
+}

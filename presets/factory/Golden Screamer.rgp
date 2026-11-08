@@ -1,0 +1,57 @@
+{
+ "format": 1,
+ "name": "Golden Screamer",
+ "author": "Trill Tron",
+ "type": "Lead",
+ "character": "BLASTER-8",
+ "tags": [
+  "Distorted",
+  "Soft",
+  "Glide"
+ ],
+ "style": [
+  "Distorted",
+  "Soft"
+ ],
+ "genre": [
+  "Lo-Fi",
+  "Cinematic"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Lead - Distorted, Soft.",
+ "a": {
+  "o1_pos": 0.5042,
+  "o2_lvl": 0.3104,
+  "o2_table": 0,
+  "o2_fine": 15.0503,
+  "o2_pos": 0.7908,
+  "uni_n": 3,
+  "uni_det": 0.2126,
+  "glide": 0.0278,
+  "f_cut": 1482.6956,
+  "f_env": 0.1553,
+  "f_key": 0.6,
+  "e_dec": 0.5688,
+  "e_sus": 0.3345,
+  "a_atk": 0.03,
+  "a_sus": 0.8578,
+  "a_rel": 0.1721,
+  "delay_mix": 0.1795,
+  "delay_fb": 0.4,
+  "verb_mix": 0.1721,
+  "l1_rate": 5.2018,
+  "m1_src": 1,
+  "m1_dst": 5,
+  "m2_src": 5,
+  "m2_dst": 5,
+  "m2_amt": 0.012,
+  "m3_src": 5,
+  "m3_dst": 6,
+  "m3_amt": 0.25,
+  "chorus": 0.4178,
+  "charge": 0.4665,
+  "f_drive": 0.4,
+  "vol": 0.66
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "format": 1,
+ "name": "Rogue Reactor Bass",
+ "author": "Trill Tron",
+ "type": "Bass",
+ "character": "XENO",
+ "tags": [
+  "Warm",
+  "Soft",
+  "Mono",
+  "Glide"
+ ],
+ "style": [
+  "Warm",
+  "Soft"
+ ],
+ "genre": [
+  "Cinematic",
+  "R&B"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "XENO Bass - Warm, Soft.",
+ "a": {
+  "o1_table": 13,
+  "o1_pos": 0.4305,
+  "o2_lvl": 0.2589,
+  "o2_table": 11,
+  "o2_oct": -1,
+  "o2_pos": 0.0895,
+  "sub_lvl": 0.5915,
+  "voice": 1,
+  "glide": 0.0375,
+  "f_cut": 300.1318,
+  "f_env": 0.4303,
+  "f_key": 0.5,
+  "e_dec": 0.1816,
+  "e_sus": 0.1416,
+  "a_atk": 0.03,
+  "a_dec": 0.4,
+  "a_sus": 0.9495,
+  "a_rel": 0.1345,
+  "oct": -1,
+  "f_drive": 0.15,
+  "charge": 0.1504,
+  "o1_warp": 0.2542,
+  "o1_warpmode": 1,
+  "l2_rate": 1.74,
+  "vol": 8.67
+ }
+}

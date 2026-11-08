@@ -1,0 +1,50 @@
+{
+ "format": 1,
+ "name": "Frozen Cello-ish",
+ "author": "Trill Tron",
+ "type": "Strings",
+ "character": "BLASTER-8",
+ "tags": [
+  "Wide"
+ ],
+ "style": [
+  "Wide"
+ ],
+ "genre": [
+  "Drill"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Strings - Wide.",
+ "a": {
+  "o1_table": 7,
+  "o1_pos": 0.5638,
+  "o2_lvl": 0.5913,
+  "o2_table": 1,
+  "o2_pos": 0.432,
+  "o2_fine": -0.6875,
+  "uni_n": 4,
+  "uni_det": 0.3446,
+  "uni_wid": 1,
+  "f_cut": 4726.0395,
+  "f_res": 0.08,
+  "f_env": 0.0469,
+  "f_key": 0.5,
+  "a_atk": 0.1798,
+  "a_dec": 1.0,
+  "a_sus": 0.9253,
+  "a_rel": 1.528,
+  "chorus": 0.4719,
+  "verb_mix": 0.1698,
+  "verb_size": 0.7,
+  "l1_rate": 4.9236,
+  "maxv": 12,
+  "m1_src": 2,
+  "m1_dst": 1,
+  "m1_amt": 0.1397,
+  "m2_src": 5,
+  "m2_dst": 6,
+  "m2_amt": 0.3,
+  "vol": 1.33
+ }
+}

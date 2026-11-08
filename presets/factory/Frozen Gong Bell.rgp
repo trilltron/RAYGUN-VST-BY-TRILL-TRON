@@ -1,0 +1,57 @@
+{
+ "format": 1,
+ "name": "Frozen Gong Bell",
+ "author": "Trill Tron",
+ "type": "Bell",
+ "character": "CHROME-FM",
+ "tags": [
+  "Glitchy",
+  "Distorted",
+  "Bright"
+ ],
+ "style": [
+  "Glitchy",
+  "Distorted",
+  "Bright"
+ ],
+ "genre": [
+  "R&B"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM Bell - Glitchy, Distorted, Bright.",
+ "a": {
+  "o1_table": 3,
+  "o1_pos": 0.6123,
+  "o2_table": 4,
+  "o2_lvl": 0.4257,
+  "o2_pos": 0.5393,
+  "fm": 0.4465,
+  "f_cut": 11800.267,
+  "f_res": 0.05,
+  "f_key": 0.8,
+  "a_atk": 0.001,
+  "a_dec": 2.0656,
+  "a_sus": 0,
+  "a_rel": 0.8962,
+  "e_dec": 0.7728,
+  "chorus": 0.1864,
+  "delay_mix": 0.25,
+  "delay_fb": 0.55,
+  "verb_mix": 0.2156,
+  "verb_size": 0.7,
+  "maxv": 10,
+  "m1_src": 3,
+  "m1_dst": 13,
+  "m1_amt": 0.2254,
+  "m2_src": 4,
+  "m2_dst": 13,
+  "m2_amt": 0.2,
+  "delay_time": 0.1875,
+  "o1_warp": 0.4,
+  "o1_warpmode": 4,
+  "charge": 0.5311,
+  "f_drive": 0.4,
+  "vol": -0.46
+ }
+}

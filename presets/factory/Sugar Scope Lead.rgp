@@ -1,0 +1,58 @@
+{
+ "format": 1,
+ "name": "Sugar Scope Lead",
+ "author": "Trill Tron",
+ "type": "Lead",
+ "character": "MONO-VOLT",
+ "tags": [
+  "Distorted",
+  "Mono",
+  "Glide"
+ ],
+ "style": [
+  "Distorted"
+ ],
+ "genre": [
+  "Cinematic"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "MONO-VOLT Lead - Distorted.",
+ "a": {
+  "o1_table": 9,
+  "o1_pos": 0.8528,
+  "o2_lvl": 0.5474,
+  "o2_table": 0,
+  "o2_fine": 8.3822,
+  "o2_pos": 0.7215,
+  "uni_n": 2,
+  "uni_det": 0.1057,
+  "voice": 1,
+  "glide": 0.04,
+  "f_cut": 4144.3792,
+  "f_res": 0.3051,
+  "f_env": 0.3189,
+  "f_key": 0.6,
+  "e_dec": 0.5581,
+  "e_sus": 0.5208,
+  "a_atk": 0.004,
+  "a_sus": 0.8731,
+  "a_rel": 0.3268,
+  "delay_mix": 0.2035,
+  "delay_fb": 0.4,
+  "verb_mix": 0.1256,
+  "l1_rate": 4.9849,
+  "m1_src": 1,
+  "m1_dst": 5,
+  "m2_src": 5,
+  "m2_dst": 5,
+  "m2_amt": 0.012,
+  "m3_src": 5,
+  "m3_dst": 6,
+  "m3_amt": 0.25,
+  "sub_lvl": 0.25,
+  "charge": 0.4736,
+  "f_drive": 0.4,
+  "vol": 1.3
+ }
+}

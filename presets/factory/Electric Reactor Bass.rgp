@@ -1,0 +1,48 @@
+{
+ "format": 1,
+ "name": "Electric Reactor Bass",
+ "author": "Trill Tron",
+ "type": "Bass",
+ "character": "MONO-VOLT",
+ "tags": [
+  "Soft",
+  "Vintage",
+  "Mono",
+  "Glide"
+ ],
+ "style": [
+  "Soft",
+  "Vintage"
+ ],
+ "genre": [
+  "Cinematic"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "MONO-VOLT Bass - Soft, Vintage.",
+ "a": {
+  "o1_table": 8,
+  "o1_pos": 0.9223,
+  "o2_lvl": 0.2487,
+  "o2_table": 11,
+  "o2_oct": -1,
+  "o2_pos": 0.351,
+  "sub_lvl": 0.5242,
+  "voice": 1,
+  "glide": 0.0289,
+  "f_cut": 390.9746,
+  "f_env": 0.3197,
+  "f_key": 0.5,
+  "e_dec": 0.2811,
+  "e_sus": 0.1495,
+  "a_atk": 0.03,
+  "a_dec": 0.4,
+  "a_sus": 0.8152,
+  "a_rel": 0.1928,
+  "oct": -1,
+  "f_drive": 0.228,
+  "charge": 0.2966,
+  "chorus": 0.3,
+  "vol": 6.25
+ }
+}

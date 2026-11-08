@@ -1,0 +1,57 @@
+{
+ "format": 1,
+ "name": "Silk Pattern",
+ "author": "Trill Tron",
+ "type": "Arp",
+ "character": "XENO",
+ "tags": [
+  "Distorted",
+  "Wide",
+  "Vintage",
+  "Synced"
+ ],
+ "style": [
+  "Distorted",
+  "Wide",
+  "Vintage"
+ ],
+ "genre": [
+  "Synthwave",
+  "Drill"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "XENO Arp - Distorted, Wide, Vintage.",
+ "a": {
+  "o1_table": 16,
+  "o1_pos": 0.3789,
+  "o2_lvl": 0.2232,
+  "o2_table": 1,
+  "o2_fine": 3.9822,
+  "f_cut": 1703.2695,
+  "f_res": 0.1895,
+  "f_env": 0.3168,
+  "f_key": 0.5,
+  "e_dec": 0.1569,
+  "a_atk": 0.001,
+  "a_dec": 0.277,
+  "a_sus": 0,
+  "a_rel": 0.2434,
+  "arp_on": 1,
+  "arp_mode": 1,
+  "arp_oct": 3,
+  "arp_gate": 0.4434,
+  "delay_mix": 0.2895,
+  "delay_fb": 0.4,
+  "verb_mix": 0.1172,
+  "uni_n": 3,
+  "o1_warp": 0.4688,
+  "o1_warpmode": 2,
+  "l2_rate": 1.4293,
+  "charge": 0.3766,
+  "f_drive": 0.4,
+  "uni_wid": 1,
+  "chorus": 0.4,
+  "vol": 4.51
+ }
+}

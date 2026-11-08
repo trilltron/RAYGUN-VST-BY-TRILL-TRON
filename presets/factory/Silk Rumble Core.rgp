@@ -1,0 +1,49 @@
+{
+ "format": 1,
+ "name": "Silk Rumble Core",
+ "author": "Trill Tron",
+ "type": "808",
+ "character": "BLASTER-8",
+ "tags": [
+  "Vintage",
+  "Wide",
+  "Mono"
+ ],
+ "style": [
+  "Vintage",
+  "Wide"
+ ],
+ "genre": [
+  "Cinematic",
+  "Trap"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 808 - Vintage, Wide.",
+ "a": {
+  "o1_table": 11,
+  "o1_pos": 0.2246,
+  "o1_oct": -1,
+  "sub_lvl": 0.6739,
+  "voice": 1,
+  "f_cut": 871.8185,
+  "f_res": 0.0549,
+  "f_key": 0.4,
+  "a_atk": 0.001,
+  "a_dec": 3.2428,
+  "a_sus": 0,
+  "a_rel": 0.4264,
+  "e_dec": 0.0675,
+  "charge": 0.259,
+  "oct": -1,
+  "f_drive": 0.2,
+  "m1_src": 3,
+  "m1_dst": 5,
+  "m1_amt": 0.1406,
+  "chorus": 0.4847,
+  "o2_fine": 1.6532,
+  "uni_n": 3,
+  "uni_wid": 1,
+  "vol": 9.32
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "format": 1,
+ "name": "Glide 808 Charge",
+ "author": "Trill Tron",
+ "type": "808",
+ "character": "XENO",
+ "tags": [
+  "Distorted",
+  "Glide",
+  "Trap",
+  "Stem DNA"
+ ],
+ "style": [
+  "Distorted"
+ ],
+ "genre": [
+  "Trap"
+ ],
+ "key": "Bbm",
+ "bpm": 140,
+ "desc": "Gliding 808 with Charge saturation.",
+ "a": {
+  "o1_table": 11,
+  "o1_pos": 0.2712,
+  "o1_oct": -1,
+  "sub_lvl": 0.5105,
+  "voice": 1,
+  "glide": 0.08,
+  "f_cut": 1790.3278,
+  "f_res": 0.1267,
+  "f_key": 0.4,
+  "a_atk": 0.001,
+  "a_dec": 1.0841,
+  "a_sus": 0,
+  "a_rel": 0.1642,
+  "e_dec": 0.0784,
+  "charge": 0.55,
+  "oct": -1,
+  "f_drive": 0.2471,
+  "m1_src": 3,
+  "m1_dst": 5,
+  "m1_amt": 0.1363,
+  "vol": 7.07
+ },
+ "macros": [
+  0.5,
+  0.5,
+  0.5,
+  0.5,
+  0.7,
+  0.5,
+  0.5,
+  0.5
+ ]
+}

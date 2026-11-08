@@ -1,0 +1,45 @@
+{
+ "format": 1,
+ "name": "Retro Pick",
+ "author": "Trill Tron",
+ "type": "Pluck",
+ "character": "XENO",
+ "tags": [
+  "Airy"
+ ],
+ "style": [
+  "Airy"
+ ],
+ "genre": [
+  "Trap",
+  "Synthwave"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "XENO Pluck - Airy.",
+ "a": {
+  "o1_table": 16,
+  "o1_pos": 0.871,
+  "o2_lvl": 0.3853,
+  "o2_table": 1,
+  "o2_fine": 9.5334,
+  "f_cut": 1592.9728,
+  "f_res": 0.1263,
+  "f_env": 0.5728,
+  "f_key": 0.5,
+  "e_atk": 0.001,
+  "e_dec": 0.2381,
+  "a_atk": 0.001,
+  "a_dec": 0.3089,
+  "a_sus": 0,
+  "a_rel": 0.2956,
+  "delay_mix": 0.1559,
+  "verb_mix": 0.3,
+  "uni_n": 3,
+  "o1_warp": 0.4116,
+  "o1_warpmode": 1,
+  "l2_rate": 2.003,
+  "noise_lvl": 0.04,
+  "vol": 12
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "format": 1,
+ "name": "Turbo Section",
+ "author": "Trill Tron",
+ "type": "Brass",
+ "character": "FIVE-STAR",
+ "tags": [
+  "Airy",
+  "Warm"
+ ],
+ "style": [
+  "Airy",
+  "Warm"
+ ],
+ "genre": [
+  "Phonk",
+  "R&B"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "FIVE-STAR Brass - Airy, Warm.",
+ "a": {
+  "o1_table": 6,
+  "o1_pos": 0.5714,
+  "o2_lvl": 0.7229,
+  "o2_table": 6,
+  "o2_fine": 8.7917,
+  "o2_pos": 0.5224,
+  "uni_n": 4,
+  "uni_det": 0.3,
+  "f_cut": 725.405,
+  "f_res": 0.0594,
+  "f_env": 0.6584,
+  "e_atk": 0.1188,
+  "e_dec": 0.3235,
+  "e_sus": 0.5506,
+  "a_atk": 0.066,
+  "a_sus": 0.8125,
+  "a_rel": 0.1276,
+  "chorus": 0.35,
+  "verb_mix": 0.3,
+  "maxv": 10,
+  "m1_src": 4,
+  "m1_dst": 6,
+  "m1_amt": 0.3,
+  "m2_src": 5,
+  "m2_dst": 1,
+  "m2_amt": 0.3,
+  "uni_wid": 0.85,
+  "noise_lvl": 0.04,
+  "f_drive": 0.15,
+  "vol": 4.46
+ }
+}

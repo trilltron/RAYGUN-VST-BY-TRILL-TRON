@@ -1,0 +1,60 @@
+{
+ "format": 1,
+ "name": "Plasma Hook",
+ "author": "Trill Tron",
+ "type": "Lead",
+ "character": "BLASTER-8",
+ "tags": [
+  "Dark",
+  "Glitchy",
+  "Glide"
+ ],
+ "style": [
+  "Dark",
+  "Glitchy"
+ ],
+ "genre": [
+  "Lo-Fi",
+  "Phonk"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Lead - Dark, Glitchy.",
+ "a": {
+  "o1_table": 9,
+  "o1_pos": 0.5795,
+  "o2_lvl": 0.5056,
+  "o2_table": 1,
+  "o2_fine": 8.1801,
+  "o2_pos": 0.3359,
+  "uni_n": 5,
+  "uni_det": 0.3974,
+  "glide": 0.047,
+  "f_cut": 2684.8134,
+  "f_res": 0.2382,
+  "f_env": 0.387,
+  "f_key": 0.6,
+  "e_dec": 0.2735,
+  "e_sus": 0.3365,
+  "a_atk": 0.004,
+  "a_sus": 0.7308,
+  "a_rel": 0.193,
+  "delay_mix": 0.25,
+  "delay_fb": 0.55,
+  "verb_mix": 0.1011,
+  "l1_rate": 5.9024,
+  "m1_src": 1,
+  "m1_dst": 5,
+  "m2_src": 5,
+  "m2_dst": 5,
+  "m2_amt": 0.012,
+  "m3_src": 5,
+  "m3_dst": 6,
+  "m3_amt": 0.25,
+  "chorus": 0.4908,
+  "delay_time": 0.25,
+  "o1_warp": 0.4,
+  "o1_warpmode": 4,
+  "vol": 5.87
+ }
+}

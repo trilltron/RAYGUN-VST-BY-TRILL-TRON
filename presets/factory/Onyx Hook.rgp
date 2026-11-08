@@ -1,0 +1,57 @@
+{
+ "format": 1,
+ "name": "Onyx Hook",
+ "author": "Trill Tron",
+ "type": "Lead",
+ "character": "NEON-ROM",
+ "tags": [
+  "Soft",
+  "Mono",
+  "Glide"
+ ],
+ "style": [
+  "Soft"
+ ],
+ "genre": [
+  "R&B"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "NEON-ROM Lead - Soft.",
+ "a": {
+  "o1_table": 8,
+  "o1_pos": 0.9035,
+  "o2_lvl": 0.2686,
+  "o2_table": 0,
+  "o2_fine": 15.5664,
+  "o2_pos": 0.5962,
+  "uni_n": 5,
+  "uni_det": 0.1583,
+  "voice": 1,
+  "glide": 0.0649,
+  "f_cut": 1308.38,
+  "f_env": 0.1719,
+  "f_key": 0.6,
+  "e_dec": 0.5083,
+  "e_sus": 0.4116,
+  "a_atk": 0.03,
+  "a_sus": 0.8693,
+  "a_rel": 0.1745,
+  "delay_mix": 0.2335,
+  "delay_fb": 0.4,
+  "verb_mix": 0.1579,
+  "l1_rate": 5.5833,
+  "m1_src": 1,
+  "m1_dst": 5,
+  "m2_src": 5,
+  "m2_dst": 5,
+  "m2_amt": 0.012,
+  "m3_src": 5,
+  "m3_dst": 6,
+  "m3_amt": 0.25,
+  "o1_warp": 0.5976,
+  "o1_warpmode": 1,
+  "charge": 0.247,
+  "vol": 5.77
+ }
+}

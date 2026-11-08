@@ -1,0 +1,55 @@
+{
+ "format": 1,
+ "name": "Golden Orchestra Bed",
+ "author": "Trill Tron",
+ "type": "Strings",
+ "character": "BLASTER-8",
+ "tags": [
+  "Wide",
+  "Bright",
+  "Clean"
+ ],
+ "style": [
+  "Wide",
+  "Bright",
+  "Clean"
+ ],
+ "genre": [
+  "Trap",
+  "R&B"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Strings - Wide, Bright, Clean.",
+ "a": {
+  "o1_table": 7,
+  "o1_pos": 0.3741,
+  "o2_lvl": 0.6494,
+  "o2_table": 7,
+  "o2_pos": 0.3516,
+  "o2_fine": -9.397,
+  "uni_n": 4,
+  "uni_det": 0.414,
+  "uni_wid": 1,
+  "f_cut": 6812.1406,
+  "f_res": 0.08,
+  "f_env": 0.043,
+  "f_key": 0.5,
+  "a_atk": 0.2516,
+  "a_dec": 1.0,
+  "a_sus": 0.8122,
+  "a_rel": 0.5095,
+  "chorus": 0.4471,
+  "verb_mix": 0.2308,
+  "verb_size": 0.7,
+  "l1_rate": 4.2989,
+  "maxv": 12,
+  "m1_src": 2,
+  "m1_dst": 1,
+  "m1_amt": 0.0632,
+  "m2_src": 5,
+  "m2_dst": 6,
+  "m2_amt": 0.3,
+  "vol": 2.27
+ }
+}

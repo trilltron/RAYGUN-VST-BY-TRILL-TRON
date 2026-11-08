@@ -1,0 +1,52 @@
+{
+ "format": 1,
+ "name": "Chrome Low Orbit",
+ "author": "Trill Tron",
+ "type": "808",
+ "character": "XENO",
+ "tags": [
+  "Dark",
+  "Glitchy",
+  "Mono"
+ ],
+ "style": [
+  "Dark",
+  "Glitchy"
+ ],
+ "genre": [
+  "Drill",
+  "R&B"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "XENO 808 - Dark, Glitchy.",
+ "a": {
+  "o1_table": 13,
+  "o1_pos": 0.0056,
+  "o1_oct": -1,
+  "sub_lvl": 0.6617,
+  "voice": 1,
+  "f_cut": 459.5969,
+  "f_res": 0.1097,
+  "f_key": 0.4,
+  "a_atk": 0.001,
+  "a_dec": 2.1368,
+  "a_sus": 0,
+  "a_rel": 0.1712,
+  "e_dec": 0.0452,
+  "charge": 0.2872,
+  "oct": -1,
+  "f_drive": 0.092,
+  "m1_src": 3,
+  "m1_dst": 5,
+  "m1_amt": 0.1077,
+  "o1_warp": 0.4,
+  "o1_warpmode": 2,
+  "l2_rate": 2.3164,
+  "verb_mix": 0.05,
+  "delay_mix": 0.25,
+  "delay_time": 0.125,
+  "delay_fb": 0.55,
+  "vol": 9.12
+ }
+}

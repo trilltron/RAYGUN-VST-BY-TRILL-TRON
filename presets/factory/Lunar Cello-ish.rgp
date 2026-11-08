@@ -1,0 +1,58 @@
+{
+ "format": 1,
+ "name": "Lunar Cello-ish",
+ "author": "Trill Tron",
+ "type": "Strings",
+ "character": "NEON-ROM",
+ "tags": [
+  "Airy",
+  "Warm"
+ ],
+ "style": [
+  "Airy",
+  "Warm"
+ ],
+ "genre": [
+  "R&B"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "NEON-ROM Strings - Airy, Warm.",
+ "a": {
+  "o1_table": 7,
+  "o1_pos": 0.8963,
+  "o2_lvl": 0.7574,
+  "o2_table": 7,
+  "o2_pos": 0.6589,
+  "o2_fine": -2.8014,
+  "uni_n": 4,
+  "uni_det": 0.2639,
+  "uni_wid": 0.7923,
+  "f_cut": 3952.1541,
+  "f_res": 0.08,
+  "f_env": 0.0904,
+  "f_key": 0.5,
+  "a_atk": 0.2502,
+  "a_dec": 1.0,
+  "a_sus": 0.919,
+  "a_rel": 0.5665,
+  "chorus": 0.3258,
+  "verb_mix": 0.3347,
+  "verb_size": 0.7,
+  "l1_rate": 4.5733,
+  "maxv": 12,
+  "m1_src": 2,
+  "m1_dst": 1,
+  "m1_amt": 0.1314,
+  "m2_src": 5,
+  "m2_dst": 6,
+  "m2_amt": 0.3,
+  "o1_warp": 0.3769,
+  "o1_warpmode": 1,
+  "charge": 0.2146,
+  "delay_mix": 0.1702,
+  "noise_lvl": 0.04,
+  "f_drive": 0.15,
+  "vol": 1.35
+ }
+}

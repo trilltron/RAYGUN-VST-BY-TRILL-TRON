@@ -1,0 +1,48 @@
+{
+ "format": 1,
+ "name": "Zero-G Dirt Bass",
+ "author": "Trill Tron",
+ "type": "Bass",
+ "character": "PULP-TUBE",
+ "tags": [
+  "Bright",
+  "Soft",
+  "Mono",
+  "Glide"
+ ],
+ "style": [
+  "Bright",
+  "Soft"
+ ],
+ "genre": [
+  "Phonk"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "PULP-TUBE Bass - Bright, Soft.",
+ "a": {
+  "o1_table": 1,
+  "o1_pos": 0.5816,
+  "o2_lvl": 0.3016,
+  "o2_table": 2,
+  "o2_oct": -1,
+  "o2_pos": 0.3629,
+  "sub_lvl": 0.2251,
+  "voice": 1,
+  "glide": 0.0787,
+  "f_cut": 718.5281,
+  "f_env": 0.2797,
+  "f_key": 0.5,
+  "e_dec": 0.1535,
+  "e_sus": 0.022,
+  "a_atk": 0.03,
+  "a_dec": 0.4,
+  "a_sus": 0.8434,
+  "a_rel": 0.1973,
+  "oct": -1,
+  "f_drive": 0.2336,
+  "charge": 0.2377,
+  "chorus": 0.25,
+  "vol": 3.91
+ }
+}

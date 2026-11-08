@@ -1,0 +1,49 @@
+{
+ "format": 1,
+ "name": "Hyper Stab Brass",
+ "author": "Trill Tron",
+ "type": "Brass",
+ "character": "FIVE-STAR",
+ "tags": [
+  "Bright"
+ ],
+ "style": [
+  "Bright"
+ ],
+ "genre": [
+  "R&B"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "FIVE-STAR Brass - Bright.",
+ "a": {
+  "o1_table": 6,
+  "o1_pos": 0.4742,
+  "o2_lvl": 0.7265,
+  "o2_table": 0,
+  "o2_fine": 9.9529,
+  "o2_pos": 0.4912,
+  "uni_n": 4,
+  "uni_det": 0.3,
+  "f_cut": 1293.8326,
+  "f_res": 0.1546,
+  "f_env": 0.7833,
+  "e_atk": 0.0506,
+  "e_dec": 0.428,
+  "e_sus": 0.4703,
+  "a_atk": 0.0669,
+  "a_sus": 0.8447,
+  "a_rel": 0.2887,
+  "chorus": 0.35,
+  "verb_mix": 0.1931,
+  "maxv": 10,
+  "m1_src": 4,
+  "m1_dst": 6,
+  "m1_amt": 0.3,
+  "m2_src": 5,
+  "m2_dst": 1,
+  "m2_amt": 0.3,
+  "uni_wid": 0.85,
+  "vol": 0.0
+ }
+}

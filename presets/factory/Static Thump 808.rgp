@@ -1,0 +1,55 @@
+{
+ "format": 1,
+ "name": "Static Thump 808",
+ "author": "Trill Tron",
+ "type": "808",
+ "character": "MONO-VOLT",
+ "tags": [
+  "Glitchy",
+  "Punchy",
+  "Vintage",
+  "Mono",
+  "Glide"
+ ],
+ "style": [
+  "Glitchy",
+  "Punchy",
+  "Vintage"
+ ],
+ "genre": [
+  "Synthwave"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "MONO-VOLT 808 - Glitchy, Punchy, Vintage.",
+ "a": {
+  "o1_table": 11,
+  "o1_pos": 0.3311,
+  "o1_oct": -1,
+  "sub_lvl": 0.525,
+  "voice": 1,
+  "glide": 0.0211,
+  "f_cut": 589.3738,
+  "f_res": 0.2611,
+  "f_key": 0.4,
+  "a_atk": 0.001,
+  "a_dec": 2.3726,
+  "a_sus": 0,
+  "a_rel": 0.2048,
+  "e_dec": 0.0302,
+  "charge": 0.2751,
+  "oct": -1,
+  "f_drive": 0.2,
+  "m1_src": 3,
+  "m1_dst": 5,
+  "m1_amt": 0.1663,
+  "delay_mix": 0.25,
+  "delay_time": 0.1875,
+  "delay_fb": 0.55,
+  "o1_warp": 0.4,
+  "o1_warpmode": 4,
+  "f_env": 0.35,
+  "chorus": 0.3,
+  "vol": 5.27
+ }
+}

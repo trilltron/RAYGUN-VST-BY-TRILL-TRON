@@ -1,0 +1,56 @@
+{
+ "format": 1,
+ "name": "Electric Pattern",
+ "author": "Trill Tron",
+ "type": "Arp",
+ "character": "BLASTER-8",
+ "tags": [
+  "Airy",
+  "Warm",
+  "Glitchy",
+  "Synced"
+ ],
+ "style": [
+  "Airy",
+  "Warm",
+  "Glitchy"
+ ],
+ "genre": [
+  "Synthwave",
+  "Cinematic"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Arp - Airy, Warm, Glitchy.",
+ "a": {
+  "o1_table": 13,
+  "o1_pos": 0.9133,
+  "o2_lvl": 0.0518,
+  "o2_table": 1,
+  "o2_fine": 5.8936,
+  "f_cut": 2847.7381,
+  "f_res": 0.2951,
+  "f_env": 0.5845,
+  "f_key": 0.5,
+  "e_dec": 0.24,
+  "a_atk": 0.001,
+  "a_dec": 0.3025,
+  "a_sus": 0,
+  "a_rel": 0.1531,
+  "arp_on": 1,
+  "arp_mode": 3,
+  "arp_oct": 3,
+  "arp_gate": 0.5572,
+  "delay_mix": 0.25,
+  "delay_fb": 0.55,
+  "verb_mix": 0.3,
+  "uni_n": 2,
+  "chorus": 0.3774,
+  "noise_lvl": 0.04,
+  "f_drive": 0.15,
+  "delay_time": 0.125,
+  "o1_warp": 0.4,
+  "o1_warpmode": 4,
+  "vol": 4.05
+ }
+}

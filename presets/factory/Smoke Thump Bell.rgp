@@ -1,0 +1,49 @@
+{
+ "format": 1,
+ "name": "Smoke Thump Bell",
+ "author": "Trill Tron",
+ "type": "Bell",
+ "character": "CHROME-FM",
+ "tags": [
+  "Clean"
+ ],
+ "style": [
+  "Clean"
+ ],
+ "genre": [
+  "R&B",
+  "Synthwave"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM Bell - Clean.",
+ "a": {
+  "o1_table": 13,
+  "o1_pos": 0.4924,
+  "o2_lvl": 0.3087,
+  "o2_oct": 1,
+  "o2_pos": 0.3875,
+  "fm": 0.6271,
+  "f_cut": 11521.4291,
+  "f_res": 0.05,
+  "f_key": 0.8,
+  "a_atk": 0.001,
+  "a_dec": 2.1567,
+  "a_sus": 0,
+  "a_rel": 0.7025,
+  "e_dec": 0.8709,
+  "chorus": 0.21,
+  "delay_mix": 0.2906,
+  "delay_fb": 0.4,
+  "verb_mix": 0.4146,
+  "verb_size": 0.7,
+  "maxv": 10,
+  "m1_src": 3,
+  "m1_dst": 13,
+  "m1_amt": 0.3365,
+  "m2_src": 4,
+  "m2_dst": 13,
+  "m2_amt": 0.2,
+  "vol": 8.43
+ }
+}

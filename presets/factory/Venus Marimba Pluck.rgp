@@ -1,0 +1,54 @@
+{
+ "format": 1,
+ "name": "Venus Marimba Pluck",
+ "author": "Trill Tron",
+ "type": "Pluck",
+ "character": "CHROME-FM",
+ "tags": [
+  "Vintage",
+  "Evolving"
+ ],
+ "style": [
+  "Vintage",
+  "Evolving"
+ ],
+ "genre": [
+  "Lo-Fi",
+  "Drill"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM Pluck - Vintage, Evolving.",
+ "a": {
+  "o1_table": 8,
+  "o1_pos": 0.4817,
+  "o2_lvl": 0.4456,
+  "o2_fine": 11.0742,
+  "f_cut": 1680.38,
+  "f_res": 0.3435,
+  "f_env": 0.5914,
+  "f_key": 0.5,
+  "e_atk": 0.001,
+  "e_dec": 0.283,
+  "a_atk": 0.001,
+  "a_dec": 0.1468,
+  "a_sus": 0,
+  "a_rel": 0.2305,
+  "delay_mix": 0.1939,
+  "verb_mix": 0.0915,
+  "uni_n": 2,
+  "fm": 0.198,
+  "o2_oct": 1,
+  "o2_pos": 0.4974,
+  "chorus": 0.3,
+  "f_drive": 0.2,
+  "l1_rate": 0.2235,
+  "m6_src": 1,
+  "m6_dst": 1,
+  "m6_amt": 0.2693,
+  "m7_src": 2,
+  "m7_dst": 2,
+  "m7_amt": 0.3659,
+  "vol": 12
+ }
+}

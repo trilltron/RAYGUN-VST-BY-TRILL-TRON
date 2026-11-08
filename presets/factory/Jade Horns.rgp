@@ -1,0 +1,54 @@
+{
+ "format": 1,
+ "name": "Jade Horns",
+ "author": "Trill Tron",
+ "type": "Brass",
+ "character": "FIVE-STAR",
+ "tags": [
+  "Warm",
+  "Clean",
+  "Dark"
+ ],
+ "style": [
+  "Warm",
+  "Clean",
+  "Dark"
+ ],
+ "genre": [
+  "R&B"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "FIVE-STAR Brass - Warm, Clean, Dark.",
+ "a": {
+  "o1_table": 6,
+  "o1_pos": 0.5121,
+  "o2_lvl": 0.7279,
+  "o2_table": 6,
+  "o2_fine": 6.979,
+  "o2_pos": 0.4762,
+  "uni_n": 4,
+  "uni_det": 0.3,
+  "f_cut": 253.7124,
+  "f_res": 0.1313,
+  "f_env": 0.5757,
+  "e_atk": 0.078,
+  "e_dec": 0.3421,
+  "e_sus": 0.5766,
+  "a_atk": 0.0321,
+  "a_sus": 0.7167,
+  "a_rel": 0.2151,
+  "chorus": 0.35,
+  "verb_mix": 0.2095,
+  "maxv": 10,
+  "m1_src": 4,
+  "m1_dst": 6,
+  "m1_amt": 0.3,
+  "m2_src": 5,
+  "m2_dst": 1,
+  "m2_amt": 0.3,
+  "uni_wid": 0.85,
+  "f_drive": 0.15,
+  "vol": 6.99
+ }
+}

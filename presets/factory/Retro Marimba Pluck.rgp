@@ -1,0 +1,50 @@
+{
+ "format": 1,
+ "name": "Retro Marimba Pluck",
+ "author": "Trill Tron",
+ "type": "Pluck",
+ "character": "NEON-ROM",
+ "tags": [
+  "Soft",
+  "Vintage",
+  "Airy"
+ ],
+ "style": [
+  "Soft",
+  "Vintage",
+  "Airy"
+ ],
+ "genre": [
+  "Lo-Fi",
+  "R&B"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "NEON-ROM Pluck - Soft, Vintage, Airy.",
+ "a": {
+  "o1_table": 13,
+  "o1_pos": 0.3518,
+  "o2_lvl": 0.1772,
+  "o2_table": 1,
+  "o2_fine": 8.8284,
+  "f_cut": 637.2441,
+  "f_env": 0.425,
+  "f_key": 0.5,
+  "e_atk": 0.001,
+  "e_dec": 0.2571,
+  "a_atk": 0.03,
+  "a_dec": 0.3437,
+  "a_sus": 0,
+  "a_rel": 0.2883,
+  "delay_mix": 0.1493,
+  "verb_mix": 0.3,
+  "uni_n": 3,
+  "o1_warp": 0.4862,
+  "o1_warpmode": 4,
+  "charge": 0.1704,
+  "chorus": 0.3,
+  "f_drive": 0.2,
+  "noise_lvl": 0.04,
+  "vol": 9.71
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "format": 1,
+ "name": "Gamma Harp Pluck",
+ "author": "Trill Tron",
+ "type": "Pluck",
+ "character": "BLASTER-8",
+ "tags": [
+  "Soft",
+  "Bright"
+ ],
+ "style": [
+  "Soft",
+  "Bright"
+ ],
+ "genre": [
+  "Lo-Fi"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Pluck - Soft, Bright.",
+ "a": {
+  "o1_table": 10,
+  "o1_pos": 0.5617,
+  "o2_lvl": 0.1876,
+  "o2_table": 1,
+  "o2_fine": 10.8556,
+  "f_cut": 1468.9115,
+  "f_env": 0.5921,
+  "f_key": 0.5,
+  "e_atk": 0.001,
+  "e_dec": 0.1303,
+  "a_atk": 0.03,
+  "a_dec": 0.3184,
+  "a_sus": 0,
+  "a_rel": 0.1068,
+  "delay_mix": 0.0572,
+  "verb_mix": 0.1565,
+  "uni_n": 2,
+  "chorus": 0.4594,
+  "vol": 12
+ }
+}

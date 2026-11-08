@@ -1,0 +1,49 @@
+{
+ "format": 1,
+ "name": "Smoke Sweep",
+ "author": "Trill Tron",
+ "type": "FX",
+ "character": "CHROME-FM",
+ "tags": [
+  "Dark",
+  "Bright"
+ ],
+ "style": [
+  "Dark",
+  "Bright"
+ ],
+ "genre": [
+  "Phonk"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM FX - Dark, Bright.",
+ "a": {
+  "o1_table": 10,
+  "o1_pos": 0.5263,
+  "o2_lvl": 0.4905,
+  "o2_pos": 0.2464,
+  "o2_fine": 16.1527,
+  "o1_warp": 0.7086,
+  "o1_warpmode": 4,
+  "f_cut": 1948.3999,
+  "f_res": 0.2159,
+  "a_atk": 0.002,
+  "delay_mix": 0.3842,
+  "delay_fb": 0.5,
+  "verb_mix": 0.3238,
+  "verb_size": 0.8,
+  "maxv": 6,
+  "a_dec": 0.416,
+  "a_sus": 0,
+  "e_dec": 0.0848,
+  "m1_src": 3,
+  "m1_dst": 5,
+  "m1_amt": -0.956,
+  "m2_src": 3,
+  "m2_dst": 6,
+  "m2_amt": 0.6987,
+  "fm": 0.2675,
+  "vol": 11.84
+ }
+}

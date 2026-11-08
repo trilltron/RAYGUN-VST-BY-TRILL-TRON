@@ -1,0 +1,49 @@
+{
+ "format": 1,
+ "name": "Sugar Zap Pluck",
+ "author": "Trill Tron",
+ "type": "Pluck",
+ "character": "CHROME-FM",
+ "tags": [
+  "Glitchy",
+  "Warm"
+ ],
+ "style": [
+  "Glitchy",
+  "Warm"
+ ],
+ "genre": [
+  "Lo-Fi",
+  "Phonk"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM Pluck - Glitchy, Warm.",
+ "a": {
+  "o1_table": 3,
+  "o1_pos": 0.8559,
+  "o2_lvl": 0.1648,
+  "o2_fine": 8.4001,
+  "f_cut": 1548.8626,
+  "f_res": 0.2429,
+  "f_env": 0.7125,
+  "f_key": 0.5,
+  "e_atk": 0.001,
+  "e_dec": 0.2566,
+  "a_atk": 0.001,
+  "a_dec": 0.494,
+  "a_sus": 0,
+  "a_rel": 0.1041,
+  "delay_mix": 0.25,
+  "delay_fb": 0.55,
+  "verb_mix": 0.1432,
+  "fm": 0.1662,
+  "o2_oct": 1,
+  "o2_pos": 0.48,
+  "delay_time": 0.125,
+  "o1_warp": 0.4,
+  "o1_warpmode": 4,
+  "f_drive": 0.15,
+  "vol": 10.92
+ }
+}

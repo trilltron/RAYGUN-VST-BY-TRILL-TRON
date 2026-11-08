@@ -1,0 +1,53 @@
+{
+ "format": 1,
+ "name": "Nova Tubular",
+ "author": "Trill Tron",
+ "type": "Bell",
+ "character": "CHROME-FM",
+ "tags": [
+  "Punchy",
+  "Bright"
+ ],
+ "style": [
+  "Punchy",
+  "Bright"
+ ],
+ "genre": [
+  "Drill",
+  "Hyperpop"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM Bell - Punchy, Bright.",
+ "a": {
+  "o1_table": 4,
+  "o1_pos": 0.555,
+  "o2_table": 4,
+  "o2_lvl": 0.307,
+  "o2_oct": 1,
+  "o2_pos": 0.2186,
+  "fm": 0.3599,
+  "f_cut": 19163.95,
+  "f_res": 0.05,
+  "f_key": 0.8,
+  "a_atk": 0.001,
+  "a_dec": 1.3916,
+  "a_sus": 0,
+  "a_rel": 0.8407,
+  "e_dec": 0.2,
+  "chorus": 0.1345,
+  "delay_mix": 0.2523,
+  "delay_fb": 0.4,
+  "verb_mix": 0.3573,
+  "verb_size": 0.7,
+  "maxv": 10,
+  "m1_src": 3,
+  "m1_dst": 13,
+  "m1_amt": 0.2552,
+  "m2_src": 4,
+  "m2_dst": 13,
+  "m2_amt": 0.2,
+  "f_env": 0.35,
+  "vol": 6.54
+ }
+}

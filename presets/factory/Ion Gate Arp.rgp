@@ -1,0 +1,54 @@
+{
+ "format": 1,
+ "name": "Ion Gate Arp",
+ "author": "Trill Tron",
+ "type": "Arp",
+ "character": "BLASTER-8",
+ "tags": [
+  "Soft",
+  "Evolving",
+  "Synced"
+ ],
+ "style": [
+  "Soft",
+  "Evolving"
+ ],
+ "genre": [
+  "Drill",
+  "Cinematic"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Arp - Soft, Evolving.",
+ "a": {
+  "o1_pos": 0.2978,
+  "o2_lvl": 0.1038,
+  "o2_table": 1,
+  "o2_fine": 9.8274,
+  "f_cut": 1055.7097,
+  "f_env": 0.4123,
+  "f_key": 0.5,
+  "e_dec": 0.1398,
+  "a_atk": 0.03,
+  "a_dec": 0.3609,
+  "a_sus": 0,
+  "a_rel": 0.1509,
+  "arp_on": 1,
+  "arp_mode": 2,
+  "arp_oct": 3,
+  "arp_gate": 0.6907,
+  "delay_mix": 0.219,
+  "delay_fb": 0.4,
+  "verb_mix": 0.2276,
+  "uni_n": 2,
+  "chorus": 0.4397,
+  "l1_rate": 0.2449,
+  "m6_src": 1,
+  "m6_dst": 1,
+  "m6_amt": 0.2663,
+  "m7_src": 2,
+  "m7_dst": 2,
+  "m7_amt": 0.215,
+  "vol": 2.74
+ }
+}

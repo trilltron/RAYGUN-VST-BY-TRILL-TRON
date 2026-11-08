@@ -1,0 +1,56 @@
+{
+ "format": 1,
+ "name": "Breath Whistle LD",
+ "author": "Trill Tron",
+ "type": "Lead",
+ "character": "XENO",
+ "tags": [
+  "Airy",
+  "Vibrato",
+  "Trap",
+  "Stem DNA"
+ ],
+ "style": [
+  "Airy"
+ ],
+ "genre": [
+  "Trap"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "Breathy whistle lead with vibrato.",
+ "a": {
+  "o1_table": 9,
+  "o1_pos": 0.9669,
+  "o2_lvl": 0.4137,
+  "o2_table": 1,
+  "o2_fine": 8.3153,
+  "o2_pos": 0.3169,
+  "uni_n": 3,
+  "uni_det": 0.1868,
+  "voice": 2,
+  "glide": 0.0925,
+  "f_cut": 5683.7177,
+  "f_res": 0.1059,
+  "f_env": 0.143,
+  "f_key": 0.6,
+  "e_dec": 0.525,
+  "e_sus": 0.3353,
+  "a_atk": 0.06,
+  "a_sus": 0.8333,
+  "a_rel": 0.3285,
+  "delay_mix": 0.163,
+  "delay_fb": 0.4,
+  "verb_mix": 0.0794,
+  "l1_rate": 5.5,
+  "m1_src": 1,
+  "m1_dst": 5,
+  "m2_src": 5,
+  "m2_dst": 5,
+  "m2_amt": 0.012,
+  "m3_src": 5,
+  "m3_dst": 6,
+  "m3_amt": 0.25,
+  "vol": 5.19
+ }
+}

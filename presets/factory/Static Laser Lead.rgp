@@ -1,0 +1,59 @@
+{
+ "format": 1,
+ "name": "Static Laser Lead",
+ "author": "Trill Tron",
+ "type": "Lead",
+ "character": "NEON-ROM",
+ "tags": [
+  "Vintage",
+  "Glide"
+ ],
+ "style": [
+  "Vintage"
+ ],
+ "genre": [
+  "Phonk",
+  "Lo-Fi"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "NEON-ROM Lead - Vintage.",
+ "a": {
+  "o1_table": 9,
+  "o1_pos": 0.6396,
+  "o2_lvl": 0.3256,
+  "o2_table": 1,
+  "o2_fine": 11.9549,
+  "o2_pos": 0.8052,
+  "uni_n": 5,
+  "uni_det": 0.3556,
+  "glide": 0.035,
+  "f_cut": 2970.6981,
+  "f_res": 0.2597,
+  "f_env": 0.1348,
+  "f_key": 0.6,
+  "e_dec": 0.3015,
+  "e_sus": 0.579,
+  "a_atk": 0.004,
+  "a_sus": 0.8579,
+  "a_rel": 0.2971,
+  "delay_mix": 0.2936,
+  "delay_fb": 0.4,
+  "verb_mix": 0.2316,
+  "l1_rate": 6.3931,
+  "m1_src": 1,
+  "m1_dst": 5,
+  "m2_src": 5,
+  "m2_dst": 5,
+  "m2_amt": 0.012,
+  "m3_src": 5,
+  "m3_dst": 6,
+  "m3_amt": 0.25,
+  "o1_warp": 0.3253,
+  "o1_warpmode": 1,
+  "charge": 0.1862,
+  "chorus": 0.3,
+  "f_drive": 0.2,
+  "vol": 2.04
+ }
+}

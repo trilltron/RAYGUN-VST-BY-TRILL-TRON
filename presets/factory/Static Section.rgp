@@ -1,0 +1,59 @@
+{
+ "format": 1,
+ "name": "Static Section",
+ "author": "Trill Tron",
+ "type": "Brass",
+ "character": "PULP-TUBE",
+ "tags": [
+  "Evolving",
+  "Warm"
+ ],
+ "style": [
+  "Evolving",
+  "Warm"
+ ],
+ "genre": [
+  "Synthwave"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "PULP-TUBE Brass - Evolving, Warm.",
+ "a": {
+  "o1_table": 6,
+  "o1_pos": 0.6818,
+  "o2_lvl": 0.6405,
+  "o2_table": 2,
+  "o2_fine": 11.2955,
+  "o2_pos": 0.6961,
+  "uni_n": 3,
+  "uni_det": 0.1398,
+  "f_cut": 597.9922,
+  "f_res": 0.1074,
+  "f_env": 0.589,
+  "e_atk": 0.0797,
+  "e_dec": 0.4597,
+  "e_sus": 0.4435,
+  "a_atk": 0.0542,
+  "a_sus": 0.9667,
+  "a_rel": 0.2492,
+  "chorus": 0.2754,
+  "verb_mix": 0.1575,
+  "maxv": 10,
+  "m1_src": 4,
+  "m1_dst": 6,
+  "m1_amt": 0.3,
+  "m2_src": 5,
+  "m2_dst": 1,
+  "m2_amt": 0.3,
+  "f_drive": 0.3817,
+  "charge": 0.0878,
+  "l1_rate": 0.1098,
+  "m6_src": 1,
+  "m6_dst": 1,
+  "m6_amt": 0.4161,
+  "m7_src": 2,
+  "m7_dst": 2,
+  "m7_amt": 0.3467,
+  "vol": 4.21
+ }
+}

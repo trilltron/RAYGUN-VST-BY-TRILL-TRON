@@ -1,0 +1,59 @@
+{
+ "format": 1,
+ "name": "Mars Beam Lead",
+ "author": "Trill Tron",
+ "type": "Lead",
+ "character": "BLASTER-8",
+ "tags": [
+  "Warm",
+  "Vintage",
+  "Mono",
+  "Glide"
+ ],
+ "style": [
+  "Warm",
+  "Vintage"
+ ],
+ "genre": [
+  "Hyperpop",
+  "Lo-Fi"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Lead - Warm, Vintage.",
+ "a": {
+  "o1_pos": 0.6843,
+  "o2_lvl": 0.4767,
+  "o2_table": 0,
+  "o2_fine": 17.8063,
+  "o2_pos": 0.4773,
+  "uni_n": 2,
+  "uni_det": 0.1678,
+  "voice": 1,
+  "glide": 0.0922,
+  "f_cut": 1778.0386,
+  "f_res": 0.1271,
+  "f_env": 0.175,
+  "f_key": 0.6,
+  "e_dec": 0.274,
+  "e_sus": 0.4589,
+  "a_atk": 0.004,
+  "a_sus": 0.9481,
+  "a_rel": 0.3145,
+  "delay_mix": 0.1187,
+  "delay_fb": 0.4,
+  "verb_mix": 0.1677,
+  "l1_rate": 6.4204,
+  "m1_src": 1,
+  "m1_dst": 5,
+  "m2_src": 5,
+  "m2_dst": 5,
+  "m2_amt": 0.012,
+  "m3_src": 5,
+  "m3_dst": 6,
+  "m3_amt": 0.25,
+  "chorus": 0.4701,
+  "f_drive": 0.2,
+  "vol": 4.77
+ }
+}

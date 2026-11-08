@@ -1,0 +1,47 @@
+{
+ "format": 1,
+ "name": "Vortex Pluck",
+ "author": "Trill Tron",
+ "type": "Pluck",
+ "character": "CHROME-FM",
+ "tags": [
+  "Warm",
+  "Airy"
+ ],
+ "style": [
+  "Warm",
+  "Airy"
+ ],
+ "genre": [
+  "Lo-Fi",
+  "Drill"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM Pluck - Warm, Airy.",
+ "a": {
+  "o1_pos": 0.2099,
+  "o2_lvl": 0.3745,
+  "o2_table": 4,
+  "o2_fine": 6.5836,
+  "f_cut": 1834.5033,
+  "f_res": 0.342,
+  "f_env": 0.5142,
+  "f_key": 0.5,
+  "e_atk": 0.001,
+  "e_dec": 0.2389,
+  "a_atk": 0.001,
+  "a_dec": 0.2489,
+  "a_sus": 0,
+  "a_rel": 0.2026,
+  "delay_mix": 0.2165,
+  "verb_mix": 0.3,
+  "uni_n": 2,
+  "fm": 0.3008,
+  "o2_oct": 1,
+  "o2_pos": 0.3393,
+  "f_drive": 0.15,
+  "noise_lvl": 0.04,
+  "vol": 11.55
+ }
+}

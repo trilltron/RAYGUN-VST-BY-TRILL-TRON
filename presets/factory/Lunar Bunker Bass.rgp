@@ -1,0 +1,58 @@
+{
+ "format": 1,
+ "name": "Lunar Bunker Bass",
+ "author": "Trill Tron",
+ "type": "Bass",
+ "character": "XENO",
+ "tags": [
+  "Evolving",
+  "Clean",
+  "Mono",
+  "Glide"
+ ],
+ "style": [
+  "Evolving",
+  "Clean"
+ ],
+ "genre": [
+  "Synthwave"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "XENO Bass - Evolving, Clean.",
+ "a": {
+  "o1_table": 8,
+  "o1_pos": 0.6395,
+  "o2_lvl": 0.0119,
+  "o2_table": 11,
+  "o2_oct": -1,
+  "o2_pos": 0.5,
+  "sub_lvl": 0.4606,
+  "voice": 1,
+  "glide": 0.0641,
+  "f_cut": 638.6725,
+  "f_res": 0.1681,
+  "f_env": 0.5505,
+  "f_key": 0.5,
+  "e_dec": 0.3328,
+  "e_sus": 0.126,
+  "a_atk": 0.002,
+  "a_dec": 0.4,
+  "a_sus": 0.7474,
+  "a_rel": 0.1267,
+  "oct": -1,
+  "f_drive": 0.3789,
+  "charge": 0.2762,
+  "o1_warp": 0.4203,
+  "o1_warpmode": 2,
+  "l2_rate": 1.7848,
+  "l1_rate": 0.1037,
+  "m6_src": 1,
+  "m6_dst": 1,
+  "m6_amt": 0.224,
+  "m7_src": 2,
+  "m7_dst": 2,
+  "m7_amt": 0.3473,
+  "vol": 4.3
+ }
+}

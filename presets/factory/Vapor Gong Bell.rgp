@@ -1,0 +1,49 @@
+{
+ "format": 1,
+ "name": "Vapor Gong Bell",
+ "author": "Trill Tron",
+ "type": "Bell",
+ "character": "CHROME-FM",
+ "tags": [
+  "Dark"
+ ],
+ "style": [
+  "Dark"
+ ],
+ "genre": [
+  "Trap",
+  "Hyperpop"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM Bell - Dark.",
+ "a": {
+  "o1_table": 10,
+  "o1_pos": 0.3403,
+  "o2_table": 4,
+  "o2_lvl": 0.3133,
+  "o2_pos": 0.5184,
+  "fm": 0.5808,
+  "f_cut": 4602.9478,
+  "f_res": 0.05,
+  "f_key": 0.8,
+  "a_atk": 0.001,
+  "a_dec": 2.3807,
+  "a_sus": 0,
+  "a_rel": 1.2018,
+  "e_dec": 0.6471,
+  "chorus": 0.2758,
+  "delay_mix": 0.2287,
+  "delay_fb": 0.4,
+  "verb_mix": 0.4135,
+  "verb_size": 0.7,
+  "maxv": 10,
+  "m1_src": 3,
+  "m1_dst": 13,
+  "m1_amt": 0.3546,
+  "m2_src": 4,
+  "m2_dst": 13,
+  "m2_amt": 0.2,
+  "vol": 10.57
+ }
+}

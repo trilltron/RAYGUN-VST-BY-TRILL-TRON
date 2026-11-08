@@ -1,0 +1,48 @@
+{
+ "format": 1,
+ "name": "Delta Spark Pluck",
+ "author": "Trill Tron",
+ "type": "Pluck",
+ "character": "CHROME-FM",
+ "tags": [
+  "Vintage",
+  "Distorted"
+ ],
+ "style": [
+  "Vintage",
+  "Distorted"
+ ],
+ "genre": [
+  "Lo-Fi",
+  "R&B"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM Pluck - Vintage, Distorted.",
+ "a": {
+  "o1_table": 3,
+  "o1_pos": 0.491,
+  "o2_lvl": 0.3017,
+  "o2_table": 4,
+  "o2_fine": 10.3092,
+  "f_cut": 754.5424,
+  "f_res": 0.3077,
+  "f_env": 0.7073,
+  "f_key": 0.5,
+  "e_atk": 0.001,
+  "e_dec": 0.1398,
+  "a_atk": 0.001,
+  "a_dec": 0.4759,
+  "a_sus": 0,
+  "a_rel": 0.2045,
+  "delay_mix": 0.0801,
+  "verb_mix": 0.1544,
+  "fm": 0.4364,
+  "o2_oct": 1,
+  "o2_pos": 0.2028,
+  "chorus": 0.3,
+  "f_drive": 0.4,
+  "charge": 0.4086,
+  "vol": 6.22
+ }
+}

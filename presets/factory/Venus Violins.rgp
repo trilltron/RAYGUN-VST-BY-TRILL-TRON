@@ -1,0 +1,63 @@
+{
+ "format": 1,
+ "name": "Venus Violins",
+ "author": "Trill Tron",
+ "type": "Strings",
+ "character": "FIVE-STAR",
+ "tags": [
+  "Airy",
+  "Vintage",
+  "Evolving"
+ ],
+ "style": [
+  "Airy",
+  "Vintage",
+  "Evolving"
+ ],
+ "genre": [
+  "Lo-Fi",
+  "Trap"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "FIVE-STAR Strings - Airy, Vintage, Evolving.",
+ "a": {
+  "o1_table": 7,
+  "o1_pos": 0.4788,
+  "o2_lvl": 0.7675,
+  "o2_table": 7,
+  "o2_pos": 0.8805,
+  "o2_fine": -6.2102,
+  "uni_n": 6,
+  "uni_det": 0.3377,
+  "uni_wid": 0.85,
+  "f_cut": 6201.0686,
+  "f_res": 0.08,
+  "f_env": 0.0895,
+  "f_key": 0.5,
+  "a_atk": 0.3505,
+  "a_dec": 1.0,
+  "a_sus": 0.8002,
+  "a_rel": 1.1219,
+  "chorus": 0.4141,
+  "verb_mix": 0.3099,
+  "verb_size": 0.7,
+  "l1_rate": 0.3906,
+  "maxv": 12,
+  "m1_src": 2,
+  "m1_dst": 1,
+  "m1_amt": 0.086,
+  "m2_src": 5,
+  "m2_dst": 6,
+  "m2_amt": 0.3,
+  "noise_lvl": 0.04,
+  "f_drive": 0.2,
+  "m6_src": 1,
+  "m6_dst": 1,
+  "m6_amt": 0.3637,
+  "m7_src": 2,
+  "m7_dst": 2,
+  "m7_amt": 0.3141,
+  "vol": 4.14
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "format": 1,
+ "name": "Brass-Knuckle Laser Lead",
+ "author": "Trill Tron",
+ "type": "Lead",
+ "character": "BLASTER-8",
+ "tags": [
+  "Soft",
+  "Bright",
+  "Glide"
+ ],
+ "style": [
+  "Soft",
+  "Bright"
+ ],
+ "genre": [
+  "Lo-Fi",
+  "Phonk"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Lead - Soft, Bright.",
+ "a": {
+  "o1_table": 9,
+  "o1_pos": 0.7163,
+  "o2_lvl": 0.3368,
+  "o2_table": 1,
+  "o2_fine": 11.0075,
+  "o2_pos": 0.7571,
+  "uni_n": 5,
+  "uni_det": 0.118,
+  "glide": 0.0315,
+  "f_cut": 8247.0518,
+  "f_env": 0.3928,
+  "f_key": 0.6,
+  "e_dec": 0.2232,
+  "e_sus": 0.2851,
+  "a_atk": 0.03,
+  "a_sus": 0.8679,
+  "a_rel": 0.2364,
+  "delay_mix": 0.1631,
+  "delay_fb": 0.4,
+  "verb_mix": 0.2358,
+  "l1_rate": 4.945,
+  "m1_src": 1,
+  "m1_dst": 5,
+  "m2_src": 5,
+  "m2_dst": 5,
+  "m2_amt": 0.012,
+  "m3_src": 5,
+  "m3_dst": 6,
+  "m3_amt": 0.25,
+  "chorus": 0.2647,
+  "vol": 1.92
+ }
+}

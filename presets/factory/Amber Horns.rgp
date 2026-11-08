@@ -1,0 +1,61 @@
+{
+ "format": 1,
+ "name": "Amber Horns",
+ "author": "Trill Tron",
+ "type": "Brass",
+ "character": "FIVE-STAR",
+ "tags": [
+  "Evolving",
+  "Vintage",
+  "Punchy"
+ ],
+ "style": [
+  "Evolving",
+  "Vintage",
+  "Punchy"
+ ],
+ "genre": [
+  "Cinematic"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "FIVE-STAR Brass - Evolving, Vintage, Punchy.",
+ "a": {
+  "o1_table": 6,
+  "o1_pos": 0.2315,
+  "o2_lvl": 0.5525,
+  "o2_table": 0,
+  "o2_fine": 8.7165,
+  "o2_pos": 0.6831,
+  "uni_n": 4,
+  "uni_det": 0.3,
+  "f_cut": 549.2423,
+  "f_res": 0.1013,
+  "f_env": 0.5546,
+  "e_atk": 0.0825,
+  "e_dec": 0.2,
+  "e_sus": 0.4991,
+  "a_atk": 0.001,
+  "a_sus": 0.9391,
+  "a_rel": 0.1609,
+  "chorus": 0.35,
+  "verb_mix": 0.1692,
+  "maxv": 10,
+  "m1_src": 4,
+  "m1_dst": 6,
+  "m1_amt": 0.3,
+  "m2_src": 5,
+  "m2_dst": 1,
+  "m2_amt": 0.3,
+  "uni_wid": 0.85,
+  "l1_rate": 0.1523,
+  "m6_src": 1,
+  "m6_dst": 1,
+  "m6_amt": 0.292,
+  "m7_src": 2,
+  "m7_dst": 2,
+  "m7_amt": 0.2589,
+  "f_drive": 0.2,
+  "vol": 4.91
+ }
+}

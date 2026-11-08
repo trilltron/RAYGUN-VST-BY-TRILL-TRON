@@ -1,0 +1,61 @@
+{
+ "format": 1,
+ "name": "Gamma Sync Lead",
+ "author": "Trill Tron",
+ "type": "Lead",
+ "character": "BLASTER-8",
+ "tags": [
+  "Evolving",
+  "Bright"
+ ],
+ "style": [
+  "Evolving",
+  "Bright"
+ ],
+ "genre": [
+  "Synthwave"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Lead - Evolving, Bright.",
+ "a": {
+  "o1_table": 1,
+  "o1_pos": 0.7799,
+  "o2_lvl": 0.5418,
+  "o2_table": 0,
+  "o2_fine": 8.1127,
+  "o2_pos": 0.6031,
+  "uni_n": 2,
+  "uni_det": 0.3055,
+  "glide": 0.0067,
+  "f_cut": 7759.9267,
+  "f_res": 0.1919,
+  "f_env": 0.3992,
+  "f_key": 0.6,
+  "e_dec": 0.4372,
+  "e_sus": 0.5249,
+  "a_atk": 0.004,
+  "a_sus": 0.9136,
+  "a_rel": 0.2096,
+  "delay_mix": 0.2958,
+  "delay_fb": 0.4,
+  "verb_mix": 0.1185,
+  "l1_rate": 0.258,
+  "m1_src": 1,
+  "m1_dst": 5,
+  "m2_src": 5,
+  "m2_dst": 5,
+  "m2_amt": 0.012,
+  "m3_src": 5,
+  "m3_dst": 6,
+  "m3_amt": 0.25,
+  "chorus": 0.3309,
+  "m6_src": 1,
+  "m6_dst": 1,
+  "m6_amt": 0.3103,
+  "m7_src": 2,
+  "m7_dst": 2,
+  "m7_amt": 0.1936,
+  "vol": 0.0
+ }
+}

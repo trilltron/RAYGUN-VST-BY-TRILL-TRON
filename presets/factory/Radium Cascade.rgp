@@ -1,0 +1,50 @@
+{
+ "format": 1,
+ "name": "Radium Cascade",
+ "author": "Trill Tron",
+ "type": "Arp",
+ "character": "XENO",
+ "tags": [
+  "Dark",
+  "Bright",
+  "Synced"
+ ],
+ "style": [
+  "Dark",
+  "Bright"
+ ],
+ "genre": [
+  "Cinematic",
+  "Synthwave"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "XENO Arp - Dark, Bright.",
+ "a": {
+  "o1_table": 13,
+  "o1_pos": 0.8858,
+  "o2_lvl": 0.3203,
+  "o2_table": 1,
+  "o2_fine": 11.4426,
+  "f_cut": 878.6765,
+  "f_res": 0.2321,
+  "f_env": 0.4607,
+  "f_key": 0.5,
+  "e_dec": 0.1847,
+  "a_atk": 0.001,
+  "a_dec": 0.1925,
+  "a_sus": 0,
+  "a_rel": 0.1997,
+  "arp_on": 1,
+  "arp_rate": 5,
+  "arp_oct": 3,
+  "arp_gate": 0.6039,
+  "delay_mix": 0.1938,
+  "delay_fb": 0.4,
+  "verb_mix": 0.1996,
+  "o1_warp": 0.1233,
+  "o1_warpmode": 1,
+  "l2_rate": 0.3191,
+  "vol": 6.91
+ }
+}

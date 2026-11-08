@@ -1,0 +1,47 @@
+{
+ "format": 1,
+ "name": "Chrome Thump 808",
+ "author": "Trill Tron",
+ "type": "808",
+ "character": "XENO",
+ "tags": [
+  "Distorted",
+  "Bright",
+  "Mono"
+ ],
+ "style": [
+  "Distorted",
+  "Bright"
+ ],
+ "genre": [
+  "Lo-Fi"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "XENO 808 - Distorted, Bright.",
+ "a": {
+  "o1_table": 14,
+  "o1_pos": 0.4725,
+  "o1_oct": -1,
+  "sub_lvl": 0.5788,
+  "voice": 1,
+  "f_cut": 1530.8701,
+  "f_res": 0.1357,
+  "f_key": 0.4,
+  "a_atk": 0.001,
+  "a_dec": 1.9754,
+  "a_sus": 0,
+  "a_rel": 0.3947,
+  "e_dec": 0.0593,
+  "charge": 0.5643,
+  "oct": -1,
+  "f_drive": 0.4,
+  "m1_src": 3,
+  "m1_dst": 5,
+  "m1_amt": 0.0746,
+  "o1_warp": 0.1556,
+  "o1_warpmode": 2,
+  "l2_rate": 2.7727,
+  "vol": 4.57
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "format": 1,
+ "name": "Vapor Organ",
+ "author": "Trill Tron",
+ "type": "Keys",
+ "character": "CHROME-FM",
+ "tags": [
+  "Airy",
+  "Warm"
+ ],
+ "style": [
+  "Airy",
+  "Warm"
+ ],
+ "genre": [
+  "Phonk"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM Keys - Airy, Warm.",
+ "a": {
+  "f_cut": 6671.5411,
+  "f_res": 0.08,
+  "f_key": 0.5,
+  "a_atk": 0.003,
+  "a_dec": 1.4282,
+  "a_sus": 0.1834,
+  "a_rel": 0.732,
+  "e_dec": 0.3729,
+  "f_env": 0.2353,
+  "chorus": 0.2812,
+  "verb_mix": 0.3,
+  "maxv": 10,
+  "o1_table": 3,
+  "o1_pos": 0.5435,
+  "o2_pos": 0.5363,
+  "o2_lvl": 0.4236,
+  "sub_lvl": 0.2,
+  "m1_src": 4,
+  "m1_dst": 6,
+  "m1_amt": 0.3562,
+  "m2_src": 4,
+  "m2_dst": 1,
+  "m2_amt": 0.2505,
+  "fm": 0.1752,
+  "o2_oct": 1,
+  "noise_lvl": 0.04,
+  "f_drive": 0.15,
+  "vol": 6.59
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "format": 1,
+ "name": "Brass-Knuckle Gate Arp",
+ "author": "Trill Tron",
+ "type": "Arp",
+ "character": "XENO",
+ "tags": [
+  "Distorted",
+  "Dark",
+  "Synced"
+ ],
+ "style": [
+  "Distorted",
+  "Dark"
+ ],
+ "genre": [
+  "Synthwave"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "XENO Arp - Distorted, Dark.",
+ "a": {
+  "o1_table": 13,
+  "o1_pos": 0.5013,
+  "o2_lvl": 0.2433,
+  "o2_table": 1,
+  "o2_fine": 6.6407,
+  "f_cut": 1239.2724,
+  "f_res": 0.1747,
+  "f_env": 0.6052,
+  "f_key": 0.5,
+  "e_dec": 0.1759,
+  "a_atk": 0.001,
+  "a_dec": 0.2773,
+  "a_sus": 0,
+  "a_rel": 0.2586,
+  "arp_on": 1,
+  "arp_gate": 0.5195,
+  "delay_mix": 0.2782,
+  "delay_fb": 0.4,
+  "verb_mix": 0.2843,
+  "o1_warp": 0.1696,
+  "o1_warpmode": 1,
+  "l2_rate": 1.8967,
+  "charge": 0.5937,
+  "f_drive": 0.4,
+  "vol": 1.4
+ }
+}

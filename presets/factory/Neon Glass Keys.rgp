@@ -1,0 +1,46 @@
+{
+ "format": 1,
+ "name": "Neon Glass Keys",
+ "author": "Trill Tron",
+ "type": "Keys",
+ "character": "CHROME-FM",
+ "tags": [
+  "Bright",
+  "Stem DNA"
+ ],
+ "style": [
+  "Bright"
+ ],
+ "genre": [
+  "R&B"
+ ],
+ "key": "Bbm",
+ "bpm": 140,
+ "desc": "Bright glassy keys from the 351 insert.",
+ "a": {
+  "f_cut": 8136.0783,
+  "f_res": 0.08,
+  "f_key": 0.5,
+  "a_atk": 0.003,
+  "a_dec": 0.7414,
+  "a_sus": 0.0497,
+  "a_rel": 0.6705,
+  "e_dec": 0.1021,
+  "f_env": 0.1426,
+  "chorus": 0.2128,
+  "verb_mix": 0.2137,
+  "maxv": 10,
+  "o1_table": 13,
+  "o1_pos": 0.5,
+  "o2_table": 0,
+  "o2_lvl": 0.4566,
+  "sub_lvl": 0.2,
+  "m1_src": 4,
+  "m1_dst": 6,
+  "m1_amt": 0.2906,
+  "m2_src": 4,
+  "m2_dst": 1,
+  "m2_amt": 0.1833,
+  "vol": 12
+ }
+}

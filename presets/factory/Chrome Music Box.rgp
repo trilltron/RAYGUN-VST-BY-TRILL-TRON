@@ -1,0 +1,56 @@
+{
+ "format": 1,
+ "name": "Chrome Music Box",
+ "author": "Trill Tron",
+ "type": "Bell",
+ "character": "XENO",
+ "tags": [
+  "Clean",
+  "Distorted"
+ ],
+ "style": [
+  "Clean",
+  "Distorted"
+ ],
+ "genre": [
+  "Phonk"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "XENO Bell - Clean, Distorted.",
+ "a": {
+  "o1_table": 8,
+  "o1_pos": 0.1336,
+  "o2_table": 4,
+  "o2_lvl": 0.4636,
+  "o2_oct": 1,
+  "o2_pos": 0.4256,
+  "fm": 0.697,
+  "f_cut": 10733.4041,
+  "f_res": 0.05,
+  "f_key": 0.8,
+  "a_atk": 0.001,
+  "a_dec": 3.2933,
+  "a_sus": 0,
+  "a_rel": 1.7551,
+  "e_dec": 0.3228,
+  "chorus": 0.1901,
+  "delay_mix": 0.2382,
+  "delay_fb": 0.4,
+  "verb_mix": 0.3417,
+  "verb_size": 0.7,
+  "maxv": 10,
+  "m1_src": 3,
+  "m1_dst": 13,
+  "m1_amt": 0.3654,
+  "m2_src": 4,
+  "m2_dst": 13,
+  "m2_amt": 0.2,
+  "o1_warp": 0.4406,
+  "o1_warpmode": 1,
+  "l2_rate": 2.6586,
+  "charge": 0.4687,
+  "f_drive": 0.4,
+  "vol": 0.0
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "format": 1,
+ "name": "Chrome Stab",
+ "author": "Trill Tron",
+ "type": "Pluck",
+ "character": "XENO",
+ "tags": [
+  "Soft"
+ ],
+ "style": [
+  "Soft"
+ ],
+ "genre": [
+  "Hyperpop",
+  "R&B"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "XENO Pluck - Soft.",
+ "a": {
+  "o1_table": 8,
+  "o1_pos": 0.9526,
+  "o2_lvl": 0.049,
+  "o2_table": 1,
+  "o2_fine": 11.7503,
+  "f_cut": 868.4952,
+  "f_env": 0.7955,
+  "f_key": 0.5,
+  "e_atk": 0.001,
+  "e_dec": 0.2445,
+  "a_atk": 0.03,
+  "a_dec": 0.1951,
+  "a_sus": 0,
+  "a_rel": 0.2408,
+  "delay_mix": 0.1477,
+  "verb_mix": 0.1873,
+  "uni_n": 2,
+  "o1_warp": 0.1711,
+  "o1_warpmode": 2,
+  "l2_rate": 2.8213,
+  "vol": 12
+ }
+}

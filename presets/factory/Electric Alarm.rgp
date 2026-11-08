@@ -1,0 +1,61 @@
+{
+ "format": 1,
+ "name": "Electric Alarm",
+ "author": "Trill Tron",
+ "type": "FX",
+ "character": "CHROME-FM",
+ "tags": [
+  "Punchy",
+  "Bright",
+  "Evolving"
+ ],
+ "style": [
+  "Punchy",
+  "Bright",
+  "Evolving"
+ ],
+ "genre": [
+  "Hyperpop",
+  "Lo-Fi"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM FX - Punchy, Bright, Evolving.",
+ "a": {
+  "o1_table": 4,
+  "o1_pos": 0.8892,
+  "o2_lvl": 0.2836,
+  "o2_table": 4,
+  "o2_pos": 0.4712,
+  "o2_fine": -19.5149,
+  "o1_warp": 0.4432,
+  "o1_warpmode": 2,
+  "f_cut": 6628.6645,
+  "f_res": 0.5311,
+  "a_atk": 0.001,
+  "delay_mix": 0.3309,
+  "delay_fb": 0.5,
+  "verb_mix": 0.4148,
+  "verb_size": 0.8,
+  "maxv": 6,
+  "a_dec": 0.2568,
+  "a_sus": 0,
+  "e_dec": 0.1964,
+  "m1_src": 3,
+  "m1_dst": 5,
+  "m1_amt": -0.8887,
+  "m2_src": 3,
+  "m2_dst": 6,
+  "m2_amt": 0.7099,
+  "fm": 0.3293,
+  "f_env": 0.35,
+  "l1_rate": 0.3049,
+  "m6_src": 1,
+  "m6_dst": 1,
+  "m6_amt": 0.2334,
+  "m7_src": 2,
+  "m7_dst": 2,
+  "m7_amt": 0.3984,
+  "vol": 12
+ }
+}

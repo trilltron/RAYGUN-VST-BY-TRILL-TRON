@@ -1,0 +1,52 @@
+{
+ "format": 1,
+ "name": "Neon Ensemble",
+ "author": "Trill Tron",
+ "type": "Strings",
+ "character": "FIVE-STAR",
+ "tags": [
+  "Soft",
+  "Wide"
+ ],
+ "style": [
+  "Soft",
+  "Wide"
+ ],
+ "genre": [
+  "Synthwave"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "FIVE-STAR Strings - Soft, Wide.",
+ "a": {
+  "o1_table": 7,
+  "o1_pos": 0.4267,
+  "o2_lvl": 0.5539,
+  "o2_table": 0,
+  "o2_pos": 0.2306,
+  "o2_fine": -9.2391,
+  "uni_n": 5,
+  "uni_det": 0.3227,
+  "uni_wid": 1,
+  "f_cut": 3410.522,
+  "f_res": 0.08,
+  "f_env": 0.1408,
+  "f_key": 0.5,
+  "a_atk": 0.4188,
+  "a_dec": 1.0,
+  "a_sus": 0.9936,
+  "a_rel": 0.5252,
+  "chorus": 0.4,
+  "verb_mix": 0.2891,
+  "verb_size": 0.7,
+  "l1_rate": 4.4215,
+  "maxv": 12,
+  "m1_src": 2,
+  "m1_dst": 1,
+  "m1_amt": 0.0734,
+  "m2_src": 5,
+  "m2_dst": 6,
+  "m2_amt": 0.3,
+  "vol": 0.77
+ }
+}

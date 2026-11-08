@@ -1,0 +1,50 @@
+{
+ "format": 1,
+ "name": "Jet Heavy Round",
+ "author": "Trill Tron",
+ "type": "808",
+ "character": "BLASTER-8",
+ "tags": [
+  "Clean",
+  "Glitchy",
+  "Mono"
+ ],
+ "style": [
+  "Clean",
+  "Glitchy"
+ ],
+ "genre": [
+  "Phonk"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 808 - Clean, Glitchy.",
+ "a": {
+  "o1_pos": 0.1162,
+  "o1_oct": -1,
+  "sub_lvl": 0.5986,
+  "voice": 1,
+  "f_cut": 1687.8338,
+  "f_res": 0.0613,
+  "f_key": 0.4,
+  "a_atk": 0.001,
+  "a_dec": 3.3202,
+  "a_sus": 0,
+  "a_rel": 0.2781,
+  "e_dec": 0.084,
+  "charge": 0.173,
+  "oct": -1,
+  "f_drive": 0.2189,
+  "m1_src": 3,
+  "m1_dst": 5,
+  "m1_amt": 0.084,
+  "chorus": 0.4613,
+  "o2_fine": -2.823,
+  "delay_mix": 0.25,
+  "delay_time": 0.125,
+  "delay_fb": 0.55,
+  "o1_warp": 0.4,
+  "o1_warpmode": 4,
+  "vol": 4.99
+ }
+}

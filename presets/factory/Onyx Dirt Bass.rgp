@@ -1,0 +1,51 @@
+{
+ "format": 1,
+ "name": "Onyx Dirt Bass",
+ "author": "Trill Tron",
+ "type": "Bass",
+ "character": "XENO",
+ "tags": [
+  "Dark",
+  "Mono",
+  "Glide"
+ ],
+ "style": [
+  "Dark"
+ ],
+ "genre": [
+  "R&B",
+  "Lo-Fi"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "XENO Bass - Dark.",
+ "a": {
+  "o1_table": 15,
+  "o1_pos": 0.6076,
+  "o2_lvl": 0.338,
+  "o2_table": 11,
+  "o2_oct": -1,
+  "o2_pos": 0.478,
+  "sub_lvl": 0.3235,
+  "voice": 2,
+  "glide": 0.0399,
+  "f_cut": 218.7263,
+  "f_res": 0.4304,
+  "f_env": 0.4293,
+  "f_key": 0.5,
+  "e_dec": 0.2058,
+  "e_sus": 0.0349,
+  "a_atk": 0.002,
+  "a_dec": 0.4,
+  "a_sus": 0.6725,
+  "a_rel": 0.1063,
+  "oct": -1,
+  "f_drive": 0.2223,
+  "charge": 0.1171,
+  "o1_warp": 0.3448,
+  "o1_warpmode": 1,
+  "l2_rate": 0.5945,
+  "verb_mix": 0.05,
+  "vol": 7.1
+ }
+}

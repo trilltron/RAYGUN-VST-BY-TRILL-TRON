@@ -1,0 +1,62 @@
+{
+ "format": 1,
+ "name": "Orbit Aurora",
+ "author": "Trill Tron",
+ "type": "Pad",
+ "character": "XENO",
+ "tags": [
+  "Punchy",
+  "Soft",
+  "Wide"
+ ],
+ "style": [
+  "Punchy",
+  "Soft",
+  "Wide"
+ ],
+ "genre": [
+  "Drill"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "XENO Pad - Punchy, Soft, Wide.",
+ "a": {
+  "o1_table": 14,
+  "o1_pos": 0.1789,
+  "o2_lvl": 0.5072,
+  "o2_table": 5,
+  "o2_pos": 0.5731,
+  "o2_fine": 4.8074,
+  "uni_n": 4,
+  "uni_det": 0.468,
+  "uni_wid": 1,
+  "f_cut": 1610.7398,
+  "f_env": 0.35,
+  "f_key": 0.4,
+  "a_atk": 0.03,
+  "a_dec": 1.0,
+  "a_sus": 0.9083,
+  "a_rel": 2.6448,
+  "e_atk": 1.2822,
+  "e_dec": 0.2,
+  "e_sus": 0.3728,
+  "l1_rate": 0.4857,
+  "l2_rate": 2.9231,
+  "chorus": 0.4,
+  "verb_mix": 0.2775,
+  "verb_size": 0.7276,
+  "maxv": 12,
+  "m1_src": 1,
+  "m1_dst": 1,
+  "m1_amt": 0.2258,
+  "m2_src": 2,
+  "m2_dst": 2,
+  "m2_amt": 0.1544,
+  "m3_src": 5,
+  "m3_dst": 6,
+  "m3_amt": 0.3,
+  "o1_warp": 0.2514,
+  "o1_warpmode": 1,
+  "vol": -0.35
+ }
+}

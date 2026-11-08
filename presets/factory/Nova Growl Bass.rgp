@@ -1,0 +1,63 @@
+{
+ "format": 1,
+ "name": "Nova Growl Bass",
+ "author": "Trill Tron",
+ "type": "Bass",
+ "character": "BLASTER-8",
+ "tags": [
+  "Airy",
+  "Warm",
+  "Evolving",
+  "Mono",
+  "Glide"
+ ],
+ "style": [
+  "Airy",
+  "Warm",
+  "Evolving"
+ ],
+ "genre": [
+  "Drill",
+  "R&B"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Bass - Airy, Warm, Evolving.",
+ "a": {
+  "o1_table": 8,
+  "o1_pos": 0.4679,
+  "o2_lvl": 0.4834,
+  "o2_table": 11,
+  "o2_oct": -1,
+  "o2_pos": 0.3868,
+  "sub_lvl": 0.3984,
+  "voice": 2,
+  "glide": 0.073,
+  "f_cut": 219.0667,
+  "f_res": 0.2287,
+  "f_env": 0.4734,
+  "f_key": 0.5,
+  "e_dec": 0.2373,
+  "e_sus": 0.1496,
+  "a_atk": 0.002,
+  "a_dec": 0.4,
+  "a_sus": 0.6972,
+  "a_rel": 0.1911,
+  "oct": -1,
+  "f_drive": 0.2486,
+  "charge": 0.1514,
+  "chorus": 0.498,
+  "o2_fine": -6.1095,
+  "uni_n": 2,
+  "verb_mix": 0.3,
+  "noise_lvl": 0.04,
+  "l1_rate": 0.242,
+  "m6_src": 1,
+  "m6_dst": 1,
+  "m6_amt": 0.2014,
+  "m7_src": 2,
+  "m7_dst": 2,
+  "m7_amt": 0.1798,
+  "vol": 8.59
+ }
+}

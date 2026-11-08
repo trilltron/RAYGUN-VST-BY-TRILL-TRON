@@ -1,0 +1,61 @@
+{
+ "format": 1,
+ "name": "Cosmic Screamer",
+ "author": "Trill Tron",
+ "type": "Lead",
+ "character": "MONO-VOLT",
+ "tags": [
+  "Wide",
+  "Clean",
+  "Mono",
+  "Glide"
+ ],
+ "style": [
+  "Wide",
+  "Clean"
+ ],
+ "genre": [
+  "Synthwave",
+  "Cinematic"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "MONO-VOLT Lead - Wide, Clean.",
+ "a": {
+  "o1_table": 1,
+  "o1_pos": 0.9733,
+  "o2_lvl": 0.2966,
+  "o2_table": 0,
+  "o2_fine": 9.6887,
+  "o2_pos": 0.5649,
+  "uni_n": 3,
+  "uni_det": 0.1675,
+  "voice": 1,
+  "glide": 0.0315,
+  "f_cut": 3098.5766,
+  "f_res": 0.3284,
+  "f_env": 0.1795,
+  "f_key": 0.6,
+  "e_dec": 0.5376,
+  "e_sus": 0.4593,
+  "a_atk": 0.004,
+  "a_sus": 0.8406,
+  "a_rel": 0.2752,
+  "delay_mix": 0.1048,
+  "delay_fb": 0.4,
+  "verb_mix": 0.1219,
+  "l1_rate": 6.3637,
+  "m1_src": 1,
+  "m1_dst": 5,
+  "m2_src": 5,
+  "m2_dst": 5,
+  "m2_amt": 0.012,
+  "m3_src": 5,
+  "m3_dst": 6,
+  "m3_amt": 0.25,
+  "sub_lvl": 0.25,
+  "uni_wid": 1,
+  "chorus": 0.4,
+  "vol": 2.06
+ }
+}

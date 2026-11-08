@@ -1,0 +1,56 @@
+{
+ "format": 1,
+ "name": "Nova Blare",
+ "author": "Trill Tron",
+ "type": "Brass",
+ "character": "BLASTER-8",
+ "tags": [
+  "Punchy",
+  "Wide",
+  "Distorted"
+ ],
+ "style": [
+  "Punchy",
+  "Wide",
+  "Distorted"
+ ],
+ "genre": [
+  "Cinematic",
+  "Hyperpop"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Brass - Punchy, Wide, Distorted.",
+ "a": {
+  "o1_table": 6,
+  "o1_pos": 0.3578,
+  "o2_lvl": 0.6029,
+  "o2_table": 0,
+  "o2_fine": 6.3811,
+  "o2_pos": 0.4829,
+  "uni_n": 3,
+  "uni_det": 0.2424,
+  "f_cut": 958.0288,
+  "f_res": 0.0769,
+  "f_env": 0.6069,
+  "e_atk": 0.0967,
+  "e_dec": 0.2,
+  "e_sus": 0.5921,
+  "a_atk": 0.001,
+  "a_sus": 0.8297,
+  "a_rel": 0.283,
+  "chorus": 0.4,
+  "verb_mix": 0.1987,
+  "maxv": 10,
+  "m1_src": 4,
+  "m1_dst": 6,
+  "m1_amt": 0.3,
+  "m2_src": 5,
+  "m2_dst": 1,
+  "m2_amt": 0.3,
+  "uni_wid": 1,
+  "charge": 0.6913,
+  "f_drive": 0.4,
+  "vol": -1.86
+ }
+}

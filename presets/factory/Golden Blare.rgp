@@ -1,0 +1,53 @@
+{
+ "format": 1,
+ "name": "Golden Blare",
+ "author": "Trill Tron",
+ "type": "Brass",
+ "character": "BLASTER-8",
+ "tags": [
+  "Warm",
+  "Wide"
+ ],
+ "style": [
+  "Warm",
+  "Wide"
+ ],
+ "genre": [
+  "Hyperpop",
+  "Drill"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Brass - Warm, Wide.",
+ "a": {
+  "o1_table": 6,
+  "o1_pos": 0.5577,
+  "o2_lvl": 0.7322,
+  "o2_table": 6,
+  "o2_fine": 9.4138,
+  "o2_pos": 0.4843,
+  "uni_n": 3,
+  "uni_det": 0.2008,
+  "f_cut": 495.2381,
+  "f_res": 0.1442,
+  "f_env": 0.6405,
+  "e_atk": 0.0853,
+  "e_dec": 0.4057,
+  "e_sus": 0.5413,
+  "a_atk": 0.0402,
+  "a_sus": 0.7579,
+  "a_rel": 0.271,
+  "chorus": 0.4,
+  "verb_mix": 0.0961,
+  "maxv": 10,
+  "m1_src": 4,
+  "m1_dst": 6,
+  "m1_amt": 0.3,
+  "m2_src": 5,
+  "m2_dst": 1,
+  "m2_amt": 0.3,
+  "f_drive": 0.15,
+  "uni_wid": 1,
+  "vol": 5.69
+ }
+}

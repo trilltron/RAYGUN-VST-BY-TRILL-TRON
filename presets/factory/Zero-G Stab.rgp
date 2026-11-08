@@ -1,0 +1,53 @@
+{
+ "format": 1,
+ "name": "Zero-G Stab",
+ "author": "Trill Tron",
+ "type": "Pluck",
+ "character": "CHROME-FM",
+ "tags": [
+  "Airy",
+  "Warm",
+  "Glitchy"
+ ],
+ "style": [
+  "Airy",
+  "Warm",
+  "Glitchy"
+ ],
+ "genre": [
+  "R&B"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM Pluck - Airy, Warm, Glitchy.",
+ "a": {
+  "o1_table": 8,
+  "o1_pos": 0.5515,
+  "o2_lvl": 0.0048,
+  "o2_table": 4,
+  "o2_fine": 12.7234,
+  "f_cut": 1067.3614,
+  "f_res": 0.1039,
+  "f_env": 0.4643,
+  "f_key": 0.5,
+  "e_atk": 0.001,
+  "e_dec": 0.2536,
+  "a_atk": 0.001,
+  "a_dec": 0.3351,
+  "a_sus": 0,
+  "a_rel": 0.1053,
+  "delay_mix": 0.25,
+  "delay_fb": 0.55,
+  "verb_mix": 0.3,
+  "uni_n": 3,
+  "fm": 0.3429,
+  "o2_oct": 1,
+  "o2_pos": 0.5484,
+  "noise_lvl": 0.04,
+  "f_drive": 0.15,
+  "delay_time": 0.125,
+  "o1_warp": 0.4,
+  "o1_warpmode": 4,
+  "vol": 10.77
+ }
+}

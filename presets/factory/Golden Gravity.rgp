@@ -1,0 +1,45 @@
+{
+ "format": 1,
+ "name": "Golden Gravity",
+ "author": "Trill Tron",
+ "type": "808",
+ "character": "BLASTER-8",
+ "tags": [
+  "Soft",
+  "Mono",
+  "Glide"
+ ],
+ "style": [
+  "Soft"
+ ],
+ "genre": [
+  "Hyperpop",
+  "Synthwave"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 808 - Soft.",
+ "a": {
+  "o1_pos": 0.1158,
+  "o1_oct": -1,
+  "sub_lvl": 0.8411,
+  "voice": 1,
+  "glide": 0.0419,
+  "f_cut": 560.7958,
+  "f_key": 0.4,
+  "a_atk": 0.03,
+  "a_dec": 1.3094,
+  "a_sus": 0,
+  "a_rel": 0.3486,
+  "e_dec": 0.0671,
+  "charge": 0.2193,
+  "oct": -1,
+  "f_drive": 0.2719,
+  "m1_src": 3,
+  "m1_dst": 5,
+  "m1_amt": 0.0611,
+  "chorus": 0.3453,
+  "o2_fine": 1.0448,
+  "vol": 8.67
+ }
+}

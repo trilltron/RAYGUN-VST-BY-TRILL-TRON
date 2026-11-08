@@ -1,0 +1,48 @@
+{
+ "format": 1,
+ "name": "Phantom Saw Bass",
+ "author": "Trill Tron",
+ "type": "Bass",
+ "character": "MONO-VOLT",
+ "tags": [
+  "Distorted",
+  "Bright",
+  "Mono"
+ ],
+ "style": [
+  "Distorted",
+  "Bright"
+ ],
+ "genre": [
+  "Lo-Fi",
+  "Hyperpop"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "MONO-VOLT Bass - Distorted, Bright.",
+ "a": {
+  "o1_table": 1,
+  "o1_pos": 0.5928,
+  "o2_lvl": 0.1452,
+  "o2_table": 11,
+  "o2_oct": -1,
+  "o2_pos": 0.1489,
+  "sub_lvl": 0.2569,
+  "voice": 1,
+  "glide": 0.0154,
+  "f_cut": 653.1431,
+  "f_res": 0.4025,
+  "f_env": 0.597,
+  "f_key": 0.5,
+  "e_dec": 0.1415,
+  "e_sus": 0.0383,
+  "a_atk": 0.002,
+  "a_dec": 0.4,
+  "a_sus": 0.9701,
+  "a_rel": 0.1166,
+  "oct": -1,
+  "f_drive": 0.4,
+  "charge": 0.5094,
+  "vol": -0.47
+ }
+}

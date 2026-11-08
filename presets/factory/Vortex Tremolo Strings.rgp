@@ -1,0 +1,54 @@
+{
+ "format": 1,
+ "name": "Vortex Tremolo Strings",
+ "author": "Trill Tron",
+ "type": "Strings",
+ "character": "FIVE-STAR",
+ "tags": [
+  "Punchy",
+  "Soft"
+ ],
+ "style": [
+  "Punchy",
+  "Soft"
+ ],
+ "genre": [
+  "Cinematic",
+  "Phonk"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "FIVE-STAR Strings - Punchy, Soft.",
+ "a": {
+  "o1_table": 7,
+  "o1_pos": 0.7163,
+  "o2_lvl": 0.5786,
+  "o2_table": 1,
+  "o2_pos": 0.4712,
+  "o2_fine": 0.2083,
+  "uni_n": 4,
+  "uni_det": 0.4309,
+  "uni_wid": 0.85,
+  "f_cut": 2467.8839,
+  "f_res": 0.08,
+  "f_env": 0.35,
+  "f_key": 0.5,
+  "a_atk": 0.03,
+  "a_dec": 1.0,
+  "a_sus": 0.91,
+  "a_rel": 0.742,
+  "chorus": 0.5372,
+  "verb_mix": 0.2326,
+  "verb_size": 0.7,
+  "l1_rate": 5.1399,
+  "maxv": 12,
+  "m1_src": 2,
+  "m1_dst": 1,
+  "m1_amt": 0.0859,
+  "m2_src": 5,
+  "m2_dst": 6,
+  "m2_amt": 0.3,
+  "e_dec": 0.2,
+  "vol": 3.21
+ }
+}

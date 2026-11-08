@@ -1,0 +1,59 @@
+{
+ "format": 1,
+ "name": "Atomic Zap FX",
+ "author": "Trill Tron",
+ "type": "FX",
+ "character": "NEON-ROM",
+ "tags": [
+  "Evolving",
+  "Glitchy"
+ ],
+ "style": [
+  "Evolving",
+  "Glitchy"
+ ],
+ "genre": [
+  "Drill",
+  "Phonk"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "NEON-ROM FX - Evolving, Glitchy.",
+ "a": {
+  "o1_table": 16,
+  "o1_pos": 0.4325,
+  "o2_lvl": 0.3565,
+  "o2_table": 4,
+  "o2_pos": 0.9526,
+  "o2_fine": -23.3471,
+  "o1_warp": 0.4,
+  "o1_warpmode": 2,
+  "f_type": 3,
+  "f_cut": 2802.657,
+  "f_res": 0.4,
+  "a_atk": 0.0845,
+  "delay_mix": 0.25,
+  "delay_fb": 0.55,
+  "verb_mix": 0.261,
+  "verb_size": 0.8,
+  "maxv": 6,
+  "a_dec": 1.4135,
+  "a_sus": 0.7726,
+  "a_rel": 1.8432,
+  "noise_lvl": 0.6666,
+  "o1_lvl": 0.3,
+  "l1_rate": 0.3143,
+  "m1_src": 1,
+  "m1_dst": 6,
+  "m1_amt": 0.5,
+  "charge": 0.1041,
+  "m6_src": 1,
+  "m6_dst": 1,
+  "m6_amt": 0.2798,
+  "m7_src": 2,
+  "m7_dst": 2,
+  "m7_amt": 0.1523,
+  "delay_time": 0.125,
+  "vol": 8.46
+ }
+}

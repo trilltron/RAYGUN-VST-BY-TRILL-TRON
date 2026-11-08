@@ -1,0 +1,43 @@
+{
+ "format": 1,
+ "name": "Hyper Pick",
+ "author": "Trill Tron",
+ "type": "Pluck",
+ "character": "NEON-ROM",
+ "tags": [
+  "Bright"
+ ],
+ "style": [
+  "Bright"
+ ],
+ "genre": [
+  "Hyperpop",
+  "Phonk"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "NEON-ROM Pluck - Bright.",
+ "a": {
+  "o1_table": 1,
+  "o1_pos": 0.4463,
+  "o2_lvl": 0.2696,
+  "o2_table": 1,
+  "o2_fine": 4.711,
+  "f_cut": 2594.5256,
+  "f_res": 0.2682,
+  "f_env": 0.4203,
+  "f_key": 0.5,
+  "e_atk": 0.001,
+  "e_dec": 0.1133,
+  "a_atk": 0.001,
+  "a_dec": 0.2902,
+  "a_sus": 0,
+  "a_rel": 0.1386,
+  "delay_mix": 0.2224,
+  "verb_mix": 0.1993,
+  "o1_warp": 0.4606,
+  "o1_warpmode": 1,
+  "charge": 0.1112,
+  "vol": 9.4
+ }
+}

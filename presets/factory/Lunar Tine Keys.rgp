@@ -1,0 +1,52 @@
+{
+ "format": 1,
+ "name": "Lunar Tine Keys",
+ "author": "Trill Tron",
+ "type": "Keys",
+ "character": "NEON-ROM",
+ "tags": [
+  "Bright",
+  "Soft"
+ ],
+ "style": [
+  "Bright",
+  "Soft"
+ ],
+ "genre": [
+  "Hyperpop",
+  "Phonk"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "NEON-ROM Keys - Bright, Soft.",
+ "a": {
+  "f_cut": 7547.4774,
+  "f_res": 0.08,
+  "f_key": 0.5,
+  "a_atk": 0.03,
+  "a_dec": 1.3795,
+  "a_sus": 0.338,
+  "a_rel": 0.5254,
+  "e_dec": 0.2006,
+  "f_env": 0.2988,
+  "chorus": 0.1971,
+  "verb_mix": 0.1408,
+  "maxv": 10,
+  "o1_table": 3,
+  "o1_pos": 0.5925,
+  "o2_table": 0,
+  "o2_lvl": 0.3969,
+  "sub_lvl": 0.2,
+  "m1_src": 4,
+  "m1_dst": 6,
+  "m1_amt": 0.1568,
+  "m2_src": 4,
+  "m2_dst": 1,
+  "m2_amt": 0.2996,
+  "o1_warp": 0.2172,
+  "o1_warpmode": 3,
+  "charge": 0.2282,
+  "delay_mix": 0.1531,
+  "vol": 4.85
+ }
+}

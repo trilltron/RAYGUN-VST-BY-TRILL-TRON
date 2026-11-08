@@ -1,0 +1,47 @@
+{
+ "format": 1,
+ "name": "Crimson Growl Bass",
+ "author": "Trill Tron",
+ "type": "Bass",
+ "character": "MONO-VOLT",
+ "tags": [
+  "Vintage",
+  "Mono",
+  "Glide"
+ ],
+ "style": [
+  "Vintage"
+ ],
+ "genre": [
+  "Phonk"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "MONO-VOLT Bass - Vintage.",
+ "a": {
+  "o1_table": 10,
+  "o1_pos": 0.703,
+  "o2_lvl": 0.1929,
+  "o2_table": 11,
+  "o2_oct": -1,
+  "o2_pos": 0.1993,
+  "sub_lvl": 0.3296,
+  "voice": 1,
+  "glide": 0.0417,
+  "f_cut": 661.572,
+  "f_res": 0.3083,
+  "f_env": 0.2094,
+  "f_key": 0.5,
+  "e_dec": 0.2545,
+  "e_sus": 0.0135,
+  "a_atk": 0.002,
+  "a_dec": 0.4,
+  "a_sus": 0.6199,
+  "a_rel": 0.1879,
+  "oct": -1,
+  "f_drive": 0.2,
+  "charge": 0.158,
+  "chorus": 0.3,
+  "vol": 3.83
+ }
+}

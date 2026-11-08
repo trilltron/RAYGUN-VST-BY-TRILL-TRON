@@ -1,0 +1,54 @@
+{
+ "format": 1,
+ "name": "Zero-G Sweep",
+ "author": "Trill Tron",
+ "type": "FX",
+ "character": "XENO",
+ "tags": [
+  "Clean",
+  "Distorted"
+ ],
+ "style": [
+  "Clean",
+  "Distorted"
+ ],
+ "genre": [
+  "Hyperpop",
+  "Lo-Fi"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "XENO FX - Clean, Distorted.",
+ "a": {
+  "o1_table": 16,
+  "o1_pos": 0.5205,
+  "o2_lvl": 0.4372,
+  "o2_table": 8,
+  "o2_pos": 0.1754,
+  "o2_fine": 13.3553,
+  "o1_warp": 0.2583,
+  "o1_warpmode": 3,
+  "f_type": 3,
+  "f_cut": 1744.5443,
+  "f_res": 0.4,
+  "a_atk": 0.1769,
+  "delay_mix": 0.2548,
+  "delay_fb": 0.5,
+  "verb_mix": 0.3515,
+  "verb_size": 0.8,
+  "maxv": 6,
+  "a_dec": 1.0752,
+  "a_sus": 0.6204,
+  "a_rel": 1.0095,
+  "noise_lvl": 0.4642,
+  "o1_lvl": 0.3,
+  "l1_rate": 1.809,
+  "m1_src": 1,
+  "m1_dst": 6,
+  "m1_amt": 0.5,
+  "l2_rate": 0.9188,
+  "charge": 0.5479,
+  "f_drive": 0.4,
+  "vol": 3.48
+ }
+}

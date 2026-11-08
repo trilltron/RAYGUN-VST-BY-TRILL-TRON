@@ -1,0 +1,45 @@
+{
+ "format": 1,
+ "name": "Gamma Marimba Pluck",
+ "author": "Trill Tron",
+ "type": "Pluck",
+ "character": "BLASTER-8",
+ "tags": [
+  "Airy",
+  "Soft",
+  "Clean"
+ ],
+ "style": [
+  "Airy",
+  "Soft",
+  "Clean"
+ ],
+ "genre": [
+  "Lo-Fi"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Pluck - Airy, Soft, Clean.",
+ "a": {
+  "o1_table": 1,
+  "o1_pos": 0.7068,
+  "o2_lvl": 0.1973,
+  "o2_table": 1,
+  "o2_fine": 12.7499,
+  "f_cut": 1104.2463,
+  "f_env": 0.732,
+  "f_key": 0.5,
+  "e_atk": 0.001,
+  "e_dec": 0.2317,
+  "a_atk": 0.03,
+  "a_dec": 0.2066,
+  "a_sus": 0,
+  "a_rel": 0.2815,
+  "delay_mix": 0.0696,
+  "verb_mix": 0.3,
+  "uni_n": 3,
+  "chorus": 0.3933,
+  "noise_lvl": 0.04,
+  "vol": 11.5
+ }
+}

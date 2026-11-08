@@ -1,0 +1,54 @@
+{
+ "format": 1,
+ "name": "Cyber Music Box",
+ "author": "Trill Tron",
+ "type": "Bell",
+ "character": "CHROME-FM",
+ "tags": [
+  "Distorted",
+  "Wide"
+ ],
+ "style": [
+  "Distorted",
+  "Wide"
+ ],
+ "genre": [
+  "Phonk"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM Bell - Distorted, Wide.",
+ "a": {
+  "o1_table": 13,
+  "o1_pos": 0.2675,
+  "o2_table": 4,
+  "o2_lvl": 0.4827,
+  "o2_pos": 0.4113,
+  "fm": 0.6334,
+  "f_cut": 8762.7594,
+  "f_res": 0.05,
+  "f_key": 0.8,
+  "a_atk": 0.001,
+  "a_dec": 2.5999,
+  "a_sus": 0,
+  "a_rel": 1.7301,
+  "e_dec": 0.7496,
+  "chorus": 0.4,
+  "delay_mix": 0.2766,
+  "delay_fb": 0.4,
+  "verb_mix": 0.2607,
+  "verb_size": 0.7,
+  "maxv": 10,
+  "m1_src": 3,
+  "m1_dst": 13,
+  "m1_amt": 0.1776,
+  "m2_src": 4,
+  "m2_dst": 13,
+  "m2_amt": 0.2,
+  "charge": 0.5558,
+  "f_drive": 0.4,
+  "uni_n": 3,
+  "uni_wid": 1,
+  "vol": 0.0
+ }
+}

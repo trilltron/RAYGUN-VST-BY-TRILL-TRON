@@ -1,0 +1,52 @@
+{
+ "format": 1,
+ "name": "Neon Sweep Strings",
+ "author": "Trill Tron",
+ "type": "Strings",
+ "character": "FIVE-STAR",
+ "tags": [
+  "Dark",
+  "Bright"
+ ],
+ "style": [
+  "Dark",
+  "Bright"
+ ],
+ "genre": [
+  "Phonk"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "FIVE-STAR Strings - Dark, Bright.",
+ "a": {
+  "o1_table": 7,
+  "o1_pos": 0.6832,
+  "o2_lvl": 0.6885,
+  "o2_table": 0,
+  "o2_pos": 0.7015,
+  "o2_fine": -3.3866,
+  "uni_n": 5,
+  "uni_det": 0.3,
+  "uni_wid": 0.85,
+  "f_cut": 2882.3145,
+  "f_res": 0.08,
+  "f_env": 0.0985,
+  "f_key": 0.5,
+  "a_atk": 0.1645,
+  "a_dec": 1.0,
+  "a_sus": 0.9466,
+  "a_rel": 1.5689,
+  "chorus": 0.35,
+  "verb_mix": 0.3037,
+  "verb_size": 0.7,
+  "l1_rate": 4.5681,
+  "maxv": 12,
+  "m1_src": 2,
+  "m1_dst": 1,
+  "m1_amt": 0.1768,
+  "m2_src": 5,
+  "m2_dst": 6,
+  "m2_amt": 0.3,
+  "vol": -0.43
+ }
+}

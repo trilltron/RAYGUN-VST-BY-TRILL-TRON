@@ -1,0 +1,47 @@
+{
+ "format": 1,
+ "name": "Turbo Marimba Pluck",
+ "author": "Trill Tron",
+ "type": "Pluck",
+ "character": "BLASTER-8",
+ "tags": [
+  "Wide",
+  "Airy",
+  "Dark"
+ ],
+ "style": [
+  "Wide",
+  "Airy",
+  "Dark"
+ ],
+ "genre": [
+  "Synthwave"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Pluck - Wide, Airy, Dark.",
+ "a": {
+  "o1_table": 10,
+  "o1_pos": 0.5186,
+  "o2_lvl": 0.4172,
+  "o2_table": 1,
+  "o2_fine": 8.1025,
+  "f_cut": 536.5054,
+  "f_res": 0.3478,
+  "f_env": 0.5118,
+  "f_key": 0.5,
+  "e_atk": 0.001,
+  "e_dec": 0.2678,
+  "a_atk": 0.001,
+  "a_dec": 0.2806,
+  "a_sus": 0,
+  "a_rel": 0.2577,
+  "delay_mix": 0.0724,
+  "verb_mix": 0.35,
+  "uni_n": 3,
+  "chorus": 0.4779,
+  "uni_wid": 1,
+  "noise_lvl": 0.04,
+  "vol": 11.24
+ }
+}

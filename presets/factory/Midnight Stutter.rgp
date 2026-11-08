@@ -1,0 +1,54 @@
+{
+ "format": 1,
+ "name": "Midnight Stutter",
+ "author": "Trill Tron",
+ "type": "Arp",
+ "character": "NEON-ROM",
+ "tags": [
+  "Vintage",
+  "Warm",
+  "Soft",
+  "Synced"
+ ],
+ "style": [
+  "Vintage",
+  "Warm",
+  "Soft"
+ ],
+ "genre": [
+  "Cinematic",
+  "Phonk"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "NEON-ROM Arp - Vintage, Warm, Soft.",
+ "a": {
+  "o1_table": 13,
+  "o1_pos": 0.8709,
+  "o2_lvl": 0.4293,
+  "o2_table": 1,
+  "o2_fine": 5.3093,
+  "f_cut": 1126.8201,
+  "f_env": 0.5666,
+  "f_key": 0.5,
+  "e_dec": 0.1022,
+  "a_atk": 0.03,
+  "a_dec": 0.3321,
+  "a_sus": 0,
+  "a_rel": 0.2443,
+  "arp_on": 1,
+  "arp_rate": 5,
+  "arp_mode": 2,
+  "arp_gate": 0.3877,
+  "delay_mix": 0.1906,
+  "delay_fb": 0.4,
+  "verb_mix": 0.207,
+  "uni_n": 2,
+  "o1_warp": 0.2236,
+  "o1_warpmode": 1,
+  "charge": 0.2441,
+  "chorus": 0.3,
+  "f_drive": 0.2,
+  "vol": 2.73
+ }
+}

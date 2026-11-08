@@ -1,0 +1,51 @@
+{
+ "format": 1,
+ "name": "Astro Boom Tank",
+ "author": "Trill Tron",
+ "type": "808",
+ "character": "BLASTER-8",
+ "tags": [
+  "Bright",
+  "Airy",
+  "Punchy",
+  "Mono"
+ ],
+ "style": [
+  "Bright",
+  "Airy",
+  "Punchy"
+ ],
+ "genre": [
+  "Phonk",
+  "Hyperpop"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 808 - Bright, Airy, Punchy.",
+ "a": {
+  "o1_pos": 0.2744,
+  "o1_oct": -1,
+  "sub_lvl": 0.5824,
+  "voice": 1,
+  "f_cut": 2637.3518,
+  "f_res": 0.0548,
+  "f_key": 0.4,
+  "a_atk": 0.001,
+  "a_dec": 2.3376,
+  "a_sus": 0,
+  "a_rel": 0.2685,
+  "e_dec": 0.0822,
+  "charge": 0.335,
+  "oct": -1,
+  "f_drive": 0.1663,
+  "m1_src": 3,
+  "m1_dst": 5,
+  "m1_amt": 0.1135,
+  "chorus": 0.3166,
+  "o2_fine": 4.916,
+  "verb_mix": 0.3,
+  "noise_lvl": 0.04,
+  "f_env": 0.35,
+  "vol": 4.82
+ }
+}

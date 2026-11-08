@@ -1,0 +1,58 @@
+{
+ "format": 1,
+ "name": "Delta Zap FX",
+ "author": "Trill Tron",
+ "type": "FX",
+ "character": "CHROME-FM",
+ "tags": [
+  "Wide",
+  "Clean",
+  "Punchy"
+ ],
+ "style": [
+  "Wide",
+  "Clean",
+  "Punchy"
+ ],
+ "genre": [
+  "Cinematic"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM FX - Wide, Clean, Punchy.",
+ "a": {
+  "o1_table": 10,
+  "o1_pos": 0.8101,
+  "o2_lvl": 0.5537,
+  "o2_table": 4,
+  "o2_pos": 0.3922,
+  "o2_fine": -27.1625,
+  "o1_warp": 0.5218,
+  "o1_warpmode": 1,
+  "f_type": 3,
+  "f_cut": 1529.3801,
+  "f_res": 0.4,
+  "a_atk": 0.001,
+  "delay_mix": 0.2365,
+  "delay_fb": 0.5,
+  "verb_mix": 0.4145,
+  "verb_size": 0.8,
+  "maxv": 6,
+  "uni_n": 3,
+  "a_dec": 1.6617,
+  "a_sus": 0.5431,
+  "a_rel": 1.0793,
+  "noise_lvl": 0.5975,
+  "o1_lvl": 0.3,
+  "l1_rate": 0.8207,
+  "m1_src": 1,
+  "m1_dst": 6,
+  "m1_amt": 0.5,
+  "fm": 0.295,
+  "uni_wid": 1,
+  "chorus": 0.4,
+  "f_env": 0.35,
+  "e_dec": 0.2,
+  "vol": 11.64
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "format": 1,
+ "name": "Cobalt Lead",
+ "author": "Trill Tron",
+ "type": "Lead",
+ "character": "XENO",
+ "tags": [
+  "Vintage",
+  "Mono",
+  "Glide"
+ ],
+ "style": [
+  "Vintage"
+ ],
+ "genre": [
+  "Drill",
+  "Lo-Fi"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "XENO Lead - Vintage.",
+ "a": {
+  "o1_table": 15,
+  "o1_pos": 0.4435,
+  "o2_lvl": 0.5811,
+  "o2_table": 1,
+  "o2_fine": 6.0267,
+  "o2_pos": 0.7847,
+  "uni_n": 5,
+  "uni_det": 0.3875,
+  "voice": 1,
+  "glide": 0.0221,
+  "f_cut": 3788.3819,
+  "f_res": 0.1066,
+  "f_env": 0.3827,
+  "f_key": 0.6,
+  "e_dec": 0.3092,
+  "e_sus": 0.2406,
+  "a_atk": 0.004,
+  "a_sus": 0.744,
+  "a_rel": 0.2189,
+  "delay_mix": 0.2609,
+  "delay_fb": 0.4,
+  "verb_mix": 0.2106,
+  "l1_rate": 4.5695,
+  "m1_src": 1,
+  "m1_dst": 5,
+  "m2_src": 5,
+  "m2_dst": 5,
+  "m2_amt": 0.012,
+  "m3_src": 5,
+  "m3_dst": 6,
+  "m3_amt": 0.25,
+  "o1_warp": 0.2377,
+  "o1_warpmode": 4,
+  "l2_rate": 2.4683,
+  "chorus": 0.3,
+  "f_drive": 0.2,
+  "vol": 4.71
+ }
+}

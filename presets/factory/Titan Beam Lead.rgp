@@ -1,0 +1,56 @@
+{
+ "format": 1,
+ "name": "Titan Beam Lead",
+ "author": "Trill Tron",
+ "type": "Lead",
+ "character": "NEON-ROM",
+ "tags": [
+  "Glitchy",
+  "Glide"
+ ],
+ "style": [
+  "Glitchy"
+ ],
+ "genre": [
+  "R&B"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "NEON-ROM Lead - Glitchy.",
+ "a": {
+  "o1_table": 4,
+  "o1_pos": 0.6631,
+  "o2_lvl": 0.4207,
+  "o2_table": 1,
+  "o2_fine": 15.4722,
+  "o2_pos": 0.6528,
+  "uni_det": 0.1082,
+  "glide": 0.0387,
+  "f_cut": 4192.6344,
+  "f_res": 0.2567,
+  "f_env": 0.23,
+  "f_key": 0.6,
+  "e_dec": 0.441,
+  "e_sus": 0.3387,
+  "a_atk": 0.004,
+  "a_sus": 0.9067,
+  "a_rel": 0.2516,
+  "delay_mix": 0.2507,
+  "delay_fb": 0.55,
+  "verb_mix": 0.1015,
+  "l1_rate": 6.1537,
+  "m1_src": 1,
+  "m1_dst": 5,
+  "m2_src": 5,
+  "m2_dst": 5,
+  "m2_amt": 0.012,
+  "m3_src": 5,
+  "m3_dst": 6,
+  "m3_amt": 0.25,
+  "o1_warp": 0.4,
+  "o1_warpmode": 4,
+  "charge": 0.0826,
+  "delay_time": 0.25,
+  "vol": 1.98
+ }
+}

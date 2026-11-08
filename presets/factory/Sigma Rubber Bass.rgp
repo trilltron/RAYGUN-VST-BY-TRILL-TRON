@@ -1,0 +1,47 @@
+{
+ "format": 1,
+ "name": "Sigma Rubber Bass",
+ "author": "Trill Tron",
+ "type": "Bass",
+ "character": "PULP-TUBE",
+ "tags": [
+  "Punchy",
+  "Warm",
+  "Mono"
+ ],
+ "style": [
+  "Punchy",
+  "Warm"
+ ],
+ "genre": [
+  "Drill"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "PULP-TUBE Bass - Punchy, Warm.",
+ "a": {
+  "o1_pos": 0.9905,
+  "o2_lvl": 0.125,
+  "o2_table": 9,
+  "o2_oct": -1,
+  "o2_pos": 0.2227,
+  "sub_lvl": 0.2095,
+  "voice": 2,
+  "glide": 0.0128,
+  "f_cut": 371.6648,
+  "f_res": 0.274,
+  "f_env": 0.3737,
+  "f_key": 0.5,
+  "e_dec": 0.2,
+  "e_sus": 0.0495,
+  "a_atk": 0.001,
+  "a_dec": 0.4,
+  "a_sus": 0.9277,
+  "a_rel": 0.1761,
+  "oct": -1,
+  "f_drive": 0.4085,
+  "charge": 0.2696,
+  "chorus": 0.25,
+  "vol": 3.44
+ }
+}

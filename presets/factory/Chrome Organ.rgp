@@ -1,0 +1,58 @@
+{
+ "format": 1,
+ "name": "Chrome Organ",
+ "author": "Trill Tron",
+ "type": "Keys",
+ "character": "PULP-TUBE",
+ "tags": [
+  "Punchy",
+  "Distorted",
+  "Evolving"
+ ],
+ "style": [
+  "Punchy",
+  "Distorted",
+  "Evolving"
+ ],
+ "genre": [
+  "Cinematic"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "PULP-TUBE Keys - Punchy, Distorted, Evolving.",
+ "a": {
+  "f_cut": 5715.9657,
+  "f_res": 0.08,
+  "f_key": 0.5,
+  "a_atk": 0.001,
+  "a_dec": 0.1,
+  "a_sus": 0.9673,
+  "a_rel": 0.12,
+  "e_dec": 0.2,
+  "f_env": 0.35,
+  "chorus": 0.2681,
+  "verb_mix": 0.2482,
+  "maxv": 10,
+  "o1_table": 2,
+  "o1_pos": 0.4929,
+  "o2_table": 9,
+  "o2_lvl": 0.2062,
+  "o2_oct": 1,
+  "f_drive": 0.4,
+  "m1_src": 4,
+  "m1_dst": 6,
+  "m1_amt": 0.344,
+  "m2_src": 4,
+  "m2_dst": 1,
+  "m2_amt": 0.2717,
+  "charge": 0.6033,
+  "l1_rate": 0.2974,
+  "m6_src": 1,
+  "m6_dst": 1,
+  "m6_amt": 0.4259,
+  "m7_src": 2,
+  "m7_dst": 2,
+  "m7_amt": 0.3142,
+  "vol": -0.88
+ }
+}

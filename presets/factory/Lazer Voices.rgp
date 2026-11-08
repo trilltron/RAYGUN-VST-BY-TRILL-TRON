@@ -1,0 +1,55 @@
+{
+ "format": 1,
+ "name": "Lazer Voices",
+ "author": "Trill Tron",
+ "type": "Vox",
+ "character": "XENO",
+ "tags": [
+  "Distorted"
+ ],
+ "style": [
+  "Distorted"
+ ],
+ "genre": [
+  "Drill"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "XENO Vox - Distorted.",
+ "a": {
+  "o1_table": 16,
+  "o1_pos": 0.1108,
+  "o2_lvl": 0.4878,
+  "o2_table": 5,
+  "o2_pos": 0.9189,
+  "o2_fine": -4.5201,
+  "uni_n": 2,
+  "uni_det": 0.2419,
+  "f_cut": 3598.9369,
+  "f_key": 0.4,
+  "a_atk": 0.3825,
+  "a_dec": 0.6,
+  "a_sus": 0.9738,
+  "a_rel": 0.4901,
+  "l1_rate": 0.4426,
+  "l2_rate": 0.3147,
+  "chorus": 0.4759,
+  "verb_mix": 0.319,
+  "verb_size": 0.7,
+  "maxv": 10,
+  "m1_src": 1,
+  "m1_dst": 1,
+  "m1_amt": 0.2673,
+  "m2_src": 5,
+  "m2_dst": 1,
+  "m2_amt": 0.5,
+  "m3_src": 2,
+  "m3_dst": 5,
+  "m3_amt": 0.01,
+  "o1_warp": 0.3055,
+  "o1_warpmode": 4,
+  "charge": 0.5351,
+  "f_drive": 0.4,
+  "vol": -3.75
+ }
+}

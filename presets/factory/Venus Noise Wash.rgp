@@ -1,0 +1,53 @@
+{
+ "format": 1,
+ "name": "Venus Noise Wash",
+ "author": "Trill Tron",
+ "type": "FX",
+ "character": "NEON-ROM",
+ "tags": [
+  "Punchy",
+  "Soft"
+ ],
+ "style": [
+  "Punchy",
+  "Soft"
+ ],
+ "genre": [
+  "Hyperpop"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "NEON-ROM FX - Punchy, Soft.",
+ "a": {
+  "o1_table": 14,
+  "o1_pos": 0.7703,
+  "o2_lvl": 0.463,
+  "o2_table": 8,
+  "o2_pos": 0.1339,
+  "o2_fine": 26.9204,
+  "o1_warp": 0.3634,
+  "o1_warpmode": 1,
+  "f_type": 3,
+  "f_cut": 2766.3962,
+  "a_atk": 0.03,
+  "delay_mix": 0.37,
+  "delay_fb": 0.5,
+  "verb_mix": 0.3052,
+  "verb_size": 0.8,
+  "maxv": 6,
+  "uni_n": 3,
+  "a_dec": 1.3157,
+  "a_sus": 0.5435,
+  "a_rel": 1.291,
+  "noise_lvl": 0.8554,
+  "o1_lvl": 0.3,
+  "l1_rate": 0.9165,
+  "m1_src": 1,
+  "m1_dst": 6,
+  "m1_amt": 0.5,
+  "charge": 0.1927,
+  "f_env": 0.35,
+  "e_dec": 0.2,
+  "vol": 9.22
+ }
+}

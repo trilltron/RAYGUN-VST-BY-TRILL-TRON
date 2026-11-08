@@ -1,0 +1,53 @@
+{
+ "format": 1,
+ "name": "Vapor Fanfare",
+ "author": "Trill Tron",
+ "type": "Brass",
+ "character": "BLASTER-8",
+ "tags": [
+  "Vintage",
+  "Soft",
+  "Punchy"
+ ],
+ "style": [
+  "Vintage",
+  "Soft",
+  "Punchy"
+ ],
+ "genre": [
+  "Cinematic",
+  "Drill"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Brass - Vintage, Soft, Punchy.",
+ "a": {
+  "o1_table": 6,
+  "o1_pos": 0.589,
+  "o2_lvl": 0.7048,
+  "o2_table": 6,
+  "o2_fine": 9.8202,
+  "o2_pos": 0.7569,
+  "uni_n": 3,
+  "uni_det": 0.2168,
+  "f_cut": 330.4739,
+  "f_env": 0.8269,
+  "e_atk": 0.0412,
+  "e_dec": 0.2,
+  "e_sus": 0.3576,
+  "a_atk": 0.001,
+  "a_sus": 0.7576,
+  "a_rel": 0.2261,
+  "chorus": 0.3269,
+  "verb_mix": 0.1198,
+  "maxv": 10,
+  "m1_src": 4,
+  "m1_dst": 6,
+  "m1_amt": 0.3,
+  "m2_src": 5,
+  "m2_dst": 1,
+  "m2_amt": 0.3,
+  "f_drive": 0.2,
+  "vol": 6.55
+ }
+}

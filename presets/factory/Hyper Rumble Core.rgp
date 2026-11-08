@@ -1,0 +1,54 @@
+{
+ "format": 1,
+ "name": "Hyper Rumble Core",
+ "author": "Trill Tron",
+ "type": "808",
+ "character": "XENO",
+ "tags": [
+  "Dark",
+  "Glitchy",
+  "Mono",
+  "Glide"
+ ],
+ "style": [
+  "Dark",
+  "Glitchy"
+ ],
+ "genre": [
+  "Hyperpop",
+  "Trap"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "XENO 808 - Dark, Glitchy.",
+ "a": {
+  "o1_table": 8,
+  "o1_pos": 0.2774,
+  "o1_oct": -1,
+  "sub_lvl": 0.6915,
+  "voice": 1,
+  "glide": 0.0621,
+  "f_cut": 238.1352,
+  "f_res": 0.1536,
+  "f_key": 0.4,
+  "a_atk": 0.001,
+  "a_dec": 3.1725,
+  "a_sus": 0,
+  "a_rel": 0.469,
+  "e_dec": 0.0789,
+  "charge": 0.4398,
+  "oct": -1,
+  "f_drive": 0.0847,
+  "m1_src": 3,
+  "m1_dst": 5,
+  "m1_amt": 0.086,
+  "o1_warp": 0.4,
+  "o1_warpmode": 2,
+  "l2_rate": 1.6483,
+  "verb_mix": 0.05,
+  "delay_mix": 0.25,
+  "delay_time": 0.25,
+  "delay_fb": 0.55,
+  "vol": 6.87
+ }
+}

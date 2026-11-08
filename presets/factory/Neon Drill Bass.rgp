@@ -1,0 +1,49 @@
+{
+ "format": 1,
+ "name": "Neon Drill Bass",
+ "author": "Trill Tron",
+ "type": "Bass",
+ "character": "BLASTER-8",
+ "tags": [
+  "Soft",
+  "Distorted",
+  "Mono",
+  "Glide"
+ ],
+ "style": [
+  "Soft",
+  "Distorted"
+ ],
+ "genre": [
+  "Lo-Fi"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Bass - Soft, Distorted.",
+ "a": {
+  "o1_pos": 0.9964,
+  "o2_lvl": 0.3081,
+  "o2_table": 11,
+  "o2_oct": -1,
+  "o2_pos": 0.2503,
+  "sub_lvl": 0.4617,
+  "voice": 1,
+  "glide": 0.0471,
+  "f_cut": 519.6418,
+  "f_env": 0.4551,
+  "f_key": 0.5,
+  "e_dec": 0.2868,
+  "e_sus": 0.0707,
+  "a_atk": 0.03,
+  "a_dec": 0.4,
+  "a_sus": 0.9577,
+  "a_rel": 0.1457,
+  "oct": -1,
+  "f_drive": 0.4,
+  "charge": 0.4142,
+  "chorus": 0.3609,
+  "o2_fine": 3.0088,
+  "uni_n": 2,
+  "vol": 1.09
+ }
+}

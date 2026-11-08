@@ -1,0 +1,62 @@
+{
+ "format": 1,
+ "name": "Turbo Pad",
+ "author": "Trill Tron",
+ "type": "Pad",
+ "character": "BLASTER-8",
+ "tags": [
+  "Warm",
+  "Wide",
+  "Vintage"
+ ],
+ "style": [
+  "Warm",
+  "Wide",
+  "Vintage"
+ ],
+ "genre": [
+  "Drill",
+  "Hyperpop"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Pad - Warm, Wide, Vintage.",
+ "a": {
+  "o1_pos": 0.5096,
+  "o2_lvl": 0.4487,
+  "o2_table": 1,
+  "o2_pos": 0.1964,
+  "o2_fine": 8.7404,
+  "uni_n": 4,
+  "uni_det": 0.2967,
+  "uni_wid": 1,
+  "f_cut": 2593.4521,
+  "f_res": 0.2364,
+  "f_env": 0.0953,
+  "f_key": 0.4,
+  "a_atk": 1.1263,
+  "a_dec": 1.0,
+  "a_sus": 0.9675,
+  "a_rel": 1.9408,
+  "e_atk": 0.6401,
+  "e_dec": 2.7628,
+  "e_sus": 0.5164,
+  "l1_rate": 0.1596,
+  "l2_rate": 0.1954,
+  "chorus": 0.4,
+  "verb_mix": 0.4253,
+  "verb_size": 0.6902,
+  "maxv": 12,
+  "m1_src": 1,
+  "m1_dst": 1,
+  "m1_amt": 0.1401,
+  "m2_src": 2,
+  "m2_dst": 2,
+  "m2_amt": 0.1594,
+  "m3_src": 5,
+  "m3_dst": 6,
+  "m3_amt": 0.3,
+  "f_drive": 0.2,
+  "vol": 1.38
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "format": 1,
+ "name": "Warp Chant",
+ "author": "Trill Tron",
+ "type": "Vox",
+ "character": "NEON-ROM",
+ "tags": [
+  "Bright",
+  "Vintage"
+ ],
+ "style": [
+  "Bright",
+  "Vintage"
+ ],
+ "genre": [
+  "Trap",
+  "Drill"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "NEON-ROM Vox - Bright, Vintage.",
+ "a": {
+  "o1_table": 5,
+  "o1_pos": 0.5133,
+  "o2_lvl": 0.3684,
+  "o2_table": 9,
+  "o2_pos": 0.9618,
+  "o2_fine": -7.3049,
+  "uni_n": 4,
+  "uni_det": 0.1012,
+  "f_cut": 7784.7018,
+  "f_key": 0.4,
+  "a_atk": 0.2365,
+  "a_dec": 0.6,
+  "a_sus": 0.99,
+  "a_rel": 0.9792,
+  "l1_rate": 0.4245,
+  "l2_rate": 5.2067,
+  "chorus": 0.4706,
+  "verb_mix": 0.3307,
+  "verb_size": 0.7,
+  "maxv": 10,
+  "m1_src": 1,
+  "m1_dst": 1,
+  "m1_amt": 0.2502,
+  "m2_src": 5,
+  "m2_dst": 1,
+  "m2_amt": 0.5,
+  "m3_src": 2,
+  "m3_dst": 5,
+  "m3_amt": 0.01,
+  "o1_warp": 0.4467,
+  "o1_warpmode": 3,
+  "charge": 0.1464,
+  "delay_mix": 0.0806,
+  "f_drive": 0.2,
+  "vol": 1.14
+ }
+}

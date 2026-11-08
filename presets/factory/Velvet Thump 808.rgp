@@ -1,0 +1,46 @@
+{
+ "format": 1,
+ "name": "Velvet Thump 808",
+ "author": "Trill Tron",
+ "type": "808",
+ "character": "MONO-VOLT",
+ "tags": [
+  "Dark",
+  "Mono",
+  "Glide"
+ ],
+ "style": [
+  "Dark"
+ ],
+ "genre": [
+  "Synthwave",
+  "R&B"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "MONO-VOLT 808 - Dark.",
+ "a": {
+  "o1_table": 11,
+  "o1_pos": 0.0803,
+  "o1_oct": -1,
+  "sub_lvl": 0.6011,
+  "voice": 1,
+  "glide": 0.1185,
+  "f_cut": 343.9074,
+  "f_res": 0.3555,
+  "f_key": 0.4,
+  "a_atk": 0.001,
+  "a_dec": 0.9686,
+  "a_sus": 0,
+  "a_rel": 0.4014,
+  "e_dec": 0.0628,
+  "charge": 0.4891,
+  "oct": -1,
+  "f_drive": 0.0215,
+  "m1_src": 3,
+  "m1_dst": 5,
+  "m1_amt": 0.1602,
+  "verb_mix": 0.05,
+  "vol": 7.28
+ }
+}

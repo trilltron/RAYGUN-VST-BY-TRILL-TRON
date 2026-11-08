@@ -1,0 +1,52 @@
+{
+ "format": 1,
+ "name": "Solar Noise Wash",
+ "author": "Trill Tron",
+ "type": "FX",
+ "character": "XENO",
+ "tags": [
+  "Warm"
+ ],
+ "style": [
+  "Warm"
+ ],
+ "genre": [
+  "R&B",
+  "Hyperpop"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "XENO FX - Warm.",
+ "a": {
+  "o1_table": 13,
+  "o1_pos": 0.8561,
+  "o2_lvl": 0.4213,
+  "o2_table": 4,
+  "o2_pos": 0.1444,
+  "o2_fine": 17.0505,
+  "o1_warp": 0.5642,
+  "o1_warpmode": 4,
+  "f_type": 3,
+  "f_cut": 5000.736,
+  "f_res": 0.5114,
+  "a_atk": 0.002,
+  "delay_mix": 0.3455,
+  "delay_fb": 0.5,
+  "verb_mix": 0.3512,
+  "verb_size": 0.8,
+  "maxv": 6,
+  "uni_n": 3,
+  "a_dec": 0.2277,
+  "a_sus": 0,
+  "e_dec": 0.094,
+  "m1_src": 3,
+  "m1_dst": 5,
+  "m1_amt": -0.9808,
+  "m2_src": 3,
+  "m2_dst": 6,
+  "m2_amt": 0.3107,
+  "l2_rate": 0.7644,
+  "f_drive": 0.15,
+  "vol": 12
+ }
+}

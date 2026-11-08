@@ -1,0 +1,58 @@
+{
+ "format": 1,
+ "name": "Static Zap Pluck",
+ "author": "Trill Tron",
+ "type": "Pluck",
+ "character": "CHROME-FM",
+ "tags": [
+  "Distorted",
+  "Evolving",
+  "Wide"
+ ],
+ "style": [
+  "Distorted",
+  "Evolving",
+  "Wide"
+ ],
+ "genre": [
+  "Synthwave"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM Pluck - Distorted, Evolving, Wide.",
+ "a": {
+  "o1_table": 13,
+  "o1_pos": 0.7038,
+  "o2_lvl": 0.1019,
+  "o2_table": 4,
+  "o2_fine": 13.1198,
+  "f_cut": 2056.1931,
+  "f_res": 0.1445,
+  "f_env": 0.7323,
+  "f_key": 0.5,
+  "e_atk": 0.001,
+  "e_dec": 0.1749,
+  "a_atk": 0.001,
+  "a_dec": 0.2538,
+  "a_sus": 0,
+  "a_rel": 0.2595,
+  "delay_mix": 0.2328,
+  "verb_mix": 0.1041,
+  "uni_n": 3,
+  "fm": 0.2195,
+  "o2_oct": 1,
+  "o2_pos": 0.3225,
+  "charge": 0.4946,
+  "f_drive": 0.4,
+  "l1_rate": 0.2051,
+  "m6_src": 1,
+  "m6_dst": 1,
+  "m6_amt": 0.4887,
+  "m7_src": 2,
+  "m7_dst": 2,
+  "m7_amt": 0.3428,
+  "uni_wid": 1,
+  "chorus": 0.4,
+  "vol": 6.85
+ }
+}

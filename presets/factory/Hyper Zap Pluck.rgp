@@ -1,0 +1,47 @@
+{
+ "format": 1,
+ "name": "Hyper Zap Pluck",
+ "author": "Trill Tron",
+ "type": "Pluck",
+ "character": "BLASTER-8",
+ "tags": [
+  "Bright",
+  "Clean",
+  "Airy"
+ ],
+ "style": [
+  "Bright",
+  "Clean",
+  "Airy"
+ ],
+ "genre": [
+  "Synthwave",
+  "Drill"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Pluck - Bright, Clean, Airy.",
+ "a": {
+  "o1_table": 10,
+  "o1_pos": 0.6993,
+  "o2_lvl": 0.1855,
+  "o2_table": 1,
+  "o2_fine": 11.0029,
+  "f_cut": 2513.0983,
+  "f_res": 0.3279,
+  "f_env": 0.7932,
+  "f_key": 0.5,
+  "e_atk": 0.001,
+  "e_dec": 0.2317,
+  "a_atk": 0.001,
+  "a_dec": 0.3286,
+  "a_sus": 0,
+  "a_rel": 0.2154,
+  "delay_mix": 0.1605,
+  "verb_mix": 0.3,
+  "uni_n": 2,
+  "chorus": 0.2746,
+  "noise_lvl": 0.04,
+  "vol": 12
+ }
+}

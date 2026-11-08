@@ -1,0 +1,50 @@
+{
+ "format": 1,
+ "name": "Vortex Brass",
+ "author": "Trill Tron",
+ "type": "Brass",
+ "character": "BLASTER-8",
+ "tags": [
+  "Dark",
+  "Clean"
+ ],
+ "style": [
+  "Dark",
+  "Clean"
+ ],
+ "genre": [
+  "Phonk"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Brass - Dark, Clean.",
+ "a": {
+  "o1_table": 6,
+  "o1_pos": 0.3398,
+  "o2_lvl": 0.6118,
+  "o2_table": 0,
+  "o2_fine": 8.6718,
+  "o2_pos": 0.5504,
+  "uni_n": 3,
+  "uni_det": 0.2107,
+  "f_cut": 663.937,
+  "f_res": 0.0916,
+  "f_env": 0.8418,
+  "e_atk": 0.058,
+  "e_dec": 0.3701,
+  "e_sus": 0.4342,
+  "a_atk": 0.0469,
+  "a_sus": 0.9039,
+  "a_rel": 0.292,
+  "chorus": 0.3203,
+  "verb_mix": 0.1487,
+  "maxv": 10,
+  "m1_src": 4,
+  "m1_dst": 6,
+  "m1_amt": 0.3,
+  "m2_src": 5,
+  "m2_dst": 1,
+  "m2_amt": 0.3,
+  "vol": -1.15
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "format": 1,
+ "name": "Retro Nebula",
+ "author": "Trill Tron",
+ "type": "Pad",
+ "character": "BLASTER-8",
+ "tags": [
+  "Dark"
+ ],
+ "style": [
+  "Dark"
+ ],
+ "genre": [
+  "Phonk",
+  "Hyperpop"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Pad - Dark.",
+ "a": {
+  "o1_table": 14,
+  "o1_pos": 0.5071,
+  "o2_lvl": 0.6276,
+  "o2_table": 5,
+  "o2_pos": 0.7106,
+  "o2_fine": 11.3067,
+  "uni_n": 3,
+  "uni_det": 0.3554,
+  "uni_wid": 0.7649,
+  "f_cut": 1489.4728,
+  "f_res": 0.0769,
+  "f_env": 0.0444,
+  "f_key": 0.4,
+  "a_atk": 1.2806,
+  "a_dec": 1.0,
+  "a_sus": 0.9337,
+  "a_rel": 2.6822,
+  "e_atk": 0.9494,
+  "e_dec": 2.5514,
+  "e_sus": 0.4372,
+  "l1_rate": 0.4477,
+  "l2_rate": 0.2957,
+  "chorus": 0.4753,
+  "verb_mix": 0.3292,
+  "verb_size": 0.8891,
+  "maxv": 12,
+  "m1_src": 1,
+  "m1_dst": 1,
+  "m1_amt": 0.1465,
+  "m2_src": 2,
+  "m2_dst": 2,
+  "m2_amt": 0.1199,
+  "m3_src": 5,
+  "m3_dst": 6,
+  "m3_amt": 0.3,
+  "vol": 1.71
+ }
+}

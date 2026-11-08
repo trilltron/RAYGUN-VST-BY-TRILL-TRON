@@ -1,0 +1,49 @@
+{
+ "format": 1,
+ "name": "Golden Impact",
+ "author": "Trill Tron",
+ "type": "FX",
+ "character": "CHROME-FM",
+ "tags": [
+  "Dark"
+ ],
+ "style": [
+  "Dark"
+ ],
+ "genre": [
+  "Drill",
+  "Hyperpop"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM FX - Dark.",
+ "a": {
+  "o1_table": 16,
+  "o1_pos": 0.8665,
+  "o2_lvl": 0.2354,
+  "o2_pos": 0.3452,
+  "o2_fine": 18.2672,
+  "o1_warp": 0.8729,
+  "o1_warpmode": 2,
+  "f_cut": 197.0218,
+  "f_res": 0.2384,
+  "a_atk": 0.002,
+  "delay_mix": 0.3834,
+  "delay_fb": 0.5,
+  "verb_mix": 0.5089,
+  "verb_size": 0.8,
+  "maxv": 6,
+  "a_dec": 1.526,
+  "a_sus": 0,
+  "a_rel": 1.0,
+  "e_dec": 0.2089,
+  "noise_lvl": 0.1019,
+  "charge": 0.4419,
+  "o1_oct": -1,
+  "m1_src": 3,
+  "m1_dst": 5,
+  "m1_amt": 0.2791,
+  "fm": 0.3667,
+  "vol": 12
+ }
+}

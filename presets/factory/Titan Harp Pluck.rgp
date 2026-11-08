@@ -1,0 +1,41 @@
+{
+ "format": 1,
+ "name": "Titan Harp Pluck",
+ "author": "Trill Tron",
+ "type": "Pluck",
+ "character": "BLASTER-8",
+ "tags": [
+  "Dark"
+ ],
+ "style": [
+  "Dark"
+ ],
+ "genre": [
+  "Synthwave",
+  "Lo-Fi"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Pluck - Dark.",
+ "a": {
+  "o1_pos": 0.6593,
+  "o2_lvl": 0.3547,
+  "o2_table": 1,
+  "o2_fine": 13.3754,
+  "f_cut": 578.3686,
+  "f_res": 0.2388,
+  "f_env": 0.4978,
+  "f_key": 0.5,
+  "e_atk": 0.001,
+  "e_dec": 0.257,
+  "a_atk": 0.001,
+  "a_dec": 0.3681,
+  "a_sus": 0,
+  "a_rel": 0.2606,
+  "delay_mix": 0.1431,
+  "verb_mix": 0.1835,
+  "uni_n": 2,
+  "chorus": 0.3777,
+  "vol": 9.94
+ }
+}

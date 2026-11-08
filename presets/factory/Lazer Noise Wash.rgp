@@ -1,0 +1,55 @@
+{
+ "format": 1,
+ "name": "Lazer Noise Wash",
+ "author": "Trill Tron",
+ "type": "FX",
+ "character": "NEON-ROM",
+ "tags": [
+  "Airy",
+  "Distorted",
+  "Glitchy"
+ ],
+ "style": [
+  "Airy",
+  "Distorted",
+  "Glitchy"
+ ],
+ "genre": [
+  "Hyperpop",
+  "Synthwave"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "NEON-ROM FX - Airy, Distorted, Glitchy.",
+ "a": {
+  "o1_table": 8,
+  "o1_pos": 0.4384,
+  "o2_lvl": 0.4029,
+  "o2_table": 4,
+  "o2_pos": 0.9338,
+  "o2_fine": -11.7253,
+  "o1_warp": 0.6083,
+  "o1_warpmode": 3,
+  "f_cut": 640.2804,
+  "f_res": 0.4588,
+  "a_atk": 0.002,
+  "delay_mix": 0.3993,
+  "delay_fb": 0.55,
+  "verb_mix": 0.3834,
+  "verb_size": 0.8,
+  "maxv": 6,
+  "a_dec": 1.6637,
+  "a_sus": 0,
+  "a_rel": 1.0,
+  "e_dec": 0.1324,
+  "noise_lvl": 0.231,
+  "charge": 0.3966,
+  "o1_oct": -1,
+  "m1_src": 3,
+  "m1_dst": 5,
+  "m1_amt": 0.2153,
+  "f_drive": 0.4,
+  "delay_time": 0.1875,
+  "vol": 7.86
+ }
+}

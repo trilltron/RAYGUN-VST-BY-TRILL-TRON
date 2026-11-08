@@ -1,0 +1,57 @@
+{
+ "format": 1,
+ "name": "Mars Whistle Lead",
+ "author": "Trill Tron",
+ "type": "Lead",
+ "character": "NEON-ROM",
+ "tags": [
+  "Punchy",
+  "Soft",
+  "Glide"
+ ],
+ "style": [
+  "Punchy",
+  "Soft"
+ ],
+ "genre": [
+  "Lo-Fi",
+  "Phonk"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "NEON-ROM Lead - Punchy, Soft.",
+ "a": {
+  "o1_pos": 0.8062,
+  "o2_lvl": 0.2857,
+  "o2_table": 0,
+  "o2_fine": 8.2594,
+  "o2_pos": 0.7349,
+  "uni_n": 3,
+  "uni_det": 0.115,
+  "glide": 0.0979,
+  "f_cut": 4019.1949,
+  "f_env": 0.35,
+  "f_key": 0.6,
+  "e_dec": 0.2,
+  "e_sus": 0.2929,
+  "a_atk": 0.03,
+  "a_sus": 0.7987,
+  "a_rel": 0.3379,
+  "delay_mix": 0.2988,
+  "delay_fb": 0.4,
+  "verb_mix": 0.074,
+  "l1_rate": 4.7795,
+  "m1_src": 1,
+  "m1_dst": 5,
+  "m2_src": 5,
+  "m2_dst": 5,
+  "m2_amt": 0.012,
+  "m3_src": 5,
+  "m3_dst": 6,
+  "m3_amt": 0.25,
+  "o1_warp": 0.484,
+  "o1_warpmode": 1,
+  "charge": 0.1823,
+  "vol": 1.69
+ }
+}

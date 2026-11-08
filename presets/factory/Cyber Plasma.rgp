@@ -1,0 +1,55 @@
+{
+ "format": 1,
+ "name": "Cyber Plasma",
+ "author": "Trill Tron",
+ "type": "FX",
+ "character": "XENO",
+ "tags": [
+  "Bright"
+ ],
+ "style": [
+  "Bright"
+ ],
+ "genre": [
+  "Lo-Fi",
+  "Trap"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "XENO FX - Bright.",
+ "a": {
+  "o1_table": 8,
+  "o1_pos": 0.6518,
+  "o2_lvl": 0.2254,
+  "o2_table": 8,
+  "o2_pos": 0.1084,
+  "o2_fine": 4.4827,
+  "o1_warp": 0.6548,
+  "o1_warpmode": 2,
+  "f_type": 3,
+  "f_cut": 6548.0185,
+  "f_res": 0.4397,
+  "a_atk": 2.7572,
+  "delay_mix": 0.158,
+  "delay_fb": 0.5,
+  "verb_mix": 0.3135,
+  "verb_size": 0.8,
+  "maxv": 6,
+  "uni_n": 3,
+  "a_dec": 1,
+  "a_sus": 1,
+  "a_rel": 0.6,
+  "e_atk": 2.1182,
+  "e_dec": 1,
+  "e_sus": 1,
+  "noise_lvl": 0.2516,
+  "m1_src": 3,
+  "m1_dst": 5,
+  "m1_amt": 0.6387,
+  "m2_src": 3,
+  "m2_dst": 6,
+  "m2_amt": 0.5891,
+  "l2_rate": 2.0877,
+  "vol": 12
+ }
+}

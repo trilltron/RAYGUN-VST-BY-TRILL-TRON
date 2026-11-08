@@ -1,0 +1,62 @@
+{
+ "format": 1,
+ "name": "Blaster Sweep Strings",
+ "author": "Trill Tron",
+ "type": "Strings",
+ "character": "BLASTER-8",
+ "tags": [
+  "Glitchy",
+  "Soft",
+  "Distorted"
+ ],
+ "style": [
+  "Glitchy",
+  "Soft",
+  "Distorted"
+ ],
+ "genre": [
+  "Hyperpop",
+  "Synthwave"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Strings - Glitchy, Soft, Distorted.",
+ "a": {
+  "o1_table": 7,
+  "o1_pos": 0.8281,
+  "o2_lvl": 0.533,
+  "o2_table": 7,
+  "o2_pos": 0.393,
+  "o2_fine": 8.2119,
+  "uni_n": 4,
+  "uni_det": 0.2927,
+  "uni_wid": 0.8675,
+  "f_cut": 3723.3052,
+  "f_res": 0.08,
+  "f_env": 0.1737,
+  "f_key": 0.5,
+  "a_atk": 0.8324,
+  "a_dec": 1.0,
+  "a_sus": 0.9185,
+  "a_rel": 0.9471,
+  "chorus": 0.5208,
+  "verb_mix": 0.1502,
+  "verb_size": 0.7,
+  "l1_rate": 4.9715,
+  "maxv": 12,
+  "m1_src": 2,
+  "m1_dst": 1,
+  "m1_amt": 0.0945,
+  "m2_src": 5,
+  "m2_dst": 6,
+  "m2_amt": 0.3,
+  "delay_mix": 0.25,
+  "delay_time": 0.125,
+  "delay_fb": 0.55,
+  "o1_warp": 0.4,
+  "o1_warpmode": 4,
+  "charge": 0.6034,
+  "f_drive": 0.4,
+  "vol": -2.23
+ }
+}

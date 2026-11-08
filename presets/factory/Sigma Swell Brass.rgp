@@ -1,0 +1,52 @@
+{
+ "format": 1,
+ "name": "Sigma Swell Brass",
+ "author": "Trill Tron",
+ "type": "Brass",
+ "character": "BLASTER-8",
+ "tags": [
+  "Distorted",
+  "Clean"
+ ],
+ "style": [
+  "Distorted",
+  "Clean"
+ ],
+ "genre": [
+  "R&B"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Brass - Distorted, Clean.",
+ "a": {
+  "o1_table": 6,
+  "o1_pos": 0.2495,
+  "o2_lvl": 0.5218,
+  "o2_table": 0,
+  "o2_fine": 9.7411,
+  "o2_pos": 0.5497,
+  "uni_n": 2,
+  "uni_det": 0.126,
+  "f_cut": 699.7614,
+  "f_res": 0.1252,
+  "f_env": 0.57,
+  "e_atk": 0.097,
+  "e_dec": 0.3056,
+  "e_sus": 0.5289,
+  "a_atk": 0.0247,
+  "a_sus": 0.7009,
+  "a_rel": 0.2513,
+  "chorus": 0.2946,
+  "verb_mix": 0.1667,
+  "maxv": 10,
+  "m1_src": 4,
+  "m1_dst": 6,
+  "m1_amt": 0.3,
+  "m2_src": 5,
+  "m2_dst": 1,
+  "m2_amt": 0.3,
+  "charge": 0.5067,
+  "f_drive": 0.4,
+  "vol": 1.01
+ }
+}

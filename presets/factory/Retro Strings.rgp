@@ -1,0 +1,58 @@
+{
+ "format": 1,
+ "name": "Retro Strings",
+ "author": "Trill Tron",
+ "type": "Strings",
+ "character": "FIVE-STAR",
+ "tags": [
+  "Airy",
+  "Glitchy"
+ ],
+ "style": [
+  "Airy",
+  "Glitchy"
+ ],
+ "genre": [
+  "R&B"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "FIVE-STAR Strings - Airy, Glitchy.",
+ "a": {
+  "o1_table": 7,
+  "o1_pos": 0.1077,
+  "o2_lvl": 0.5859,
+  "o2_table": 1,
+  "o2_pos": 0.4513,
+  "o2_fine": -2.9302,
+  "uni_n": 6,
+  "uni_det": 0.4043,
+  "uni_wid": 0.85,
+  "f_cut": 7580.8071,
+  "f_res": 0.08,
+  "f_env": 0.0357,
+  "f_key": 0.5,
+  "a_atk": 0.6893,
+  "a_dec": 1.0,
+  "a_sus": 0.8313,
+  "a_rel": 1.0959,
+  "chorus": 0.4685,
+  "verb_mix": 0.3,
+  "verb_size": 0.7,
+  "l1_rate": 4.719,
+  "maxv": 12,
+  "m1_src": 2,
+  "m1_dst": 1,
+  "m1_amt": 0.1166,
+  "m2_src": 5,
+  "m2_dst": 6,
+  "m2_amt": 0.3,
+  "noise_lvl": 0.04,
+  "delay_mix": 0.25,
+  "delay_time": 0.25,
+  "delay_fb": 0.55,
+  "o1_warp": 0.4,
+  "o1_warpmode": 4,
+  "vol": 0.78
+ }
+}

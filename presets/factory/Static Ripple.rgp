@@ -1,0 +1,49 @@
+{
+ "format": 1,
+ "name": "Static Ripple",
+ "author": "Trill Tron",
+ "type": "Arp",
+ "character": "XENO",
+ "tags": [
+  "Soft",
+  "Clean",
+  "Synced"
+ ],
+ "style": [
+  "Soft",
+  "Clean"
+ ],
+ "genre": [
+  "Phonk"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "XENO Arp - Soft, Clean.",
+ "a": {
+  "o1_table": 14,
+  "o1_pos": 0.2957,
+  "o2_lvl": 0.1869,
+  "o2_table": 1,
+  "o2_fine": 8.792,
+  "f_cut": 1712.0616,
+  "f_env": 0.6667,
+  "f_key": 0.5,
+  "e_dec": 0.1808,
+  "a_atk": 0.03,
+  "a_dec": 0.2161,
+  "a_sus": 0,
+  "a_rel": 0.1643,
+  "arp_on": 1,
+  "arp_mode": 3,
+  "arp_oct": 3,
+  "arp_gate": 0.6132,
+  "delay_mix": 0.3051,
+  "delay_fb": 0.4,
+  "verb_mix": 0.2414,
+  "uni_n": 2,
+  "o1_warp": 0.148,
+  "o1_warpmode": 1,
+  "l2_rate": 2.8368,
+  "vol": 4.68
+ }
+}

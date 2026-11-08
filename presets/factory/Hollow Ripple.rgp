@@ -1,0 +1,59 @@
+{
+ "format": 1,
+ "name": "Hollow Ripple",
+ "author": "Trill Tron",
+ "type": "Arp",
+ "character": "CHROME-FM",
+ "tags": [
+  "Wide",
+  "Evolving",
+  "Synced"
+ ],
+ "style": [
+  "Wide",
+  "Evolving"
+ ],
+ "genre": [
+  "R&B"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM Arp - Wide, Evolving.",
+ "a": {
+  "o1_table": 13,
+  "o1_pos": 0.8819,
+  "o2_lvl": 0.4136,
+  "o2_table": 4,
+  "o2_fine": 11.5677,
+  "f_cut": 3963.797,
+  "f_res": 0.2821,
+  "f_env": 0.6619,
+  "f_key": 0.5,
+  "e_dec": 0.1671,
+  "a_atk": 0.001,
+  "a_dec": 0.3261,
+  "a_sus": 0,
+  "a_rel": 0.1603,
+  "arp_on": 1,
+  "arp_rate": 5,
+  "arp_mode": 1,
+  "arp_oct": 2,
+  "arp_gate": 0.6583,
+  "delay_mix": 0.1915,
+  "delay_fb": 0.4,
+  "verb_mix": 0.157,
+  "uni_n": 3,
+  "fm": 0.1949,
+  "o2_pos": 0.3777,
+  "uni_wid": 1,
+  "chorus": 0.4,
+  "l1_rate": 0.3528,
+  "m6_src": 1,
+  "m6_dst": 1,
+  "m6_amt": 0.3417,
+  "m7_src": 2,
+  "m7_dst": 2,
+  "m7_amt": 0.2434,
+  "vol": 1.95
+ }
+}

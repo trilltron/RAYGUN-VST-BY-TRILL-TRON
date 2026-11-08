@@ -1,0 +1,59 @@
+{
+ "format": 1,
+ "name": "Astro Section",
+ "author": "Trill Tron",
+ "type": "Brass",
+ "character": "BLASTER-8",
+ "tags": [
+  "Wide",
+  "Evolving"
+ ],
+ "style": [
+  "Wide",
+  "Evolving"
+ ],
+ "genre": [
+  "Cinematic",
+  "R&B"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Brass - Wide, Evolving.",
+ "a": {
+  "o1_table": 6,
+  "o1_pos": 0.4631,
+  "o2_lvl": 0.7456,
+  "o2_table": 6,
+  "o2_fine": 9.0398,
+  "o2_pos": 0.502,
+  "uni_n": 3,
+  "uni_det": 0.2482,
+  "f_cut": 827.2503,
+  "f_res": 0.052,
+  "f_env": 0.7864,
+  "e_atk": 0.0448,
+  "e_dec": 0.2445,
+  "e_sus": 0.368,
+  "a_atk": 0.0457,
+  "a_sus": 0.7835,
+  "a_rel": 0.2096,
+  "chorus": 0.4887,
+  "verb_mix": 0.085,
+  "maxv": 10,
+  "m1_src": 4,
+  "m1_dst": 6,
+  "m1_amt": 0.3,
+  "m2_src": 5,
+  "m2_dst": 1,
+  "m2_amt": 0.3,
+  "uni_wid": 1,
+  "l1_rate": 0.1889,
+  "m6_src": 1,
+  "m6_dst": 1,
+  "m6_amt": 0.4635,
+  "m7_src": 2,
+  "m7_dst": 2,
+  "m7_amt": 0.3008,
+  "vol": 0.0
+ }
+}

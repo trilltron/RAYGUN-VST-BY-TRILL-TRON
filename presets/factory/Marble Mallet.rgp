@@ -1,0 +1,43 @@
+{
+ "format": 1,
+ "name": "Marble Mallet",
+ "author": "Trill Tron",
+ "type": "Pluck",
+ "character": "CHROME-FM",
+ "tags": [
+  "Distorted"
+ ],
+ "style": [
+  "Distorted"
+ ],
+ "genre": [
+  "Cinematic",
+  "Hyperpop"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM Pluck - Distorted.",
+ "a": {
+  "o1_table": 13,
+  "o1_pos": 0.8061,
+  "o2_lvl": 0.1753,
+  "o2_fine": 11.8579,
+  "f_cut": 1626.578,
+  "f_res": 0.27,
+  "f_env": 0.4853,
+  "f_key": 0.5,
+  "e_atk": 0.001,
+  "e_dec": 0.1865,
+  "a_atk": 0.001,
+  "a_dec": 0.2921,
+  "a_sus": 0,
+  "a_rel": 0.1038,
+  "delay_mix": 0.2121,
+  "verb_mix": 0.1723,
+  "fm": 0.3167,
+  "o2_pos": 0.4847,
+  "charge": 0.4278,
+  "f_drive": 0.4,
+  "vol": 8.61
+ }
+}

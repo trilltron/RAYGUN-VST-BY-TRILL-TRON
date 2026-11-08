@@ -1,0 +1,54 @@
+{
+ "format": 1,
+ "name": "Gamma Rhodes-ish Keys",
+ "author": "Trill Tron",
+ "type": "Keys",
+ "character": "PULP-TUBE",
+ "tags": [
+  "Vintage",
+  "Clean",
+  "Wide"
+ ],
+ "style": [
+  "Vintage",
+  "Clean",
+  "Wide"
+ ],
+ "genre": [
+  "Synthwave",
+  "Hyperpop"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "PULP-TUBE Keys - Vintage, Clean, Wide.",
+ "a": {
+  "f_cut": 3220.7206,
+  "f_res": 0.08,
+  "f_key": 0.5,
+  "a_atk": 0.003,
+  "a_dec": 1.7543,
+  "a_sus": 0.2766,
+  "a_rel": 0.4764,
+  "e_dec": 0.1027,
+  "f_env": 0.1022,
+  "chorus": 0.4,
+  "verb_mix": 0.1854,
+  "maxv": 10,
+  "uni_n": 3,
+  "o1_table": 3,
+  "o1_pos": 0.4475,
+  "o2_table": 9,
+  "o2_lvl": 0.3702,
+  "sub_lvl": 0.2,
+  "m1_src": 4,
+  "m1_dst": 6,
+  "m1_amt": 0.1758,
+  "m2_src": 4,
+  "m2_dst": 1,
+  "m2_amt": 0.2913,
+  "f_drive": 0.2593,
+  "charge": 0.192,
+  "uni_wid": 1,
+  "vol": 3.06
+ }
+}

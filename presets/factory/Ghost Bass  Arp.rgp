@@ -1,0 +1,83 @@
+{
+ "format": 1,
+ "name": "Ghost Bass + Arp",
+ "author": "Trill Tron",
+ "type": "Bass",
+ "character": "PULP-TUBE",
+ "tags": [
+  "Glitchy",
+  "Clean",
+  "Multi",
+  "Split"
+ ],
+ "style": [
+  "Glitchy",
+  "Clean"
+ ],
+ "genre": [
+  "Hyperpop",
+  "Phonk"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "Split patch: Layer A Bass + Layer B Arp.",
+ "a": {
+  "o1_pos": 0.4129,
+  "o2_lvl": 0.042,
+  "o2_table": 9,
+  "o2_oct": -1,
+  "o2_pos": 0.0834,
+  "sub_lvl": 0.3846,
+  "voice": 2,
+  "glide": 0.0151,
+  "f_cut": 374.0031,
+  "f_env": 0.3295,
+  "f_key": 0.5,
+  "e_dec": 0.3392,
+  "e_sus": 0.1085,
+  "a_atk": 0.03,
+  "a_dec": 0.4,
+  "a_sus": 0.6279,
+  "a_rel": 0.1172,
+  "oct": -1,
+  "f_drive": 0.4188,
+  "charge": 0.281,
+  "chorus": 0.25,
+  "delay_mix": 0.25,
+  "delay_time": 0.25,
+  "delay_fb": 0.55,
+  "o1_warp": 0.4,
+  "o1_warpmode": 4,
+  "vol": 4.55
+ },
+ "b": {
+  "o1_table": 1,
+  "o1_pos": 0.2105,
+  "o2_lvl": 0.1823,
+  "o2_table": 1,
+  "o2_fine": 10.1082,
+  "f_cut": 2293.8277,
+  "f_res": 0.1799,
+  "f_env": 0.4696,
+  "f_key": 0.5,
+  "e_dec": 0.1269,
+  "a_atk": 0.001,
+  "a_dec": 0.1508,
+  "a_sus": 0,
+  "a_rel": 0.1737,
+  "arp_on": 1,
+  "arp_mode": 1,
+  "arp_gate": 0.6363,
+  "delay_mix": 0.1657,
+  "delay_fb": 0.4,
+  "verb_mix": 0.2033,
+  "uni_n": 2,
+  "chorus": 0.3756,
+  "vol": 4.55
+ },
+ "global": {
+  "mode": 3,
+  "split": 60,
+  "xfade": 3
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "format": 1,
+ "name": "Cosmic Ground Zero",
+ "author": "Trill Tron",
+ "type": "808",
+ "character": "XENO",
+ "tags": [
+  "Warm",
+  "Wide",
+  "Distorted",
+  "Mono"
+ ],
+ "style": [
+  "Warm",
+  "Wide",
+  "Distorted"
+ ],
+ "genre": [
+  "Synthwave",
+  "Cinematic"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "XENO 808 - Warm, Wide, Distorted.",
+ "a": {
+  "o1_table": 12,
+  "o1_pos": 0.3335,
+  "o1_oct": -1,
+  "sub_lvl": 0.7111,
+  "voice": 1,
+  "f_cut": 819.4964,
+  "f_res": 0.1342,
+  "f_key": 0.4,
+  "a_atk": 0.001,
+  "a_dec": 3.4395,
+  "a_sus": 0,
+  "a_rel": 0.4385,
+  "e_dec": 0.0511,
+  "charge": 0.4152,
+  "oct": -1,
+  "f_drive": 0.4,
+  "m1_src": 3,
+  "m1_dst": 5,
+  "m1_amt": 0.1369,
+  "o1_warp": 0.2606,
+  "o1_warpmode": 1,
+  "l2_rate": 2.0215,
+  "uni_n": 3,
+  "uni_wid": 1,
+  "chorus": 0.4,
+  "vol": 2.34
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "format": 1,
+ "name": "Turbo Keys",
+ "author": "Trill Tron",
+ "type": "Keys",
+ "character": "NEON-ROM",
+ "tags": [
+  "Punchy"
+ ],
+ "style": [
+  "Punchy"
+ ],
+ "genre": [
+  "R&B"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "NEON-ROM Keys - Punchy.",
+ "a": {
+  "f_cut": 8539.6815,
+  "f_res": 0.08,
+  "f_key": 0.5,
+  "a_atk": 0.001,
+  "a_dec": 1.79,
+  "a_sus": 0.3132,
+  "a_rel": 0.5762,
+  "e_dec": 0.1913,
+  "f_env": 0.35,
+  "chorus": 0.1433,
+  "verb_mix": 0.1654,
+  "maxv": 10,
+  "o1_table": 3,
+  "o1_pos": 0.2888,
+  "o2_table": 0,
+  "o2_lvl": 0.3248,
+  "sub_lvl": 0.2,
+  "m1_src": 4,
+  "m1_dst": 6,
+  "m1_amt": 0.1995,
+  "m2_src": 4,
+  "m2_dst": 1,
+  "m2_amt": 0.207,
+  "o1_warp": 0.32,
+  "o1_warpmode": 3,
+  "charge": 0.1147,
+  "delay_mix": 0.1413,
+  "vol": 6.38
+ }
+}

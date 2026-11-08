@@ -1,0 +1,54 @@
+{
+ "format": 1,
+ "name": "Lunar Sweep",
+ "author": "Trill Tron",
+ "type": "FX",
+ "character": "CHROME-FM",
+ "tags": [
+  "Distorted"
+ ],
+ "style": [
+  "Distorted"
+ ],
+ "genre": [
+  "Hyperpop"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM FX - Distorted.",
+ "a": {
+  "o1_table": 8,
+  "o1_pos": 0.782,
+  "o2_lvl": 0.2719,
+  "o2_table": 4,
+  "o2_pos": 0.4267,
+  "o2_fine": -19.7111,
+  "o1_warp": 0.5024,
+  "o1_warpmode": 3,
+  "f_cut": 6131.305,
+  "f_res": 0.5604,
+  "a_atk": 1.2407,
+  "delay_mix": 0.396,
+  "delay_fb": 0.5,
+  "verb_mix": 0.4542,
+  "verb_size": 0.8,
+  "maxv": 6,
+  "uni_n": 5,
+  "a_dec": 1,
+  "a_sus": 1,
+  "a_rel": 1.5752,
+  "l1_rate": 0.473,
+  "uni_det": 0.5941,
+  "uni_wid": 1,
+  "m1_src": 1,
+  "m1_dst": 1,
+  "m1_amt": 0.4,
+  "m2_src": 1,
+  "m2_dst": 6,
+  "m2_amt": 0.25,
+  "fm": 0.1801,
+  "charge": 0.3877,
+  "f_drive": 0.4,
+  "vol": -0.9
+ }
+}

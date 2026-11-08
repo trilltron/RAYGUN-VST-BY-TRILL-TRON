@@ -1,0 +1,58 @@
+{
+ "format": 1,
+ "name": "Velvet Vowel Pad",
+ "author": "Trill Tron",
+ "type": "Vox",
+ "character": "PULP-TUBE",
+ "tags": [
+  "Dark",
+  "Warm",
+  "Airy"
+ ],
+ "style": [
+  "Dark",
+  "Warm",
+  "Airy"
+ ],
+ "genre": [
+  "Trap"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "PULP-TUBE Vox - Dark, Warm, Airy.",
+ "a": {
+  "o1_table": 5,
+  "o1_pos": 0.7513,
+  "o2_lvl": 0.3214,
+  "o2_table": 2,
+  "o2_pos": 0.746,
+  "o2_fine": -1.5951,
+  "uni_n": 2,
+  "uni_det": 0.2046,
+  "f_cut": 2431.3654,
+  "f_key": 0.4,
+  "a_atk": 0.3891,
+  "a_dec": 0.6,
+  "a_sus": 0.8552,
+  "a_rel": 1.2694,
+  "l1_rate": 0.2082,
+  "l2_rate": 5.6742,
+  "chorus": 0.3354,
+  "verb_mix": 0.4025,
+  "verb_size": 0.7,
+  "maxv": 10,
+  "m1_src": 1,
+  "m1_dst": 1,
+  "m1_amt": 0.197,
+  "m2_src": 5,
+  "m2_dst": 1,
+  "m2_amt": 0.5,
+  "m3_src": 2,
+  "m3_dst": 5,
+  "m3_amt": 0.01,
+  "f_drive": 0.4278,
+  "charge": 0.1397,
+  "noise_lvl": 0.04,
+  "vol": 1.76
+ }
+}

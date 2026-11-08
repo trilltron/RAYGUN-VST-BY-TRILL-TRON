@@ -1,0 +1,59 @@
+{
+ "format": 1,
+ "name": "Warp Chime",
+ "author": "Trill Tron",
+ "type": "Bell",
+ "character": "NEON-ROM",
+ "tags": [
+  "Glitchy",
+  "Clean",
+  "Punchy"
+ ],
+ "style": [
+  "Glitchy",
+  "Clean",
+  "Punchy"
+ ],
+ "genre": [
+  "R&B",
+  "Phonk"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "NEON-ROM Bell - Glitchy, Clean, Punchy.",
+ "a": {
+  "o1_table": 10,
+  "o1_pos": 0.3898,
+  "o2_table": 4,
+  "o2_lvl": 0.2495,
+  "o2_oct": 2,
+  "o2_pos": 0.6735,
+  "fm": 0.4446,
+  "f_cut": 8913.7536,
+  "f_res": 0.05,
+  "f_key": 0.8,
+  "a_atk": 0.001,
+  "a_dec": 2.004,
+  "a_sus": 0,
+  "a_rel": 0.9952,
+  "e_dec": 0.2,
+  "chorus": 0.1701,
+  "delay_mix": 0.2579,
+  "delay_fb": 0.55,
+  "verb_mix": 0.3951,
+  "verb_size": 0.7,
+  "maxv": 10,
+  "m1_src": 3,
+  "m1_dst": 13,
+  "m1_amt": 0.3994,
+  "m2_src": 4,
+  "m2_dst": 13,
+  "m2_amt": 0.2,
+  "o1_warp": 0.4,
+  "o1_warpmode": 3,
+  "charge": 0.1658,
+  "delay_time": 0.25,
+  "f_env": 0.35,
+  "vol": 10.02
+ }
+}

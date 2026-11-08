@@ -1,0 +1,48 @@
+{
+ "format": 1,
+ "name": "Jade Gravity",
+ "author": "Trill Tron",
+ "type": "808",
+ "character": "MONO-VOLT",
+ "tags": [
+  "Vintage",
+  "Distorted",
+  "Bright",
+  "Mono",
+  "Glide"
+ ],
+ "style": [
+  "Vintage",
+  "Distorted",
+  "Bright"
+ ],
+ "genre": [
+  "Drill"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "MONO-VOLT 808 - Vintage, Distorted, Bright.",
+ "a": {
+  "o1_pos": 0.2039,
+  "o1_oct": -1,
+  "sub_lvl": 0.759,
+  "voice": 1,
+  "glide": 0.0403,
+  "f_cut": 1317.0427,
+  "f_res": 0.3714,
+  "f_key": 0.4,
+  "a_atk": 0.001,
+  "a_dec": 3.179,
+  "a_sus": 0,
+  "a_rel": 0.1828,
+  "e_dec": 0.0426,
+  "charge": 0.4613,
+  "oct": -1,
+  "f_drive": 0.4,
+  "m1_src": 3,
+  "m1_dst": 5,
+  "m1_amt": 0.1761,
+  "chorus": 0.3,
+  "vol": 4.53
+ }
+}

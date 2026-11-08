@@ -1,0 +1,61 @@
+{
+ "format": 1,
+ "name": "Midnight Hook",
+ "author": "Trill Tron",
+ "type": "Lead",
+ "character": "BLASTER-8",
+ "tags": [
+  "Airy",
+  "Distorted",
+  "Mono"
+ ],
+ "style": [
+  "Airy",
+  "Distorted"
+ ],
+ "genre": [
+  "Hyperpop",
+  "R&B"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Lead - Airy, Distorted.",
+ "a": {
+  "o1_table": 1,
+  "o1_pos": 0.8543,
+  "o2_lvl": 0.4241,
+  "o2_table": 1,
+  "o2_fine": 15.7444,
+  "o2_pos": 0.5685,
+  "uni_n": 5,
+  "uni_det": 0.2276,
+  "voice": 2,
+  "glide": 0.0121,
+  "f_cut": 2517.1316,
+  "f_res": 0.3142,
+  "f_env": 0.1717,
+  "f_key": 0.6,
+  "e_dec": 0.4273,
+  "e_sus": 0.2338,
+  "a_atk": 0.004,
+  "a_sus": 0.8741,
+  "a_rel": 0.2326,
+  "delay_mix": 0.2335,
+  "delay_fb": 0.4,
+  "verb_mix": 0.3,
+  "l1_rate": 5.1355,
+  "m1_src": 1,
+  "m1_dst": 5,
+  "m2_src": 5,
+  "m2_dst": 5,
+  "m2_amt": 0.012,
+  "m3_src": 5,
+  "m3_dst": 6,
+  "m3_amt": 0.25,
+  "chorus": 0.3613,
+  "noise_lvl": 0.04,
+  "charge": 0.6262,
+  "f_drive": 0.4,
+  "vol": -1.93
+ }
+}

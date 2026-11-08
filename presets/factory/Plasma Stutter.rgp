@@ -1,0 +1,49 @@
+{
+ "format": 1,
+ "name": "Plasma Stutter",
+ "author": "Trill Tron",
+ "type": "Arp",
+ "character": "NEON-ROM",
+ "tags": [
+  "Airy",
+  "Dark",
+  "Soft",
+  "Synced"
+ ],
+ "style": [
+  "Airy",
+  "Dark",
+  "Soft"
+ ],
+ "genre": [
+  "Synthwave"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "NEON-ROM Arp - Airy, Dark, Soft.",
+ "a": {
+  "o1_pos": 0.8365,
+  "o2_lvl": 0.2967,
+  "o2_table": 1,
+  "o2_fine": 8.1047,
+  "f_cut": 822.739,
+  "f_env": 0.3248,
+  "f_key": 0.5,
+  "e_dec": 0.2157,
+  "a_atk": 0.03,
+  "a_dec": 0.3569,
+  "a_sus": 0,
+  "a_rel": 0.1332,
+  "arp_on": 1,
+  "arp_rate": 4,
+  "arp_gate": 0.5055,
+  "delay_mix": 0.1866,
+  "delay_fb": 0.4,
+  "verb_mix": 0.35,
+  "o1_warp": 0.2784,
+  "o1_warpmode": 4,
+  "charge": 0.1341,
+  "noise_lvl": 0.04,
+  "vol": 1.83
+ }
+}

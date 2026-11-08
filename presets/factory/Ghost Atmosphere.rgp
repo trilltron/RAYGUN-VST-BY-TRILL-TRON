@@ -1,0 +1,61 @@
+{
+ "format": 1,
+ "name": "Ghost Atmosphere",
+ "author": "Trill Tron",
+ "type": "Pad",
+ "character": "NEON-ROM",
+ "tags": [
+  "Bright"
+ ],
+ "style": [
+  "Bright"
+ ],
+ "genre": [
+  "Lo-Fi"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "NEON-ROM Pad - Bright.",
+ "a": {
+  "o1_table": 2,
+  "o1_pos": 0.3671,
+  "o2_lvl": 0.7806,
+  "o2_table": 13,
+  "o2_pos": 0.366,
+  "o2_fine": -4.9277,
+  "uni_n": 5,
+  "uni_det": 0.3753,
+  "uni_wid": 0.8968,
+  "f_cut": 6348.3436,
+  "f_res": 0.1723,
+  "f_env": 0.019,
+  "f_key": 0.4,
+  "a_atk": 0.6647,
+  "a_dec": 1.0,
+  "a_sus": 0.9176,
+  "a_rel": 1.1581,
+  "e_atk": 0.5719,
+  "e_dec": 2.7312,
+  "e_sus": 0.4575,
+  "l1_rate": 0.2753,
+  "l2_rate": 0.1254,
+  "chorus": 0.2625,
+  "verb_mix": 0.4461,
+  "verb_size": 0.729,
+  "maxv": 12,
+  "m1_src": 1,
+  "m1_dst": 1,
+  "m1_amt": 0.3479,
+  "m2_src": 2,
+  "m2_dst": 2,
+  "m2_amt": 0.2931,
+  "m3_src": 5,
+  "m3_dst": 6,
+  "m3_amt": 0.3,
+  "o1_warp": 0.1579,
+  "o1_warpmode": 2,
+  "charge": 0.0858,
+  "delay_mix": 0.1166,
+  "vol": 0.0
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "format": 1,
+ "name": "Jet Downlifter",
+ "author": "Trill Tron",
+ "type": "FX",
+ "character": "NEON-ROM",
+ "tags": [
+  "Wide",
+  "Distorted"
+ ],
+ "style": [
+  "Wide",
+  "Distorted"
+ ],
+ "genre": [
+  "Cinematic"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "NEON-ROM FX - Wide, Distorted.",
+ "a": {
+  "o1_table": 4,
+  "o1_pos": 0.4577,
+  "o2_lvl": 0.5066,
+  "o2_table": 4,
+  "o2_pos": 0.7125,
+  "o2_fine": -15.7576,
+  "o1_warp": 0.5728,
+  "o1_warpmode": 1,
+  "f_cut": 4851.3966,
+  "f_res": 0.4952,
+  "a_atk": 1.5979,
+  "delay_mix": 0.3719,
+  "delay_fb": 0.5,
+  "verb_mix": 0.4748,
+  "verb_size": 0.8,
+  "maxv": 6,
+  "uni_n": 3,
+  "a_dec": 1,
+  "a_sus": 1,
+  "a_rel": 0.6,
+  "e_atk": 1.5484,
+  "e_dec": 1,
+  "e_sus": 1,
+  "noise_lvl": 0.2348,
+  "m1_src": 3,
+  "m1_dst": 5,
+  "m1_amt": 0.6168,
+  "m2_src": 3,
+  "m2_dst": 6,
+  "m2_amt": 0.8319,
+  "charge": 0.6547,
+  "uni_wid": 1,
+  "chorus": 0.4,
+  "f_drive": 0.4,
+  "vol": -8.21
+ }
+}

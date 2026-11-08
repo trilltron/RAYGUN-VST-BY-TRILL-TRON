@@ -1,0 +1,53 @@
+{
+ "format": 1,
+ "name": "Brass-Knuckle Soft Keys",
+ "author": "Trill Tron",
+ "type": "Keys",
+ "character": "NEON-ROM",
+ "tags": [
+  "Airy",
+  "Vintage"
+ ],
+ "style": [
+  "Airy",
+  "Vintage"
+ ],
+ "genre": [
+  "Synthwave"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "NEON-ROM Keys - Airy, Vintage.",
+ "a": {
+  "f_cut": 9022.0494,
+  "f_res": 0.08,
+  "f_key": 0.5,
+  "a_atk": 0.003,
+  "a_dec": 1.2797,
+  "a_sus": 0.3052,
+  "a_rel": 0.476,
+  "e_dec": 0.1349,
+  "f_env": 0.1927,
+  "chorus": 0.3114,
+  "verb_mix": 0.3,
+  "maxv": 10,
+  "o1_table": 3,
+  "o1_pos": 0.2583,
+  "o2_table": 0,
+  "o2_lvl": 0.406,
+  "sub_lvl": 0.2,
+  "m1_src": 4,
+  "m1_dst": 6,
+  "m1_amt": 0.3488,
+  "m2_src": 4,
+  "m2_dst": 1,
+  "m2_amt": 0.1669,
+  "o1_warp": 0.5084,
+  "o1_warpmode": 4,
+  "charge": 0.1946,
+  "delay_mix": 0.1151,
+  "noise_lvl": 0.04,
+  "f_drive": 0.2,
+  "vol": 0.81
+ }
+}

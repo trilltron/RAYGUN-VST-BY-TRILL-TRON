@@ -1,0 +1,47 @@
+{
+ "format": 1,
+ "name": "Sigma Heavy Round",
+ "author": "Trill Tron",
+ "type": "808",
+ "character": "BLASTER-8",
+ "tags": [
+  "Punchy",
+  "Warm",
+  "Mono"
+ ],
+ "style": [
+  "Punchy",
+  "Warm"
+ ],
+ "genre": [
+  "R&B",
+  "Drill"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 808 - Punchy, Warm.",
+ "a": {
+  "o1_pos": 0.2003,
+  "o1_oct": -1,
+  "sub_lvl": 0.8506,
+  "voice": 1,
+  "f_cut": 529.5664,
+  "f_res": 0.0879,
+  "f_key": 0.4,
+  "a_atk": 0.001,
+  "a_dec": 2.9752,
+  "a_sus": 0,
+  "a_rel": 0.2368,
+  "e_dec": 0.0609,
+  "charge": 0.4053,
+  "oct": -1,
+  "f_drive": 0.2092,
+  "m1_src": 3,
+  "m1_dst": 5,
+  "m1_amt": 0.1589,
+  "chorus": 0.444,
+  "o2_fine": -4.7416,
+  "f_env": 0.35,
+  "vol": 5.41
+ }
+}

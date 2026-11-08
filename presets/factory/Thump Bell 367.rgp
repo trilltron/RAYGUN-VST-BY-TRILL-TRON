@@ -1,0 +1,50 @@
+{
+ "format": 1,
+ "name": "Thump Bell 367",
+ "author": "Trill Tron",
+ "type": "Bell",
+ "character": "CHROME-FM",
+ "tags": [
+  "Clean",
+  "Stem DNA"
+ ],
+ "style": [
+  "Clean"
+ ],
+ "genre": [
+  "Drill"
+ ],
+ "key": "Bbm",
+ "bpm": 140,
+ "desc": "Glassy bell with a pitch thump, from beat 367.",
+ "a": {
+  "o1_table": 13,
+  "o1_pos": 0.35,
+  "o2_table": 4,
+  "o2_lvl": 0.3616,
+  "o2_oct": 2,
+  "o2_pos": 0.4403,
+  "fm": 0.5806,
+  "f_cut": 5605.8807,
+  "f_res": 0.05,
+  "f_key": 0.8,
+  "a_atk": 0.001,
+  "a_dec": 1.4727,
+  "a_sus": 0,
+  "a_rel": 1.3393,
+  "e_dec": 0.3307,
+  "chorus": 0.0706,
+  "delay_mix": 0.1089,
+  "delay_fb": 0.4,
+  "verb_mix": 0.2418,
+  "verb_size": 0.7,
+  "maxv": 10,
+  "m1_src": 3,
+  "m1_dst": 13,
+  "m1_amt": 0.1036,
+  "m2_src": 4,
+  "m2_dst": 13,
+  "m2_amt": 0.2,
+  "vol": 11.12
+ }
+}

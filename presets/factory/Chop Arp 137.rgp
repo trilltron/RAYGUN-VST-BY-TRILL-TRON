@@ -1,0 +1,45 @@
+{
+ "format": 1,
+ "name": "Chop Arp 137",
+ "author": "Trill Tron",
+ "type": "Arp",
+ "character": "XENO",
+ "tags": [
+  "Glitchy",
+  "Synced",
+  "Drill",
+  "Stem DNA"
+ ],
+ "style": [
+  "Glitchy"
+ ],
+ "genre": [
+  "Drill"
+ ],
+ "key": "",
+ "bpm": 137,
+ "desc": "Chopped arp built from the Uzi loop cycles.",
+ "a": {
+  "o1_table": 16,
+  "o1_pos": 0.7805,
+  "o2_lvl": 0.3043,
+  "o2_table": 1,
+  "o2_fine": 10.7973,
+  "f_cut": 1161.7742,
+  "f_res": 0.3433,
+  "f_env": 0.5073,
+  "f_key": 0.5,
+  "e_dec": 0.1784,
+  "a_atk": 0.001,
+  "a_dec": 0.2739,
+  "a_sus": 0,
+  "a_rel": 0.2373,
+  "arp_on": 1,
+  "arp_oct": 2,
+  "arp_gate": 0.5298,
+  "delay_mix": 0.2858,
+  "delay_fb": 0.4,
+  "verb_mix": 0.1921,
+  "vol": 7.36
+ }
+}

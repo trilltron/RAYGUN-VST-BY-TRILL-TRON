@@ -1,0 +1,55 @@
+{
+ "format": 1,
+ "name": "Neon Bold Brass",
+ "author": "Trill Tron",
+ "type": "Brass",
+ "character": "FIVE-STAR",
+ "tags": [
+  "Glitchy"
+ ],
+ "style": [
+  "Glitchy"
+ ],
+ "genre": [
+  "R&B",
+  "Drill"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "FIVE-STAR Brass - Glitchy.",
+ "a": {
+  "o1_table": 6,
+  "o1_pos": 0.5576,
+  "o2_lvl": 0.5428,
+  "o2_table": 6,
+  "o2_fine": 6.0994,
+  "o2_pos": 0.4758,
+  "uni_n": 4,
+  "uni_det": 0.3,
+  "f_cut": 1133.0788,
+  "f_res": 0.1931,
+  "f_env": 0.6935,
+  "e_atk": 0.0853,
+  "e_dec": 0.2937,
+  "e_sus": 0.5714,
+  "a_atk": 0.0433,
+  "a_sus": 0.8338,
+  "a_rel": 0.1302,
+  "chorus": 0.35,
+  "verb_mix": 0.1499,
+  "maxv": 10,
+  "m1_src": 4,
+  "m1_dst": 6,
+  "m1_amt": 0.3,
+  "m2_src": 5,
+  "m2_dst": 1,
+  "m2_amt": 0.3,
+  "uni_wid": 0.85,
+  "delay_mix": 0.25,
+  "delay_time": 0.1875,
+  "delay_fb": 0.55,
+  "o1_warp": 0.4,
+  "o1_warpmode": 4,
+  "vol": 0.82
+ }
+}

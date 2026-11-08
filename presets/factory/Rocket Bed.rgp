@@ -1,0 +1,61 @@
+{
+ "format": 1,
+ "name": "Rocket Bed",
+ "author": "Trill Tron",
+ "type": "Pad",
+ "character": "PULP-TUBE",
+ "tags": [
+  "Vintage",
+  "Warm"
+ ],
+ "style": [
+  "Vintage",
+  "Warm"
+ ],
+ "genre": [
+  "Lo-Fi"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "PULP-TUBE Pad - Vintage, Warm.",
+ "a": {
+  "o1_table": 9,
+  "o1_pos": 0.4246,
+  "o2_lvl": 0.6054,
+  "o2_table": 2,
+  "o2_pos": 0.8908,
+  "o2_fine": 5.2967,
+  "uni_n": 3,
+  "uni_det": 0.3855,
+  "uni_wid": 0.617,
+  "f_cut": 787.0183,
+  "f_res": 0.1799,
+  "f_env": 0.2252,
+  "f_key": 0.4,
+  "a_atk": 1.0749,
+  "a_dec": 1.0,
+  "a_sus": 0.8474,
+  "a_rel": 1.369,
+  "e_atk": 1.1421,
+  "e_dec": 1.8882,
+  "e_sus": 0.6867,
+  "l1_rate": 0.438,
+  "l2_rate": 0.2702,
+  "chorus": 0.3,
+  "verb_mix": 0.3137,
+  "verb_size": 0.781,
+  "maxv": 12,
+  "m1_src": 1,
+  "m1_dst": 1,
+  "m1_amt": 0.2912,
+  "m2_src": 2,
+  "m2_dst": 2,
+  "m2_amt": 0.157,
+  "m3_src": 5,
+  "m3_dst": 6,
+  "m3_amt": 0.3,
+  "f_drive": 0.4465,
+  "charge": 0.0889,
+  "vol": 3.54
+ }
+}

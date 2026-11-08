@@ -1,0 +1,62 @@
+{
+ "format": 1,
+ "name": "Marble Pad",
+ "author": "Trill Tron",
+ "type": "Pad",
+ "character": "PULP-TUBE",
+ "tags": [
+  "Soft",
+  "Wide",
+  "Vintage"
+ ],
+ "style": [
+  "Soft",
+  "Wide",
+  "Vintage"
+ ],
+ "genre": [
+  "Drill",
+  "Synthwave"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "PULP-TUBE Pad - Soft, Wide, Vintage.",
+ "a": {
+  "o1_pos": 0.6264,
+  "o2_lvl": 0.4217,
+  "o2_table": 2,
+  "o2_pos": 0.8007,
+  "o2_fine": 9.7565,
+  "uni_n": 3,
+  "uni_det": 0.4899,
+  "uni_wid": 1,
+  "f_cut": 1527.6744,
+  "f_env": 0.1381,
+  "f_key": 0.4,
+  "a_atk": 1.2601,
+  "a_dec": 1.0,
+  "a_sus": 0.8548,
+  "a_rel": 1.6762,
+  "e_atk": 0.7878,
+  "e_dec": 2.3817,
+  "e_sus": 0.7807,
+  "l1_rate": 0.2073,
+  "l2_rate": 0.2885,
+  "chorus": 0.4,
+  "verb_mix": 0.2512,
+  "verb_size": 0.8473,
+  "maxv": 12,
+  "m1_src": 1,
+  "m1_dst": 1,
+  "m1_amt": 0.1759,
+  "m2_src": 2,
+  "m2_dst": 2,
+  "m2_amt": 0.2649,
+  "m3_src": 5,
+  "m3_dst": 6,
+  "m3_amt": 0.3,
+  "f_drive": 0.3694,
+  "charge": 0.0925,
+  "vol": 3.49
+ }
+}

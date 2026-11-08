@@ -1,0 +1,58 @@
+{
+ "format": 1,
+ "name": "Cobalt Noise Wash",
+ "author": "Trill Tron",
+ "type": "FX",
+ "character": "CHROME-FM",
+ "tags": [
+  "Punchy",
+  "Glitchy"
+ ],
+ "style": [
+  "Punchy",
+  "Glitchy"
+ ],
+ "genre": [
+  "Cinematic"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM FX - Punchy, Glitchy.",
+ "a": {
+  "o1_table": 4,
+  "o1_pos": 0.5086,
+  "o2_lvl": 0.4079,
+  "o2_table": 4,
+  "o2_pos": 0.3414,
+  "o2_fine": 15.9717,
+  "o1_warp": 0.4,
+  "o1_warpmode": 1,
+  "f_type": 2,
+  "f_cut": 3520.5796,
+  "f_res": 0.4674,
+  "a_atk": 0.001,
+  "delay_mix": 0.2525,
+  "delay_fb": 0.55,
+  "verb_mix": 0.2056,
+  "verb_size": 0.8,
+  "maxv": 6,
+  "uni_n": 3,
+  "a_dec": 1,
+  "a_sus": 1,
+  "a_rel": 0.6,
+  "e_atk": 2.5,
+  "e_dec": 0.2,
+  "e_sus": 1,
+  "noise_lvl": 0.2588,
+  "m1_src": 3,
+  "m1_dst": 5,
+  "m1_amt": 0.4617,
+  "m2_src": 3,
+  "m2_dst": 6,
+  "m2_amt": 0.6059,
+  "fm": 0.377,
+  "f_env": 0.35,
+  "delay_time": 0.25,
+  "vol": 8.36
+ }
+}

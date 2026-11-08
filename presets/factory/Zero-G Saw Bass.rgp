@@ -1,0 +1,46 @@
+{
+ "format": 1,
+ "name": "Zero-G Saw Bass",
+ "author": "Trill Tron",
+ "type": "Bass",
+ "character": "MONO-VOLT",
+ "tags": [
+  "Distorted",
+  "Mono"
+ ],
+ "style": [
+  "Distorted"
+ ],
+ "genre": [
+  "Phonk",
+  "Drill"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "MONO-VOLT Bass - Distorted.",
+ "a": {
+  "o1_table": 1,
+  "o1_pos": 0.5595,
+  "o2_lvl": 0.1589,
+  "o2_table": 11,
+  "o2_oct": -1,
+  "o2_pos": 0.2012,
+  "sub_lvl": 0.4601,
+  "voice": 1,
+  "glide": 0.0065,
+  "f_cut": 261.0786,
+  "f_res": 0.4034,
+  "f_env": 0.279,
+  "f_key": 0.5,
+  "e_dec": 0.1579,
+  "e_sus": 0.0996,
+  "a_atk": 0.002,
+  "a_dec": 0.4,
+  "a_sus": 0.6976,
+  "a_rel": 0.1079,
+  "oct": -1,
+  "f_drive": 0.4,
+  "charge": 0.3634,
+  "vol": 3.38
+ }
+}

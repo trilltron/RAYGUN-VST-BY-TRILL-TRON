@@ -1,0 +1,43 @@
+{
+ "format": 1,
+ "name": "Pulse Stab",
+ "author": "Trill Tron",
+ "type": "Pluck",
+ "character": "BLASTER-8",
+ "tags": [
+  "Warm"
+ ],
+ "style": [
+  "Warm"
+ ],
+ "genre": [
+  "Cinematic",
+  "Trap"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Pluck - Warm.",
+ "a": {
+  "o1_table": 13,
+  "o1_pos": 0.5286,
+  "o2_lvl": 0.3525,
+  "o2_table": 1,
+  "o2_fine": 7.1252,
+  "f_cut": 1537.0362,
+  "f_res": 0.1704,
+  "f_env": 0.6493,
+  "f_key": 0.5,
+  "e_atk": 0.001,
+  "e_dec": 0.1368,
+  "a_atk": 0.001,
+  "a_dec": 0.3568,
+  "a_sus": 0,
+  "a_rel": 0.1501,
+  "delay_mix": 0.2292,
+  "verb_mix": 0.0742,
+  "uni_n": 2,
+  "chorus": 0.2976,
+  "f_drive": 0.15,
+  "vol": 11.2
+ }
+}

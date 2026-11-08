@@ -1,0 +1,56 @@
+{
+ "format": 1,
+ "name": "Titan Swell Brass",
+ "author": "Trill Tron",
+ "type": "Brass",
+ "character": "PULP-TUBE",
+ "tags": [
+  "Wide",
+  "Punchy",
+  "Vintage"
+ ],
+ "style": [
+  "Wide",
+  "Punchy",
+  "Vintage"
+ ],
+ "genre": [
+  "Lo-Fi",
+  "Hyperpop"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "PULP-TUBE Brass - Wide, Punchy, Vintage.",
+ "a": {
+  "o1_table": 6,
+  "o1_pos": 0.2241,
+  "o2_lvl": 0.5282,
+  "o2_table": 9,
+  "o2_fine": 10.3017,
+  "o2_pos": 0.8017,
+  "uni_n": 3,
+  "uni_det": 0.114,
+  "f_cut": 550.7396,
+  "f_res": 0.1721,
+  "f_env": 0.5233,
+  "e_atk": 0.067,
+  "e_dec": 0.2,
+  "e_sus": 0.4755,
+  "a_atk": 0.001,
+  "a_sus": 0.9723,
+  "a_rel": 0.2796,
+  "chorus": 0.4,
+  "verb_mix": 0.1661,
+  "maxv": 10,
+  "m1_src": 4,
+  "m1_dst": 6,
+  "m1_amt": 0.3,
+  "m2_src": 5,
+  "m2_dst": 1,
+  "m2_amt": 0.3,
+  "f_drive": 0.2728,
+  "charge": 0.1919,
+  "uni_wid": 1,
+  "vol": 1.8
+ }
+}

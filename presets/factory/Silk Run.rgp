@@ -1,0 +1,51 @@
+{
+ "format": 1,
+ "name": "Silk Run",
+ "author": "Trill Tron",
+ "type": "Arp",
+ "character": "CHROME-FM",
+ "tags": [
+  "Soft",
+  "Vintage",
+  "Bright",
+  "Synced"
+ ],
+ "style": [
+  "Soft",
+  "Vintage",
+  "Bright"
+ ],
+ "genre": [
+  "Synthwave",
+  "Phonk"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM Arp - Soft, Vintage, Bright.",
+ "a": {
+  "o1_table": 13,
+  "o1_pos": 1,
+  "o2_lvl": 0.0246,
+  "o2_fine": 11.0387,
+  "f_cut": 3540.6835,
+  "f_env": 0.6392,
+  "f_key": 0.5,
+  "e_dec": 0.1994,
+  "a_atk": 0.03,
+  "a_dec": 0.3127,
+  "a_sus": 0,
+  "a_rel": 0.1221,
+  "arp_on": 1,
+  "arp_rate": 5,
+  "arp_oct": 2,
+  "arp_gate": 0.3857,
+  "delay_mix": 0.1884,
+  "delay_fb": 0.4,
+  "verb_mix": 0.1595,
+  "fm": 0.3038,
+  "o2_pos": 0.5722,
+  "chorus": 0.3,
+  "f_drive": 0.2,
+  "vol": 7.13
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "format": 1,
+ "name": "Hyper Icicle",
+ "author": "Trill Tron",
+ "type": "Bell",
+ "character": "CHROME-FM",
+ "tags": [
+  "Evolving",
+  "Warm"
+ ],
+ "style": [
+  "Evolving",
+  "Warm"
+ ],
+ "genre": [
+  "Synthwave",
+  "Cinematic"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "CHROME-FM Bell - Evolving, Warm.",
+ "a": {
+  "o1_table": 13,
+  "o1_pos": 0.4393,
+  "o2_lvl": 0.2618,
+  "o2_oct": 1,
+  "o2_pos": 0.2544,
+  "fm": 0.4707,
+  "f_cut": 8888.1511,
+  "f_res": 0.05,
+  "f_key": 0.8,
+  "a_atk": 0.001,
+  "a_dec": 3.0028,
+  "a_sus": 0,
+  "a_rel": 0.7386,
+  "e_dec": 0.7557,
+  "chorus": 0.112,
+  "delay_mix": 0.2722,
+  "delay_fb": 0.4,
+  "verb_mix": 0.3684,
+  "verb_size": 0.7,
+  "maxv": 10,
+  "m1_src": 3,
+  "m1_dst": 13,
+  "m1_amt": 0.1163,
+  "m2_src": 4,
+  "m2_dst": 13,
+  "m2_amt": 0.2,
+  "l1_rate": 0.2932,
+  "m6_src": 1,
+  "m6_dst": 1,
+  "m6_amt": 0.2653,
+  "m7_src": 2,
+  "m7_dst": 2,
+  "m7_amt": 0.3833,
+  "f_drive": 0.15,
+  "vol": 7.42
+ }
+}

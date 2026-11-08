@@ -1,0 +1,59 @@
+{
+ "format": 1,
+ "name": "Sonic Chant",
+ "author": "Trill Tron",
+ "type": "Vox",
+ "character": "PULP-TUBE",
+ "tags": [
+  "Distorted",
+  "Warm",
+  "Punchy"
+ ],
+ "style": [
+  "Distorted",
+  "Warm",
+  "Punchy"
+ ],
+ "genre": [
+  "Hyperpop"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "PULP-TUBE Vox - Distorted, Warm, Punchy.",
+ "a": {
+  "o1_table": 5,
+  "o1_pos": 0.1591,
+  "o2_lvl": 0.6821,
+  "o2_table": 9,
+  "o2_pos": 0.9663,
+  "o2_fine": -4.4488,
+  "uni_n": 4,
+  "uni_det": 0.1768,
+  "f_cut": 3953.6907,
+  "f_key": 0.4,
+  "a_atk": 0.001,
+  "a_dec": 0.6,
+  "a_sus": 0.7132,
+  "a_rel": 0.6942,
+  "l1_rate": 0.613,
+  "l2_rate": 5.5973,
+  "chorus": 0.2971,
+  "verb_mix": 0.2683,
+  "verb_size": 0.7,
+  "maxv": 10,
+  "m1_src": 1,
+  "m1_dst": 1,
+  "m1_amt": 0.3469,
+  "m2_src": 5,
+  "m2_dst": 1,
+  "m2_amt": 0.5,
+  "m3_src": 2,
+  "m3_dst": 5,
+  "m3_amt": 0.01,
+  "f_drive": 0.4,
+  "charge": 0.6649,
+  "f_env": 0.35,
+  "e_dec": 0.2,
+  "vol": -0.98
+ }
+}

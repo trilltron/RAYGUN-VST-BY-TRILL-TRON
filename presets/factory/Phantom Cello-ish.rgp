@@ -1,0 +1,61 @@
+{
+ "format": 1,
+ "name": "Phantom Cello-ish",
+ "author": "Trill Tron",
+ "type": "Strings",
+ "character": "NEON-ROM",
+ "tags": [
+  "Evolving"
+ ],
+ "style": [
+  "Evolving"
+ ],
+ "genre": [
+  "Phonk",
+  "Hyperpop"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "NEON-ROM Strings - Evolving.",
+ "a": {
+  "o1_table": 7,
+  "o1_pos": 0.6501,
+  "o2_lvl": 0.7335,
+  "o2_table": 0,
+  "o2_pos": 0.8647,
+  "o2_fine": -3.2335,
+  "uni_n": 4,
+  "uni_det": 0.3763,
+  "uni_wid": 0.9552,
+  "f_cut": 3626.0555,
+  "f_res": 0.08,
+  "f_env": 0.0019,
+  "f_key": 0.5,
+  "a_atk": 0.3158,
+  "a_dec": 1.0,
+  "a_sus": 0.8127,
+  "a_rel": 1.3032,
+  "chorus": 0.4985,
+  "verb_mix": 0.1594,
+  "verb_size": 0.7,
+  "l1_rate": 0.2949,
+  "maxv": 12,
+  "m1_src": 2,
+  "m1_dst": 1,
+  "m1_amt": 0.1231,
+  "m2_src": 5,
+  "m2_dst": 6,
+  "m2_amt": 0.3,
+  "o1_warp": 0.3227,
+  "o1_warpmode": 2,
+  "charge": 0.1324,
+  "delay_mix": 0.113,
+  "m6_src": 1,
+  "m6_dst": 1,
+  "m6_amt": 0.4548,
+  "m7_src": 2,
+  "m7_dst": 2,
+  "m7_amt": 0.2198,
+  "vol": 0.34
+ }
+}

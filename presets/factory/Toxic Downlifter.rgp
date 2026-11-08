@@ -1,0 +1,54 @@
+{
+ "format": 1,
+ "name": "Toxic Downlifter",
+ "author": "Trill Tron",
+ "type": "FX",
+ "character": "NEON-ROM",
+ "tags": [
+  "Soft",
+  "Wide"
+ ],
+ "style": [
+  "Soft",
+  "Wide"
+ ],
+ "genre": [
+  "Drill"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "NEON-ROM FX - Soft, Wide.",
+ "a": {
+  "o1_table": 16,
+  "o1_pos": 0.8572,
+  "o2_lvl": 0.2903,
+  "o2_table": 8,
+  "o2_pos": 0.3317,
+  "o2_fine": 11.6712,
+  "o1_warp": 0.4199,
+  "o1_warpmode": 2,
+  "f_cut": 4018.2616,
+  "a_atk": 1.845,
+  "delay_mix": 0.2902,
+  "delay_fb": 0.5,
+  "verb_mix": 0.2726,
+  "verb_size": 0.8,
+  "maxv": 6,
+  "uni_n": 5,
+  "a_dec": 1,
+  "a_sus": 1,
+  "a_rel": 1.6927,
+  "l1_rate": 0.1056,
+  "uni_det": 0.5389,
+  "uni_wid": 1,
+  "m1_src": 1,
+  "m1_dst": 1,
+  "m1_amt": 0.4,
+  "m2_src": 1,
+  "m2_dst": 6,
+  "m2_amt": 0.25,
+  "charge": 0.0728,
+  "chorus": 0.4,
+  "vol": 3.69
+ }
+}

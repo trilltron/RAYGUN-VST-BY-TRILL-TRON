@@ -1,0 +1,46 @@
+{
+ "format": 1,
+ "name": "Onyx Pick",
+ "author": "Trill Tron",
+ "type": "Pluck",
+ "character": "XENO",
+ "tags": [
+  "Vintage"
+ ],
+ "style": [
+  "Vintage"
+ ],
+ "genre": [
+  "R&B",
+  "Lo-Fi"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "XENO Pluck - Vintage.",
+ "a": {
+  "o1_table": 15,
+  "o1_pos": 0.7364,
+  "o2_lvl": 0.293,
+  "o2_table": 1,
+  "o2_fine": 11.6721,
+  "f_cut": 1120.8979,
+  "f_res": 0.2888,
+  "f_env": 0.7239,
+  "f_key": 0.5,
+  "e_atk": 0.001,
+  "e_dec": 0.2583,
+  "a_atk": 0.001,
+  "a_dec": 0.4379,
+  "a_sus": 0,
+  "a_rel": 0.1655,
+  "delay_mix": 0.0562,
+  "verb_mix": 0.0682,
+  "uni_n": 2,
+  "o1_warp": 0.1744,
+  "o1_warpmode": 2,
+  "l2_rate": 2.8307,
+  "chorus": 0.3,
+  "f_drive": 0.2,
+  "vol": 12
+ }
+}

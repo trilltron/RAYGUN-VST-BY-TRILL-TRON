@@ -1,0 +1,55 @@
+{
+ "format": 1,
+ "name": "Midnight Orchestra Bed",
+ "author": "Trill Tron",
+ "type": "Strings",
+ "character": "BLASTER-8",
+ "tags": [
+  "Glitchy"
+ ],
+ "style": [
+  "Glitchy"
+ ],
+ "genre": [
+  "Phonk"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "BLASTER-8 Strings - Glitchy.",
+ "a": {
+  "o1_table": 7,
+  "o1_pos": 0.5776,
+  "o2_lvl": 0.7184,
+  "o2_table": 7,
+  "o2_pos": 0.9975,
+  "o2_fine": 8.1018,
+  "uni_n": 6,
+  "uni_det": 0.4219,
+  "uni_wid": 0.7069,
+  "f_cut": 2550.2096,
+  "f_res": 0.08,
+  "f_env": 0.0842,
+  "f_key": 0.5,
+  "a_atk": 0.5239,
+  "a_dec": 1.0,
+  "a_sus": 0.8973,
+  "a_rel": 0.7719,
+  "chorus": 0.5578,
+  "verb_mix": 0.2079,
+  "verb_size": 0.7,
+  "l1_rate": 4.0351,
+  "maxv": 12,
+  "m1_src": 2,
+  "m1_dst": 1,
+  "m1_amt": 0.1451,
+  "m2_src": 5,
+  "m2_dst": 6,
+  "m2_amt": 0.3,
+  "delay_mix": 0.25,
+  "delay_time": 0.125,
+  "delay_fb": 0.55,
+  "o1_warp": 0.4,
+  "o1_warpmode": 4,
+  "vol": 0.0
+ }
+}

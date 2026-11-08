@@ -1,0 +1,49 @@
+{
+ "format": 1,
+ "name": "Onyx Climb",
+ "author": "Trill Tron",
+ "type": "Arp",
+ "character": "NEON-ROM",
+ "tags": [
+  "Airy",
+  "Punchy",
+  "Synced"
+ ],
+ "style": [
+  "Airy",
+  "Punchy"
+ ],
+ "genre": [
+  "Synthwave",
+  "Hyperpop"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "NEON-ROM Arp - Airy, Punchy.",
+ "a": {
+  "o1_table": 10,
+  "o1_pos": 0.3473,
+  "o2_lvl": 0.0652,
+  "o2_table": 1,
+  "o2_fine": 5.1801,
+  "f_cut": 2981.9181,
+  "f_res": 0.2734,
+  "f_env": 0.457,
+  "f_key": 0.5,
+  "e_dec": 0.1298,
+  "a_atk": 0.001,
+  "a_dec": 0.2831,
+  "a_sus": 0,
+  "a_rel": 0.1883,
+  "arp_on": 1,
+  "arp_gate": 0.593,
+  "delay_mix": 0.2951,
+  "delay_fb": 0.4,
+  "verb_mix": 0.3,
+  "o1_warp": 0.3641,
+  "o1_warpmode": 4,
+  "charge": 0.228,
+  "noise_lvl": 0.04,
+  "vol": 1.94
+ }
+}

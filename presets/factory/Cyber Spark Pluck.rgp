@@ -1,0 +1,43 @@
+{
+ "format": 1,
+ "name": "Cyber Spark Pluck",
+ "author": "Trill Tron",
+ "type": "Pluck",
+ "character": "XENO",
+ "tags": [
+  "Warm"
+ ],
+ "style": [
+  "Warm"
+ ],
+ "genre": [
+  "Cinematic"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "XENO Pluck - Warm.",
+ "a": {
+  "o1_table": 16,
+  "o1_pos": 0.9765,
+  "o2_lvl": 0.4295,
+  "o2_table": 1,
+  "o2_fine": 11.6809,
+  "f_cut": 1114.3308,
+  "f_res": 0.198,
+  "f_env": 0.7567,
+  "f_key": 0.5,
+  "e_atk": 0.001,
+  "e_dec": 0.1339,
+  "a_atk": 0.001,
+  "a_dec": 0.2133,
+  "a_sus": 0,
+  "a_rel": 0.1409,
+  "delay_mix": 0.2277,
+  "verb_mix": 0.1955,
+  "o1_warp": 0.1189,
+  "o1_warpmode": 1,
+  "l2_rate": 2.8632,
+  "f_drive": 0.15,
+  "vol": 12
+ }
+}

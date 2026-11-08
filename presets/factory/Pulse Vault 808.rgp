@@ -1,0 +1,48 @@
+{
+ "format": 1,
+ "name": "Pulse Vault 808",
+ "author": "Trill Tron",
+ "type": "808",
+ "character": "MONO-VOLT",
+ "tags": [
+  "Bright",
+  "Airy",
+  "Mono",
+  "Glide"
+ ],
+ "style": [
+  "Bright",
+  "Airy"
+ ],
+ "genre": [
+  "Lo-Fi"
+ ],
+ "key": "",
+ "bpm": 0,
+ "desc": "MONO-VOLT 808 - Bright, Airy.",
+ "a": {
+  "o1_table": 11,
+  "o1_pos": 0.4411,
+  "o1_oct": -1,
+  "sub_lvl": 0.887,
+  "voice": 1,
+  "glide": 0.0681,
+  "f_cut": 2594.0254,
+  "f_res": 0.2822,
+  "f_key": 0.4,
+  "a_atk": 0.001,
+  "a_dec": 0.9377,
+  "a_sus": 0,
+  "a_rel": 0.4661,
+  "e_dec": 0.0423,
+  "charge": 0.1825,
+  "oct": -1,
+  "f_drive": 0.0592,
+  "m1_src": 3,
+  "m1_dst": 5,
+  "m1_amt": 0.0864,
+  "verb_mix": 0.3,
+  "noise_lvl": 0.04,
+  "vol": 10.03
+ }
+}
