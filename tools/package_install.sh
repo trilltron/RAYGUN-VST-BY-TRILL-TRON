@@ -10,5 +10,5 @@ cp -r "$VST3" "$OUT/RAYGUN.vst3"
 cp "$ROOT"/install/Windows/*.bat "$ROOT"/install/Windows/README_FL_STUDIO.txt "$OUT/"
 mkdir -p "$OUT/Presets_Reference" && cp "$ROOT"/presets/factory/*.rgp "$OUT/Presets_Reference/"   # same presets as embedded, for browsing/sharing
 mkdir -p "$OUT/Licenses" && cp "$ROOT"/data/fonts/OFL-*.txt "$OUT/Licenses/"
-( cd "$(dirname "$OUT")" && rm -f "$(basename "$OUT").zip" && zip -qr "$(basename "$OUT").zip" "$(basename "$OUT")" )
+if command -v zip >/dev/null 2>&1; then ( cd "$(dirname "$OUT")" && rm -f "$(basename "$OUT").zip" && zip -qr "$(basename "$OUT").zip" "$(basename "$OUT")" ); fi
 echo "packaged: $OUT  (+ .zip)"
