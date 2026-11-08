@@ -22,6 +22,11 @@ if exist "%DEST%\RAYGUN.vst3" rmdir /S /Q "%DEST%\RAYGUN.vst3"
 xcopy /E /I /Y /Q "%SRC%RAYGUN.vst3" "%DEST%\RAYGUN.vst3" >nul
 if errorlevel 1 ( echo  Copy failed. & pause & exit /b 1 )
 if not exist "%USERPROFILE%\Documents\Trill Tron\RAYGUN\User Presets" mkdir "%USERPROFILE%\Documents\Trill Tron\RAYGUN\User Presets"
+if exist "%SRC%RAYGUN_VST2.dll" (
+  if not exist "%ProgramFiles%\VSTPlugins" mkdir "%ProgramFiles%\VSTPlugins"
+  copy /Y "%SRC%RAYGUN_VST2.dll" "%ProgramFiles%\VSTPlugins\RAYGUN.dll" >nul
+  echo  VST2 version installed to "%ProgramFiles%\VSTPlugins\RAYGUN.dll"  ^(for FL Studio 20.0-20.6 and other older hosts^).
+)
 if exist "%SRC%RAYGUN.exe" (
   if not exist "%ProgramFiles%\Trill Tron\RAYGUN" mkdir "%ProgramFiles%\Trill Tron\RAYGUN"
   copy /Y "%SRC%RAYGUN.exe" "%ProgramFiles%\Trill Tron\RAYGUN\RAYGUN.exe" >nul

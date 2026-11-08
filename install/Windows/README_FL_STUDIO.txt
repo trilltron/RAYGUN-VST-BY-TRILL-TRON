@@ -7,6 +7,13 @@ WHAT YOU NEED
     (Versions 20.0-20.6 only load VST2 plugins; RAYGUN is VST3, so update FL to 20.7+, which is free.)
   * Any other VST3 host works too: Ableton, Reaper, Cubase, Bitwig, Studio One...
 
+FL STUDIO 20.0 - 20.6 (OLD VERSIONS)  ->  USE THE VST2 FILE
+  Old FL versions only load VST2. The install zip includes RAYGUN_VST2.dll and the installer copies it to
+  C:\Program Files\VSTPlugins\RAYGUN.dll . Then in FL: Options > File settings > make sure
+  C:\Program Files\VSTPlugins is listed under "Plugin search paths", then Options > Manage plugins > Find installed plugins.
+  RAYGUN appears as a normal (VST) instrument. Personal-use build: it uses its own minimal VST2 interface,
+  not the Steinberg SDK, so please do not redistribute it commercially.
+
 INSTALL (30 seconds)
   1. Unzip this folder anywhere.
   2. Right-click  Install_RAYGUN.bat  ->  Run as administrator.

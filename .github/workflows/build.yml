@@ -19,11 +19,11 @@ jobs:
       - name: Configure
         run: cmake -S . -B build -A x64 -DRAYGUN_BUILD_TOOLS=OFF
       - name: Build VST3 + Standalone (Release, static CRT)
-        run: cmake --build build --config Release --target RAYGUN_VST3 RAYGUN_Standalone -j 4
+        run: cmake --build build --config Release --target RAYGUN_VST3 RAYGUN_Standalone RAYGUN_VST2 -j 4
       - name: Package install folder
         shell: bash
         run: |
-          tools/package_install.sh build/RAYGUN_artefacts/Release/VST3/RAYGUN.vst3 build/RAYGUN_artefacts/Release/Standalone/RAYGUN.exe install/RAYGUN_Install_Windows
+          tools/package_install.sh build/RAYGUN_artefacts/Release/VST3/RAYGUN.vst3 build/RAYGUN_artefacts/Release/Standalone/RAYGUN.exe install/RAYGUN_Install_Windows "$(find build -name RAYGUN_VST2.dll | head -1)"
       - name: Zip install folder
         shell: pwsh
         run: Compress-Archive -Path install/RAYGUN_Install_Windows -DestinationPath RAYGUN_Install_Windows.zip -Force
@@ -36,7 +36,8 @@ jobs:
         run: |
           gh release view windows-latest >/dev/null 2>&1 || gh release create windows-latest --title "RAYGUN for Windows (latest build)" --notes "Unzip, right-click Install_RAYGUN.bat > Run as administrator. See README_FL_STUDIO.txt. Built from commit ${GITHUB_SHA::7}."
           cp build/RAYGUN_artefacts/Release/VST3/RAYGUN.vst3/Contents/x86_64-win/RAYGUN.vst3 RAYGUN_x64.dll
-          gh release upload windows-latest RAYGUN_Install_Windows.zip RAYGUN_x64.dll --clobber
+          cp "$(find build -name RAYGUN_VST2.dll | head -1)" RAYGUN_VST2_x64.dll
+          gh release upload windows-latest RAYGUN_Install_Windows.zip RAYGUN_x64.dll RAYGUN_VST2_x64.dll --clobber
   macos:
     runs-on: macos-latest
     steps:
