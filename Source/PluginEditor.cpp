@@ -201,7 +201,7 @@ struct SettingsPage : Page {
 // =====================================================================================================================
 //  Editor
 // =====================================================================================================================
-void RaygunEditor::Content::paint(Graphics& g) { ed.paintHeader(g); }
+void RaygunEditor::Content::paint(Graphics& g) { if (++paints <= 3) rg::dbg("content paint #" + String(paints) + " size=" + String(getWidth()) + "x" + String(getHeight()) + " clip=" + g.getClipBounds().toString() + " scale=" + String(getTransform().getScaleFactor())); ed.paintHeader(g); }
 
 void RaygunEditor::headerClick(Point<float> p) {
     if (p.y > HEADER) return;
@@ -292,6 +292,7 @@ void RaygunEditor::openMenu() {
 }
 
 void RaygunEditor::timerCallback() {
+    static int ticks = 0; if (++ticks == 40 || ticks == 400) rg::dbg("editor timer alive: ticks=" + String(ticks) + " content paints=" + String(content.paints) + " editorSize=" + String(getWidth()) + "x" + String(getHeight()) + " showing=" + String((int) isShowing()));
     int cells = jlimit(0, 6, (int) std::ceil(proc.cpuLoad.load() * 100.f / 10.f)); if (cells != lastCpuCells) { lastCpuCells = cells; }
     content.repaint(0, 0, W, HEADER); if (tab == 0) pages[0]->repaint(); }
 

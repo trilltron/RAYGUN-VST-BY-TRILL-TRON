@@ -1,5 +1,6 @@
 #pragma once
 #include "PluginProcessor.h"
+#include "DebugLog.h"
 #include "Gui/Scope.h"
 #include "Gui/Browser.h"
 
@@ -27,13 +28,14 @@ public:
     void selectTab(int i);
     // Some hosts (e.g. FL Studio) show a black window with JUCE 8's Direct2D renderer: always use the software renderer.
     void forceSoftwareRenderer() {
-        if (auto* peer = getPeer()) { auto engines = peer->getAvailableRenderingEngines();
+        if (auto* peer = getPeer()) {
+            rg::dbg("renderer: engines=" + peer->getAvailableRenderingEngines().joinIntoString(",") + " current=" + juce::String(peer->getCurrentRenderingEngine())); auto engines = peer->getAvailableRenderingEngines();
             for (int i = 0; i < engines.size(); ++i) if (engines[i].containsIgnoreCase("software") && peer->getCurrentRenderingEngine() != i) peer->setCurrentRenderingEngine(i); } }
     void parentHierarchyChanged() override { forceSoftwareRenderer(); }
     void visibilityChanged() override { forceSoftwareRenderer(); }
     void showBrowser() { browser->show(); }
 private:
-    struct Content : juce::Component { RaygunEditor& ed; explicit Content(RaygunEditor& e) : ed(e) {} void paint(juce::Graphics& g) override; };
+    struct Content : juce::Component { RaygunEditor& ed; int paints = 0; explicit Content(RaygunEditor& e) : ed(e) {} void paint(juce::Graphics& g) override; };
     void timerCallback() override;
     void setEditLayer(int l);
     void stepPreset(int dir);

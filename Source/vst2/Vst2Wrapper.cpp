@@ -7,6 +7,7 @@
 #include "../PluginProcessor.h"
 #include "../PluginEditor.h"
 #include "Vst2Abi.h"
+#include "../DebugLog.h"
 #include <cstring>
 
 using namespace vst2;
@@ -67,10 +68,12 @@ intptr_t dispatch(VEffect* e, int32_t op, int32_t idx, intptr_t val, void* ptr, 
         int pct = juce::jlimit(75, 200, w->proc->uiScalePercent); w->rect = { 0, 0, (int16_t) (600 * pct / 100), (int16_t) (1000 * pct / 100) };
         if (ptr) *(VRect**) ptr = &w->rect; return 1; }
     case EditOpen: {
+        rg::dbg("EditOpen parentHWND=" + juce::String::toHexString((juce::int64) (juce::pointer_sized_int) ptr) + " isMsgThread=" + juce::String((int) juce::MessageManager::existsAndIsCurrentThread()) + " scale=" + juce::String(juce::Desktop::getInstance().getDisplays().getPrimaryDisplay() ? juce::Desktop::getInstance().getDisplays().getPrimaryDisplay()->scale : 0.0));
         if (!w->editor) w->editor.reset(w->proc->createEditor());
         w->editor->addComponentListener(w); w->lastW = w->editor->getWidth(); w->lastH = w->editor->getHeight();
         w->editor->setTopLeftPosition(0, 0); w->editor->addToDesktop(0, ptr); w->editor->setVisible(true);
         if (auto* re = dynamic_cast<RaygunEditor*>(w->editor.get())) re->forceSoftwareRenderer();
+        rg::dbg("EditOpen done: editor=" + juce::String(w->editor->getWidth()) + "x" + juce::String(w->editor->getHeight()) + " peer=" + juce::String((int) (w->editor->getPeer() != nullptr)) + " visible=" + juce::String((int) w->editor->isVisible()) + " onDesktop=" + juce::String((int) w->editor->isOnDesktop()));
         w->editor->repaint(); return 1; }
     case EditClose: if (w->editor) { w->editor->removeComponentListener(w); w->editor->removeFromDesktop(); w->editor.reset(); } return 0;
     case EditIdle: return 0;
@@ -101,6 +104,7 @@ intptr_t dispatch(VEffect* e, int32_t op, int32_t idx, intptr_t val, void* ptr, 
 
 VST_EXPORT VEffect* VSTPluginMain(HostCb cb) {
     if (!cb || cb(nullptr, MVersion, 0, 0, nullptr, 0) == 0) return nullptr;   // not a VST2 host
+    rg::dbg("VSTPluginMain called");
     static bool inited = false; if (!inited) { juce::initialiseJuce_GUI(); inited = true; }   // never shut down: host unloads the DLL at exit
     auto* w = new Wrapper(); w->host = cb; w->proc = std::make_unique<RaygunProcessor>(); w->proc->addListener(w);
     auto& f = w->fx; f.magic = kMagic; f.dispatcher = dispatch; f.process = processAccumulating; f.setParameter = setParameter; f.getParameter = getParameter;
