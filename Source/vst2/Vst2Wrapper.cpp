@@ -1,8 +1,5 @@
 // RAYGUN VST2 wrapper: hosts the same RaygunProcessor / RaygunEditor as the VST3 build behind a VST 2.4 interface.
 #if defined(_WIN32)
- #define WIN32_LEAN_AND_MEAN
- #define NOMINMAX
- #include <windows.h>
  #define VST_EXPORT extern "C" __declspec(dllexport)
 #else
  #define VST_EXPORT extern "C" __attribute__((visibility("default")))
@@ -99,9 +96,6 @@ intptr_t dispatch(VEffect* e, int32_t op, int32_t idx, intptr_t val, void* ptr, 
 }
 } // namespace
 
-#if defined(_WIN32)
-BOOL WINAPI DllMain(HINSTANCE h, DWORD reason, LPVOID) { if (reason == DLL_PROCESS_ATTACH) juce::Process::setCurrentModuleInstanceHandle(h); return TRUE; }
-#endif
 
 VST_EXPORT VEffect* VSTPluginMain(HostCb cb) {
     if (!cb || cb(nullptr, MVersion, 0, 0, nullptr, 0) == 0) return nullptr;   // not a VST2 host

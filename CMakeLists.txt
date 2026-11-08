@@ -75,7 +75,7 @@ endif()
 # VST2 build (legacy hosts such as FL Studio 20.0-20.6). Own minimal VST2 ABI - no Steinberg SDK. Personal-use build.
 option(RAYGUN_BUILD_VST2 "Build the VST2 wrapper DLL" ON)
 if(RAYGUN_BUILD_VST2)
-  add_library(RAYGUN_VST2 MODULE Source/vst2/Vst2Wrapper.cpp Source/PluginProcessor.cpp Source/PluginEditor.cpp)
+  add_library(RAYGUN_VST2 MODULE Source/vst2/Vst2Wrapper.cpp Source/vst2/Vst2DllMain.cpp Source/PluginProcessor.cpp Source/PluginEditor.cpp)
   set_target_properties(RAYGUN_VST2 PROPERTIES PREFIX "" OUTPUT_NAME "RAYGUN_VST2" SUFFIX "${CMAKE_SHARED_LIBRARY_SUFFIX}")
   target_include_directories(RAYGUN_VST2 PRIVATE Source)
   target_compile_definitions(RAYGUN_VST2 PRIVATE JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1 JUCE_WEB_BROWSER=0 JUCE_USE_CURL=0 JUCE_DISPLAY_SPLASH_SCREEN=0 JUCE_REPORT_APP_USAGE=0)
