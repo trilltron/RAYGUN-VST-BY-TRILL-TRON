@@ -106,8 +106,10 @@ intptr_t dispatch(VEffect* e, int32_t op, int32_t idx, intptr_t val, void* ptr, 
 
 
 VST_EXPORT VEffect* VSTPluginMain(HostCb cb) {
-    if (!cb || cb(nullptr, MVersion, 0, 0, nullptr, 0) == 0) return nullptr;   // not a VST2 host
-    rg::dbg("VSTPluginMain called");
+    rg::dbg("VSTPluginMain entered, hostCb=" + juce::String(cb ? "yes" : "NULL"));
+    intptr_t hv = cb ? cb(nullptr, MVersion, 0, 0, nullptr, 0) : 0;
+    rg::dbg("host audioMasterVersion -> " + juce::String((juce::int64) hv));
+    if (!cb || hv == 0) { rg::dbg("REFUSING: not a VST2 host"); return nullptr; }   // not a VST2 host
     static bool inited = false; if (!inited) { juce::initialiseJuce_GUI(); inited = true; }   // never shut down: host unloads the DLL at exit
     auto* w = new Wrapper(); w->host = cb; w->proc = std::make_unique<RaygunProcessor>(); w->proc->addListener(w);
     auto& f = w->fx; f.magic = kMagic; f.dispatcher = dispatch; f.process = processAccumulating; f.setParameter = setParameter; f.getParameter = getParameter;
