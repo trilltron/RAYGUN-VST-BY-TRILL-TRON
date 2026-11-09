@@ -77,10 +77,11 @@ intptr_t dispatch(VEffect* e, int32_t op, int32_t idx, intptr_t val, void* ptr, 
     case EditOpen: {
         rg::dbg("EditOpen parentHWND=" + juce::String::toHexString((juce::int64) (juce::pointer_sized_int) ptr) + " isMsgThread=" + juce::String((int) juce::MessageManager::existsAndIsCurrentThread()) + " scale=" + juce::String(juce::Desktop::getInstance().getDisplays().getPrimaryDisplay() ? juce::Desktop::getInstance().getDisplays().getPrimaryDisplay()->scale : 0.0));
         if (!w->editor) w->editor.reset(w->proc->createEditor());
+        w->editor->setOpaque(true);   // opaque => no layered/per-pixel window (see PluginEditor.h)
         w->editor->addComponentListener(w); w->lastW = w->editor->getWidth(); w->lastH = w->editor->getHeight();
         w->editor->setTopLeftPosition(0, 0); w->editor->addToDesktop(0, ptr); w->editor->setVisible(true);
         if (auto* re = dynamic_cast<RaygunEditor*>(w->editor.get())) re->forceSoftwareRenderer();
-        rg::dbg("EditOpen done: editor=" + juce::String(w->editor->getWidth()) + "x" + juce::String(w->editor->getHeight()) + " peer=" + juce::String((int) (w->editor->getPeer() != nullptr)) + " visible=" + juce::String((int) w->editor->isVisible()) + " onDesktop=" + juce::String((int) w->editor->isOnDesktop()));
+        rg::dbg("EditOpen done: editor=" + juce::String(w->editor->getWidth()) + "x" + juce::String(w->editor->getHeight()) + " peer=" + juce::String((int) (w->editor->getPeer() != nullptr)) + " visible=" + juce::String((int) w->editor->isVisible()) + " onDesktop=" + juce::String((int) w->editor->isOnDesktop()) + " opaque=" + juce::String((int) w->editor->isOpaque()) + " alpha=" + juce::String(w->editor->getAlpha()));
 #if defined(_WIN32)
         if (auto* pe = w->editor->getPeer()) rg_logWindowInfo(pe->getNativeHandle(), "after EditOpen");
 #endif
@@ -113,7 +114,7 @@ intptr_t dispatch(VEffect* e, int32_t op, int32_t idx, intptr_t val, void* ptr, 
 
 
 VST_EXPORT VEffect* VSTPluginMain(HostCb cb) {
-    rg::dbg("VSTPluginMain entered, hostCb=" + juce::String(cb ? "yes" : "NULL"));
+    rg::dbg("VSTPluginMain entered, BUILD=" + juce::String(RAYGUN_BUILD_ID) + " hostCb=" + juce::String(cb ? "yes" : "NULL"));
     intptr_t hv = cb ? cb(nullptr, MVersion, 0, 0, nullptr, 0) : 0;
     rg::dbg("host audioMasterVersion -> " + juce::String((juce::int64) hv));
     if (!cb || hv == 0) { rg::dbg("REFUSING: not a VST2 host"); return nullptr; }   // not a VST2 host
