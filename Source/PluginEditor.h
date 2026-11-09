@@ -39,7 +39,8 @@ public:
     void clickHeader(juce::Point<float> logicalPos) { headerClick(logicalPos); }   // used by tests
     void syncFromProcessor() { setEditLayer(proc.editLayer); }                       // re-bind widgets after a preset was loaded externally
 private:
-    struct Content : juce::Component { RaygunEditor& ed; int paints = 0; explicit Content(RaygunEditor& e) : ed(e) {} void paint(juce::Graphics& g) override; };
+    struct Content : juce::Component { RaygunEditor& ed; int paints = 0; explicit Content(RaygunEditor& e) : ed(e) {} void paint(juce::Graphics& g) override;
+        void mouseDown(const juce::MouseEvent& e) override { ed.headerClick(e.position); } };   // preset box: arrows, star, name
     void timerCallback() override;
     void setEditLayer(int l);
     void stepPreset(int dir);

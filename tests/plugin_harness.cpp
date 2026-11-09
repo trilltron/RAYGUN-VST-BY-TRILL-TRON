@@ -51,13 +51,19 @@ int main(int argc, char** argv) {
       for (int s : { 200, 100 }) { ed->setSize(1000 * s / 100, 600 * s / 100);
         for (int t = 0; t < 8; ++t) { re->selectTab(t); Thread::sleep(10);
             auto img = ed->createComponentSnapshot(ed->getLocalBounds(), true, 1.0f); File f(outDir + "/" + names[t] + (s == 200 ? "" : "_100") + ".png"); FileOutputStream os(f); os.setPosition(0); os.truncate(); PNGImageFormat().writeImageToStream(img, os); } }
-      { // preset arrows: Init -> Next gives first preset; Next again changes; Previous returns; Previous from Init gives last
+      auto realClick = [&](juce::Point<float> p) {   // deliver a genuine mouse-down through JUCE's event path to the component under the pointer
+          auto* content = ed->getChildComponent(0); auto* target = content->getComponentAt(p.toInt());
+          auto local = target->getLocalPoint(content, p);
+          juce::MouseEvent ev(juce::Desktop::getInstance().getMainMouseSource(), local, juce::ModifierKeys(), 1.f, 0.f, 0.f, 0.f, 0.f, target, target,
+                              juce::Time::getCurrentTime(), local, juce::Time::getCurrentTime(), 1, false);
+          target->mouseDown(ev); };
+      { // preset arrows (real mouse events): Init -> Next gives first preset; Next again changes; Previous returns; Previous from Init gives last
         proc.initPatch(); re->selectTab(0); auto snap = ed->createComponentSnapshot(ed->getLocalBounds(), true, 1.0f); (void) snap;
         CHECK(proc.presetName[0] == "Init", "starts on Init");
-        re->clickHeader({ 331.f, 23.f }); String first = proc.presetName[0]; CHECK(first != "Init", "Next from Init loads a preset");
-        re->clickHeader({ 331.f, 23.f }); String second = proc.presetName[0]; CHECK(second != first && second != "Init", "Next again loads a different preset");
-        re->clickHeader({ 77.f, 23.f }); CHECK(proc.presetName[0] == first, "Previous goes back");
-        proc.initPatch(); re->clickHeader({ 77.f, 23.f }); CHECK(proc.presetName[0] != "Init", "Previous from Init loads the last preset");
+        realClick({ 331.f, 23.f }); String first = proc.presetName[0]; CHECK(first != "Init", "Next from Init loads a preset");
+        realClick({ 331.f, 23.f }); String second = proc.presetName[0]; CHECK(second != first && second != "Init", "Next again loads a different preset");
+        realClick({ 77.f, 23.f }); CHECK(proc.presetName[0] == first, "Previous goes back");
+        proc.initPatch(); realClick({ 77.f, 23.f }); CHECK(proc.presetName[0] != "Init", "Previous from Init loads the last preset");
         bool fin; float tail; float pk = renderNote(proc, 60, fin, tail); CHECK(fin && pk > 0.003f, "sound plays after arrow-loading a preset"); }
       re->selectTab(0); re->showBrowser(); Thread::sleep(10);
       ed->setSize(2000, 1200); auto img = ed->createComponentSnapshot(ed->getLocalBounds(), true, 1.0f); File f(outDir + "/browser.png"); FileOutputStream os(f); os.setPosition(0); os.truncate(); PNGImageFormat().writeImageToStream(img, os);
