@@ -208,6 +208,7 @@ void RaygunEditor::Content::paint(Graphics& g) { if (++paints <= 3) rg::dbg("con
 
 void RaygunEditor::headerClick(Point<float> p) {
     if (p.y > HEADER) return;
+    rg::dbg("header click at " + String(p.x, 0) + "," + String(p.y, 0));
     if (prevR.expanded(4).contains(p)) stepPreset(-1);
     else if (nextR.expanded(4).contains(p)) stepPreset(1);
     else if (starR.expanded(2).contains(p)) { if (auto* pi = presetFor(proc.editLayer)) { proc.presets.toggleFav(pi->name); content.repaint(); } }

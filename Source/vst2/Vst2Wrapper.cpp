@@ -10,6 +10,7 @@
 #include "../DebugLog.h"
 #include <cstring>
 #include <atomic>
+#include <algorithm>
 
 using namespace vst2;
 
@@ -33,6 +34,16 @@ struct Wrapper : juce::AudioProcessorListener, juce::ComponentListener {
     void audioProcessorChanged(juce::AudioProcessor*, const ChangeDetails&) override {}
     void componentMovedOrResized(juce::Component& c, bool, bool resized) override {
         if (resized && host && (c.getWidth() != lastW || c.getHeight() != lastH)) { lastW = c.getWidth(); lastH = c.getHeight(); host(&fx, MSizeWindow, lastW, lastH, nullptr, 0); } }
+    // Programs: 0 = "Init", 1..N = factory/user presets sorted by name (same order as the editor's Next/Prev arrows).
+    std::vector<int> order;
+    void buildOrder() {
+        auto& all = proc->presets.presets; order.clear(); for (int i = 0; i < all.size(); ++i) order.push_back(i);
+        std::sort(order.begin(), order.end(), [&](int a, int b) { return all.getReference(a).name.compareIgnoreCase(all.getReference(b).name) < 0; }); }
+    int currentProgram() const {
+        auto& all = proc->presets.presets; for (size_t i = 0; i < order.size(); ++i) if (all.getReference(order[i]).name == proc->presetName[0]) return (int) i + 1;
+        return 0; }
+    juce::String programName(int idx) const {
+        if (idx <= 0 || idx > (int) order.size()) return "Init"; return proc->presets.presets.getReference(order[(size_t) idx - 1]).name; }
     juce::AudioProcessorParameter* param(int i) const { auto& p = proc->getParameters(); return i >= 0 && i < p.size() ? p[i] : nullptr; }
 };
 
@@ -57,10 +68,15 @@ intptr_t dispatch(VEffect* e, int32_t op, int32_t idx, intptr_t val, void* ptr, 
     case Open: return 0;
     case Close: {
         w->proc->removeListener(w); w->editor.reset(); w->proc.reset(); delete w; e->object = nullptr; return 0; }
-    case SetProgram: return 0;
-    case GetProgram: return 0;
+    case SetProgram: {
+        int idx = (int) val; if (idx < 0 || idx > (int) w->order.size() || idx == w->currentProgram()) return 0;   // ignore redundant sets (hosts send program 0 at load)
+        if (idx == 0) w->proc->initPatch(); else w->proc->loadPreset(w->proc->presets.presets.getReference(w->order[(size_t) idx - 1]), w->proc->editLayer);
+        if (auto* re = dynamic_cast<RaygunEditor*>(w->editor.get())) re->syncFromProcessor();
+        return 0; }
+    case GetProgram: return w->currentProgram();
     case SetProgramName: return 0;
-    case GetProgramName: case GetProgramNameIndexed: copyStr(ptr, w->proc->presetName[0].toRawUTF8(), 24); return 1;
+    case GetProgramName: copyStr(ptr, w->programName(w->currentProgram()).toRawUTF8(), 24); return 1;
+    case GetProgramNameIndexed: if (idx < 0 || idx > (int) w->order.size()) return 0; copyStr(ptr, w->programName(idx).toRawUTF8(), 24); return 1;
     case GetParamLabel: copyStr(ptr, "", 24); return 0;
     case GetParamDisplay: if (auto* p = w->param(idx)) copyStr(ptr, p->getText(p->getValue(), 24).toRawUTF8(), 24); return 0;
     case GetParamName: if (auto* p = w->param(idx)) copyStr(ptr, p->getName(24).toRawUTF8(), 24); return 0;
@@ -121,7 +137,7 @@ VST_EXPORT VEffect* VSTPluginMain(HostCb cb) {
     static bool inited = false; if (!inited) { juce::initialiseJuce_GUI(); inited = true; }   // never shut down: host unloads the DLL at exit
     auto* w = new Wrapper(); w->host = cb; w->proc = std::make_unique<RaygunProcessor>(); w->proc->addListener(w);
     auto& f = w->fx; f.magic = kMagic; f.dispatcher = dispatch; f.process = processAccumulating; f.setParameter = setParameter; f.getParameter = getParameter;
-    f.numPrograms = 1; f.numParams = w->proc->getParameters().size(); f.numInputs = 0; f.numOutputs = 2; f.flags = HasEditor | CanReplacing | ProgramChunks | IsSynth;
+    w->buildOrder(); f.numPrograms = (int) w->order.size() + 1; f.numParams = w->proc->getParameters().size(); f.numInputs = 0; f.numOutputs = 2; f.flags = HasEditor | CanReplacing | ProgramChunks | IsSynth;
     f.uniqueID = ('R' << 24) | ('G' << 16) | ('u' << 8) | 'n'; f.version = 1000; f.processReplacing = processReplacing; f.object = w;
     return &f;
 }

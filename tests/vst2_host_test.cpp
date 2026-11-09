@@ -23,6 +23,13 @@ int main(int, char** argv) {
     CHECK(e->dispatcher(e, CanDo, 0, 0, (void*) "receiveVstMidiEvent", 0) == 1, "canDo receiveVstMidiEvent");
     e->dispatcher(e, GetParamName, 5, 0, buf, 0); printf("     param[5] name=\"%s\"\n", buf); CHECK(strlen(buf) > 0, "param names readable");
     VRect* r = nullptr; e->dispatcher(e, EditGetRect, 0, 0, &r, 0); CHECK(r && r->right == 1000 && r->bottom == 600, "editor rect 1000x600");
+    CHECK(e->numPrograms >= 500, "exposes all presets as VST programs");
+    char pn[256] = {}; e->dispatcher(e, GetProgramNameIndexed, 0, 0, pn, 0); CHECK(!strcmp(pn, "Init"), "program 0 is Init");
+    e->dispatcher(e, GetProgramNameIndexed, 1, 0, pn, 0); printf("     program 1 = \"%s\"\n", pn); CHECK(strlen(pn) > 0 && strcmp(pn, "Init"), "program 1 has a preset name");
+    CHECK(e->dispatcher(e, GetProgram, 0, 0, nullptr, 0) == 0, "starts on program 0");
+    e->dispatcher(e, SetProgram, 0, 7, nullptr, 0); CHECK(e->dispatcher(e, GetProgram, 0, 0, nullptr, 0) == 7, "setProgram(7) loads preset 7");
+    char cur[256] = {}; e->dispatcher(e, GetProgramName, 0, 0, cur, 0); e->dispatcher(e, GetProgramNameIndexed, 7, 0, pn, 0); CHECK(!strcmp(cur, pn), "current program name matches");
+    e->dispatcher(e, SetProgram, 0, 0, nullptr, 0); CHECK(e->dispatcher(e, GetProgram, 0, 0, nullptr, 0) == 0, "setProgram(0) returns to Init");
     // set up + play a note
     e->dispatcher(e, Open, 0, 0, nullptr, 0); e->dispatcher(e, SetSampleRate, 0, 0, nullptr, 48000.f); e->dispatcher(e, SetBlockSize, 0, 256, nullptr, 0); e->dispatcher(e, MainsChanged, 0, 1, nullptr, 0);
     // set parameters via host: mode = A (index of "mode" found by name scan)

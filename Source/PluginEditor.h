@@ -36,6 +36,8 @@ public:
     void parentHierarchyChanged() override { forceSoftwareRenderer(); }
     void visibilityChanged() override { forceSoftwareRenderer(); }
     void showBrowser() { browser->show(); }
+    void clickHeader(juce::Point<float> logicalPos) { headerClick(logicalPos); }   // used by tests
+    void syncFromProcessor() { setEditLayer(proc.editLayer); }                       // re-bind widgets after a preset was loaded externally
 private:
     struct Content : juce::Component { RaygunEditor& ed; int paints = 0; explicit Content(RaygunEditor& e) : ed(e) {} void paint(juce::Graphics& g) override; };
     void timerCallback() override;
