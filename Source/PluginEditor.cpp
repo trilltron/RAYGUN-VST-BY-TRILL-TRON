@@ -220,8 +220,10 @@ const rg::PresetInfo* RaygunEditor::presetFor(int layer) const {
 
 RaygunEditor::RaygunEditor(RaygunProcessor& p) : AudioProcessorEditor(&p), proc(p) {
     setLookAndFeel(&look); setWantsKeyboardFocus(false); setMouseClickGrabsKeyboardFocus(false);
+    setOpaque(true);
     addAndMakeVisible(content); content.setWantsKeyboardFocus(false); content.setMouseClickGrabsKeyboardFocus(false);
     content.setBufferedToImage(false);
+    content.setOpaque(true);
 
     auto* main = new MainPage(p); main->presetGetter = [this] { return presetFor(proc.editLayer); };
     auto* multi = new MultiPage(p); auto* sett = new SettingsPage(p);

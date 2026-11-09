@@ -22,7 +22,9 @@ class RaygunEditor : public juce::AudioProcessorEditor, private juce::Timer {
 public:
     explicit RaygunEditor(RaygunProcessor&);
     ~RaygunEditor() override;
-    void paint(juce::Graphics&) override { }
+    // The editor is fully opaque (the UI fills every pixel). If JUCE thinks it is transparent it makes the host-embedded window a *layered*
+    // per-pixel window and offsets it by the host panel's screen position - invisible/black inside FL Studio.
+    void paint(juce::Graphics& g) override { g.fillAll(rgui::kBg); }
     void resized() override;
     bool keyPressed(const juce::KeyPress&) override { return false; }   // never consume the host's keyboard
     void selectTab(int i);
