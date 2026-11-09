@@ -249,7 +249,7 @@ RaygunEditor::RaygunEditor(RaygunProcessor& p) : AudioProcessorEditor(&p), proc(
     constrainer.setFixedAspectRatio((double) W / H); constrainer.setSizeLimits(W * 3 / 4, H * 3 / 4, W * 2, H * 2);
     setConstrainer(&constrainer); setResizable(true, false);
     int pct = jlimit(75, 200, proc.uiScalePercent); setSize(W * pct / 100, H * pct / 100);
-    startTimerHz(20);
+    startTimerHz(30);
 }
 
 RaygunEditor::~RaygunEditor() { setLookAndFeel(nullptr); stopTimer(); }
@@ -292,6 +292,9 @@ void RaygunEditor::openMenu() {
 }
 
 void RaygunEditor::timerCallback() {
+    // JUCE 8 (Windows) only queues repaints and flushes them on a vertical-blank signal. Some hosts (FL Studio's embedded plugin
+    // windows) never deliver it, leaving the window black after its first paint. Flush the queue ourselves.
+    if (auto* peer = getPeer()) peer->performAnyPendingRepaintsNow();
     static int ticks = 0; if (++ticks == 40 || ticks == 400) rg::dbg("editor timer alive: ticks=" + String(ticks) + " content paints=" + String(content.paints) + " editorSize=" + String(getWidth()) + "x" + String(getHeight()) + " showing=" + String((int) isShowing()));
     int cells = jlimit(0, 6, (int) std::ceil(proc.cpuLoad.load() * 100.f / 10.f)); if (cells != lastCpuCells) { lastCpuCells = cells; }
     content.repaint(0, 0, W, HEADER); if (tab == 0) pages[0]->repaint(); }
