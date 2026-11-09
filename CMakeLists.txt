@@ -38,12 +38,19 @@ juce_add_binary_data(RaygunData SOURCES ${RG_WT} ${CMAKE_SOURCE_DIR}/presets/fac
   ${CMAKE_SOURCE_DIR}/data/fonts/Orbitron.ttf ${CMAKE_SOURCE_DIR}/data/fonts/Rajdhani-SemiBold.ttf ${CMAKE_SOURCE_DIR}/data/fonts/Rajdhani-Bold.ttf)
 set_target_properties(RaygunData PROPERTIES POSITION_INDEPENDENT_CODE ON)
 
+if(APPLE)
+  set(RG_FORMATS VST3 AU Standalone)
+else()
+  set(RG_FORMATS VST3 Standalone)
+endif()
 juce_add_plugin(RAYGUN
   COMPANY_NAME "Trill Tron"
   PLUGIN_MANUFACTURER_CODE TrTr
   PLUGIN_CODE Rgun
   PRODUCT_NAME "RAYGUN"
-  FORMATS VST3 Standalone
+  FORMATS ${RG_FORMATS}
+  AU_MAIN_TYPE kAudioUnitType_MusicDevice
+  BUNDLE_ID com.trilltron.raygun
   IS_SYNTH TRUE
   NEEDS_MIDI_INPUT TRUE
   NEEDS_MIDI_OUTPUT FALSE

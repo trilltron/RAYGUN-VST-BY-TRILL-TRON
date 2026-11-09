@@ -52,7 +52,17 @@ jobs:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v4
-      - run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_OSX_ARCHITECTURES="arm64;x86_64" -DRAYGUN_BUILD_TOOLS=OFF
-      - run: cmake --build build --config Release --target RAYGUN_VST3 RAYGUN_Standalone -j 4
+      - name: Configure (universal arm64 + x86_64)
+        run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_OSX_ARCHITECTURES="arm64;x86_64" -DCMAKE_OSX_DEPLOYMENT_TARGET=11.0 -DRAYGUN_BUILD_TOOLS=OFF -DRAYGUN_BUILD_VST2=OFF
+      - name: Build VST3 + Audio Unit + Standalone
+        run: cmake --build build --config Release --target RAYGUN_VST3 RAYGUN_AU RAYGUN_Standalone -j 4
+      - name: Package
+        run: tools/package_mac.sh build/RAYGUN_artefacts/Release RAYGUN_Install_macOS
       - uses: actions/upload-artifact@v4
-        with: { name: RAYGUN_macOS, path: build/RAYGUN_artefacts/Release }
+        with: { name: RAYGUN_macOS, path: RAYGUN_macOS.zip }
+      - name: Publish GitHub Release (macOS zip)
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          gh release view macos-latest >/dev/null 2>&1 || gh release create macos-latest --title "RAYGUN for macOS (latest build)" --notes "Unzip, double-click Install_RAYGUN.command. See README_macOS.txt. Built from commit ${GITHUB_SHA::7}."
+          gh release upload macos-latest RAYGUN_macOS.zip --clobber
