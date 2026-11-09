@@ -1,6 +1,9 @@
 #include "PluginEditor.h"
 #include "Gui/GunArt.h"
 using namespace juce;
+#if defined(RAYGUN_VST2_BUILD) && JUCE_WINDOWS
+extern "C" __declspec(dllexport) void rg_logWindowInfo(void* hwnd, const char* tag);
+#endif
 using namespace rgui;
 
 // =====================================================================================================================
@@ -295,7 +298,11 @@ void RaygunEditor::timerCallback() {
     // JUCE 8 (Windows) only queues repaints and flushes them on a vertical-blank signal. Some hosts (FL Studio's embedded plugin
     // windows) never deliver it, leaving the window black after its first paint. Flush the queue ourselves.
     if (auto* peer = getPeer()) peer->performAnyPendingRepaintsNow();
-    static int ticks = 0; if (++ticks == 40 || ticks == 400) rg::dbg("editor timer alive: ticks=" + String(ticks) + " content paints=" + String(content.paints) + " editorSize=" + String(getWidth()) + "x" + String(getHeight()) + " showing=" + String((int) isShowing()));
+    static int ticks = 0;
+#if defined(RAYGUN_VST2_BUILD) && JUCE_WINDOWS
+    if (ticks == 20) if (auto* pe = getPeer()) rg_logWindowInfo(pe->getNativeHandle(), "editor +0.7s");
+#endif
+    if (++ticks == 40 || ticks == 400) rg::dbg("editor timer alive: ticks=" + String(ticks) + " content paints=" + String(content.paints) + " editorSize=" + String(getWidth()) + "x" + String(getHeight()) + " showing=" + String((int) isShowing()));
     int cells = jlimit(0, 6, (int) std::ceil(proc.cpuLoad.load() * 100.f / 10.f)); if (cells != lastCpuCells) { lastCpuCells = cells; }
     content.repaint(0, 0, W, HEADER); if (tab == 0) pages[0]->repaint(); }
 

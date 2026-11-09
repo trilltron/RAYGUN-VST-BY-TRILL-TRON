@@ -13,6 +13,10 @@
 
 using namespace vst2;
 
+#if defined(_WIN32)
+extern "C" __declspec(dllexport) void rg_logWindowInfo(void* hwnd, const char* tag);
+#endif
+
 namespace {
 struct HostPlayHead : juce::AudioPlayHead {
     double bpm = 120.0;
@@ -77,6 +81,9 @@ intptr_t dispatch(VEffect* e, int32_t op, int32_t idx, intptr_t val, void* ptr, 
         w->editor->setTopLeftPosition(0, 0); w->editor->addToDesktop(0, ptr); w->editor->setVisible(true);
         if (auto* re = dynamic_cast<RaygunEditor*>(w->editor.get())) re->forceSoftwareRenderer();
         rg::dbg("EditOpen done: editor=" + juce::String(w->editor->getWidth()) + "x" + juce::String(w->editor->getHeight()) + " peer=" + juce::String((int) (w->editor->getPeer() != nullptr)) + " visible=" + juce::String((int) w->editor->isVisible()) + " onDesktop=" + juce::String((int) w->editor->isOnDesktop()));
+#if defined(_WIN32)
+        if (auto* pe = w->editor->getPeer()) rg_logWindowInfo(pe->getNativeHandle(), "after EditOpen");
+#endif
         w->editor->repaint(); return 1; }
     case EditClose: if (w->editor) { w->editor->removeComponentListener(w); w->editor->removeFromDesktop(); w->editor.reset(); } return 0;
     case EditIdle: return 0;
